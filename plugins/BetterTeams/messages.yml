@@ -452,6 +452,8 @@ help:
   ally: Used to request an alliance with another team
   neutral: Remove allies and reject ally requests
   allychat: Send a message only to your allies
+  echest: View your teams ender chest
+  setwarp: Set a warp for the rest of your team
 helpArg:
   delhome: ''
   echest: ''
