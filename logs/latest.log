@@ -9,3 +9,80 @@
 [17:54:24] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (11):
  - BuildPaste (1.11.1), FastAsyncWorldEdit (2.11.1), ImageFrame (1.7.10.0), LetUrMemoryRest (3.2), MagmanodeCore (1.0-SNAPSHOT), MinecraftDashboard (1.1.7), ProtocolLib (5.3.0-SNAPSHOT-726), Veinminer (2.1.3), ViaBackwards (5.0.4-SNAPSHOT), ViaVersion (5.0.4-SNAPSHOT), WorldGuard (7.0.11-beta1+a801a9d)
 [17:54:28] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:54:42] [ServerMain/INFO]: Loaded 1290 recipes
+[17:54:46] [ServerMain/INFO]: Loaded 2496 advancements
+[17:54:48] [Server thread/INFO]: Starting minecraft server version 1.21
+[17:54:48] [Server thread/INFO]: Loading properties
+[17:54:48] [Server thread/INFO]: This server is running Purpur version 1.21-2284-ver/1.21@4e55e26 (2024-08-10T17:35:56Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[17:54:49] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:54:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:54:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:54:51] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[17:54:52] [Server thread/INFO]: Default game type: SURVIVAL
+[17:54:52] [Server thread/INFO]: Generating keypair
+[17:54:52] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:30663
+[17:54:52] [Server thread/INFO]: Using default channel type
+[17:54:52] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:54:52] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[17:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loading 4 libraries... please wait
+[17:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.0.0/kotlin-stdlib-2.0.0.jar
+[17:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[17:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json/1.7.1/kotlinx-serialization-json-1.7.1.jar
+[17:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.7.1/kotlinx-serialization-json-jvm-1.7.1.jar
+[17:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlin/kotlin-stdlib-common/2.0.0/kotlin-stdlib-common-2.0.0.jar
+[17:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.7.1/kotlinx-serialization-core-jvm-1.7.1.jar
+[17:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.9.0-RC/kotlinx-coroutines-core-1.9.0-RC.jar
+[17:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.9.0-RC/kotlinx-coroutines-core-jvm-1.9.0-RC.jar
+[17:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
+[17:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
+[17:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
+[17:54:53] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
+[17:54:54] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[17:55:03] [Server thread/WARN]: Legacy plugin MagmanodeCore v1.0-SNAPSHOT does not specify an api-version.
+[17:55:03] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.4-SNAPSHOT
+[17:55:03] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.4-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[17:55:04] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[17:55:04] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[17:55:05] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[17:55:05] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[17:55:06] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.11.1
+[17:55:08] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@42588ee6]
+[17:55:08] [Server thread/INFO]: [VirtualPlayers] Loading server plugin VirtualPlayers v3.0.0
+[17:55:08] [Server thread/INFO]: [MinecraftDashboard] Loading server plugin MinecraftDashboard v1.1.7
+[17:55:08] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.7.10.0
+[17:55:08] [Server thread/INFO]: [LetUrMemoryRest] Loading server plugin LetUrMemoryRest v3.2
+[17:55:08] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.1.3
+[17:55:08] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.11-beta1+a801a9d
+[17:55:08] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0-SNAPSHOT-726
+[17:55:09] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.0) has not yet been tested! Proceed with caution.
+[17:55:09] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.4-SNAPSHOT
+[17:55:09] [Server thread/INFO]: [LibreLogin] Loading server plugin LibreLogin v0.23.0
+[17:55:09] [Server thread/INFO]: [LibreLogin] Analyzing server setup...
+[17:55:09] [Server thread/INFO]: [LibreLogin] Detected Adventure-compatible server distribution - Purpur 1.21-2284-4e55e26 (MC: 1.21)
+[17:55:09] [Server thread/INFO]: [LibreLogin] Loading libraries...
+[17:55:11] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[17:55:11] [Server thread/INFO]: [MagmanodeCore] Loading server plugin MagmanodeCore v1.0-SNAPSHOT
+[17:55:11] [Server thread/ERROR]: Permission node 'groups' in permissions.yml is invalid
+java.lang.IllegalArgumentException: 'default' key contained unknown value
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:303) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:240) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.loadCustomPermissions(CraftServer.java:1253) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:596) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:327) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:55:11] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.11.1
+[17:55:11] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[17:55:11] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[17:55:11] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:55:11] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[17:55:11] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightFaweAdapter as the Bukkit adapter
+[17:55:12] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.1.3
+[17:55:12] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0-SNAPSHOT-726
+[17:55:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:55:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:55:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:55:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:55:12] [Server thread/INFO]: Preparing level "world"
+[17:55:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
