@@ -295,3 +295,4 @@ java.lang.IllegalArgumentException: Data cannot be null
 [19:48:05] [Server thread/INFO]: [CladdyDaddy: Triggered [TreeCapitator]]
 [19:48:08] [Server thread/INFO]: [CladdyDaddy: Triggered [TreeCapitator] (set value to 800)]
 [19:48:09] [Server thread/INFO]: [CladdyDaddy: Triggered [TreeCapitator] (set value to 900)]
+[19:49:06] [Server thread/INFO]: [CladdyDaddy: Set own game mode to Creative Mode]
