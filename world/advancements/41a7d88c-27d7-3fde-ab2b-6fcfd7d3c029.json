@@ -304,6 +304,7 @@
     "criteria": {
       "iron_ingot": "2024-09-07 16:00:05 +0000",
       "wooden_axe": "2024-09-07 16:01:19 +0000",
+      "iron_axe": "2024-09-07 19:46:35 +0000",
       "diamond": "2024-09-07 15:59:00 +0000",
       "iron_sword": "2024-09-07 17:08:54 +0000",
       "netherite_sword": "2024-09-07 15:59:00 +0000",
@@ -334,26 +335,30 @@
       "diamonds": "2024-09-07 15:59:00 +0000",
       "time_to_strike": "2024-09-07 15:59:00 +0000",
       "acquire_hardware": "2024-09-07 16:00:05 +0000",
+      "bacap_root": "2024-09-07 15:59:02 +0000",
+      "do_you_want_to_trade": "2024-09-07 19:49:36 +0000",
+      "the_first_night": "2024-09-07 16:02:03 +0000",
+      "cow_tipper": "2024-09-07 17:03:07 +0000",
+      "sweet_dreams": "2024-09-07 19:49:36 +0000",
+      "raise_the_flag": "2024-09-07 16:21:37 +0000",
+      "weaponry_root": "2024-09-07 15:59:00 +0000",
+      "time_to_chop": "2024-09-07 16:01:20 +0000",
+      "viking": "2024-09-07 19:48:47 +0000",
       "help_ive_been_framed": "2024-09-07 16:27:16 +0000",
       "theres_a_zombie_on_the_lawn": "2024-09-07 16:00:14 +0000",
       "wooly": "2024-09-07 17:00:24 +0000",
-      "bacap_root": "2024-09-07 15:59:02 +0000",
       "for_you_my_sweet": "2024-09-07 16:00:14 +0000",
       "monsters_root": "2024-09-07 15:59:00 +0000",
-      "the_first_night": "2024-09-07 16:02:03 +0000",
-      "cow_tipper": "2024-09-07 17:03:07 +0000",
       "statistics_root": "2024-09-07 15:59:00 +0000",
       "adventure_root": "2024-09-07 15:59:00 +0000",
       "cut_in_half": "2024-09-07 16:22:08 +0000",
+      "getting_wood": "2024-09-07 19:46:50 +0000",
       "biomes_root": "2024-09-07 17:00:24 +0000",
       "heavy_metal": "2024-09-07 17:08:54 +0000",
       "diamond_miner": "2024-09-07 15:59:00 +0000",
       "just_keep_swimming": "2024-09-07 16:03:53 +0000",
       "spring_in_your_step": "2024-09-07 17:13:30 +0000",
-      "raise_the_flag": "2024-09-07 16:21:37 +0000",
-      "weaponry_root": "2024-09-07 15:59:00 +0000",
-      "stairs_no": "2024-09-07 16:22:43 +0000",
-      "time_to_chop": "2024-09-07 16:01:20 +0000"
+      "stairs_no": "2024-09-07 16:22:43 +0000"
     },
     "done": false
   },
@@ -375,14 +380,18 @@
       "barrel": "2024-09-07 15:59:00 +0000",
       "poppy": "2024-09-07 16:00:11 +0000",
       "spruce_slab": "2024-09-07 16:22:08 +0000",
+      "oak_sapling": "2024-09-07 19:48:23 +0000",
       "anvil": "2024-09-07 17:08:52 +0000",
       "grass_block": "2024-09-07 15:59:00 +0000",
       "iron_block": "2024-09-07 17:08:52 +0000",
-      "dark_oak_slab": "2024-09-07 16:22:20 +0000",
       "light_blue_banner": "2024-09-07 16:21:33 +0000",
       "sunflower": "2024-09-07 16:00:11 +0000",
       "dark_oak_stairs": "2024-09-07 16:22:43 +0000",
-      "dandelion": "2024-09-07 17:02:39 +0000"
+      "dandelion": "2024-09-07 17:02:39 +0000",
+      "oak_log": "2024-09-07 19:48:22 +0000",
+      "acacia_log": "2024-09-07 19:46:50 +0000",
+      "acacia_sapling": "2024-09-07 19:46:50 +0000",
+      "dark_oak_slab": "2024-09-07 16:22:20 +0000"
     },
     "done": false
   },
@@ -417,7 +426,8 @@
   },
   "blazeandcave:bacap/weaponry_milestone": {
     "criteria": {
-      "root": "2024-09-07 15:59:00 +0000"
+      "root": "2024-09-07 15:59:00 +0000",
+      "viking": "2024-09-07 19:48:47 +0000"
     },
     "done": false
   },
@@ -462,16 +472,20 @@
   "blazeandcave:challenges/all_the_items": {
     "criteria": {
       "mutton": "2024-09-07 17:00:23 +0000",
+      "wheat_seeds": "2024-09-07 19:48:22 +0000",
+      "wooden_sword": "2024-09-07 19:42:13 +0000",
+      "beef": "2024-09-07 19:50:36 +0000",
+      "leather": "2024-09-07 17:03:07 +0000",
+      "item_frame": "2024-09-07 16:27:16 +0000",
       "iron_ingot": "2024-09-07 16:00:05 +0000",
       "wooden_axe": "2024-09-07 16:01:19 +0000",
+      "iron_axe": "2024-09-07 19:46:35 +0000",
       "spider_eye": "2024-09-07 15:59:00 +0000",
       "diamond": "2024-09-07 15:59:00 +0000",
       "paper": "2024-09-07 16:27:10 +0000",
       "iron_sword": "2024-09-07 17:08:54 +0000",
       "netherite_sword": "2024-09-07 15:59:00 +0000",
-      "wooden_sword": "2024-09-07 19:42:13 +0000",
-      "leather": "2024-09-07 17:03:07 +0000",
-      "item_frame": "2024-09-07 16:27:16 +0000"
+      "stick": "2024-09-07 19:46:53 +0000"
     },
     "done": false
   },
@@ -519,7 +533,8 @@
   },
   "blazeandcave:bacap/adventure_milestone": {
     "criteria": {
-      "root": "2024-09-07 15:59:00 +0000"
+      "root": "2024-09-07 15:59:00 +0000",
+      "do_you_want_to_trade": "2024-09-07 19:49:36 +0000"
     },
     "done": false
   },
@@ -773,6 +788,7 @@
     "criteria": {
       "cut_in_half": "2024-09-07 16:22:08 +0000",
       "help_ive_been_framed": "2024-09-07 16:27:16 +0000",
+      "sweet_dreams": "2024-09-07 19:49:36 +0000",
       "raise_the_flag": "2024-09-07 16:21:37 +0000",
       "stairs_no": "2024-09-07 16:22:43 +0000"
     },
@@ -964,6 +980,146 @@
   "blazeandcave:statistics/spring_in_your_step": {
     "criteria": {
       "trigger": "2024-09-07 17:13:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2024-09-07 19:46:53 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:weaponry/viking": {
+    "criteria": {
+      "axe": "2024-09-07 19:48:46 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:building/the_acacia_king": {
+    "criteria": {
+      "acacia_log": "2024-09-07 19:46:50 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:adventure/raidin_master": {
+    "criteria": {
+      "village_plains": "2024-09-07 19:49:35 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2024-09-07 19:46:53 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:weaponry/axeman": {
+    "criteria": {
+      "iron_axe": "2024-09-07 19:48:46 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-09-07 19:49:36 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:weaponry/multiclassed": {
+    "criteria": {
+      "sword": "2024-09-07 19:49:28 +0000",
+      "axe": "2024-09-07 19:48:46 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2024-09-07 19:50:36 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:building/yay_i_got_my_wood": {
+    "criteria": {
+      "oak_log": "2024-09-07 19:48:22 +0000",
+      "acacia_log": "2024-09-07 19:46:50 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2024-09-07 19:46:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2024-09-07 19:46:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2024-09-07 19:46:53 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:adventure/do_you_want_to_trade": {
+    "criteria": {
+      "village": "2024-09-07 19:49:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2024-09-07 19:46:53 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/getting_wood": {
+    "criteria": {
+      "acacia_log": "2024-09-07 19:46:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2024-09-07 19:46:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2024-09-07 19:46:53 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:building/professor_oak": {
+    "criteria": {
+      "oak_log": "2024-09-07 19:48:22 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2024-09-07 19:48:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2024-09-07 19:46:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2024-09-07 19:50:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2024-09-07 19:50:36 +0000"
     },
     "done": true
   },
