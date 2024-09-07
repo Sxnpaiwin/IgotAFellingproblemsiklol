@@ -278,3 +278,6 @@ java.lang.IllegalArgumentException: Data cannot be null
 [19:39:47] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 699bb48e-aea2-4fa8-91b0-2ec5982501a6, mapped to Bat['Bat'/299, uuid='699bb48e-aea2-4fa8-91b0-2ec5982501a6', l='ServerLevel[world]', x=105.25, y=27.10, z=-219.25, cpos=[6, -14], tl=335, v=true], can't add Bat['Bat'/321, uuid='699bb48e-aea2-4fa8-91b0-2ec5982501a6', l='ServerLevel[world]', x=112.18, y=27.75, z=-216.64, cpos=[7, -14], tl=479, v=false]
 [19:40:08] [pool-15-thread-4/WARN]: Executing command "op CladdyDaddy"..
 [19:40:08] [Server thread/INFO]: Made CladdyDaddy a server operator
+[19:40:39] [defaultEventLoopGroup-4-2/INFO]: [connect] Connect tunneled player CladdyDaddy disconnected
+[19:40:39] [Server thread/INFO]: CladdyDaddy lost connection: Timed out
+[19:40:39] [Server thread/INFO]: CladdyDaddy left the game
