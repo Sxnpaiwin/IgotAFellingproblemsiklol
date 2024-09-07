@@ -281,3 +281,6 @@ java.lang.IllegalArgumentException: Data cannot be null
 [19:40:39] [defaultEventLoopGroup-4-2/INFO]: [connect] Connect tunneled player CladdyDaddy disconnected
 [19:40:39] [Server thread/INFO]: CladdyDaddy lost connection: Timed out
 [19:40:39] [Server thread/INFO]: CladdyDaddy left the game
+[19:41:19] [Server thread/INFO]: [connect] Connect tunneled player logged in as CladdyDaddy (UUID: 41a7d88c-27d7-3fde-ab2b-6fcfd7d3c029)
+[19:41:20] [Server thread/INFO]: CladdyDaddy joined the game
+[19:41:20] [Server thread/INFO]: CladdyDaddy[/196.210.0.239:0] logged in with entity id 897 at ([limbo]0.0, 70.0, 0.0)
