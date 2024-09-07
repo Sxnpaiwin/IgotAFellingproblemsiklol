@@ -212,3 +212,4 @@ java.lang.IllegalArgumentException: Data cannot be null
 [17:55:28] [Craft Scheduler Thread - 7 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 1 ImageMaps!
 [17:55:29] [Craft Scheduler Thread - 5 - LibreLogin/INFO]: [LibreLogin] Checking for updates...
 [17:55:29] [Craft Scheduler Thread - 5 - LibreLogin/INFO]: [LibreLogin] You are running the latest version of LibreLogin
+[17:55:58] [Server thread/INFO]: [LetUrMemoryRest] Memory cleanup performed.
