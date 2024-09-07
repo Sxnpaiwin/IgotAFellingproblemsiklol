@@ -317,3 +317,4 @@ java.lang.IllegalArgumentException: Data cannot be null
 [18:43:11] [Server thread/INFO]: TPS from last 5s, 1m, 5m, 15m: 20.0, 20.0, 20.0, 20.0
 [18:43:12] [pool-14-thread-2/WARN]: Executing command "tps"..
 [18:43:12] [Server thread/INFO]: TPS from last 5s, 1m, 5m, 15m: 20.0, 20.0, 20.0, 20.0
+[18:43:28] [Server thread/INFO]: [LetUrMemoryRest] Memory cleanup performed.
