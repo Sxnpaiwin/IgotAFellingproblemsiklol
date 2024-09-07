@@ -1,0 +1,49 @@
+# LetUrMemoryRest Configuration File
+# Author: Aadinath aka BloodRed
+# Support: https://dsc.gg/kmds
+
+memory:
+  # How often (in ticks) the memory cleanup task runs.
+  cleanup-interval: 600
+  # The RAM usage percentage below which cleanup is skipped.
+  skip-when-ram-usage-is-in-percentage: 0
+  # The RAM usage percentage that triggers a warning.
+  ram-warning-threshold: 75.0
+  # The RAM usage percentage that triggers critical actions.
+  ram-critical-threshold: 90.0
+  # The RAM usage percentage that triggers aggressive cleanup.
+  aggressive-cleanup-threshold: 85
+  # How often (in ticks) to check for inactive chunks to unload.
+  chunk-unload-frequency: 1200
+
+logs:
+  # Whether to enable logging.
+  enabled: true
+  # Whether to enable more detailed logging.
+  more-detailed: false
+
+redstone:
+  # Maximum number of redstone updates per 16-block diameter area.
+  max-per-area: 100
+  # Whether to slow down redstone updates.
+  slower: true
+  # Chance (in percentage) to slow down redstone updates.
+  slow-down-chance: 30
+
+chunk:
+  # Whether to unload inactive chunks.
+  unload-inactive: true
+  # How long to wait before unloading inactive chunks.
+  unload-delay-in-ticks: 6000
+
+dynamic-adjustment:
+  # Whether to enable dynamic adjustment of task intervals based on server performance.
+  enabled: true
+  # Minimum interval (in ticks) for memory cleanup task.
+  min-cleanup-interval: 100
+  # Minimum interval (in ticks) for chunk unload task.
+  min-chunk-unload-interval: 1000
+
+updates:
+  # Whether to check for updates on Modrinth
+  check-for-updates: true

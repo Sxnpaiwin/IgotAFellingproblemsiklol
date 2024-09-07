@@ -1,0 +1,4 @@
+groups:
+  default:
+    permissions:
+      - anvil.allow-colors
