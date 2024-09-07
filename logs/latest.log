@@ -290,3 +290,8 @@ java.lang.IllegalArgumentException: Data cannot be null
 [19:47:29] [Server thread/INFO]: [CladdyDaddy: Triggered [TreeCapitator] (set value to 800)]
 [19:47:42] [Server thread/INFO]: [CladdyDaddy: Triggered [TreeCapitator] (set value to 901)]
 [19:47:46] [Server thread/INFO]: [CladdyDaddy: Triggered [bac_apple_a_day]]
+[19:47:57] [Server thread/INFO]: [CladdyDaddy: Triggered [bac_statistics]]
+[19:48:01] [Server thread/INFO]: [CladdyDaddy: Triggered [bac_timers]]
+[19:48:05] [Server thread/INFO]: [CladdyDaddy: Triggered [TreeCapitator]]
+[19:48:08] [Server thread/INFO]: [CladdyDaddy: Triggered [TreeCapitator] (set value to 800)]
+[19:48:09] [Server thread/INFO]: [CladdyDaddy: Triggered [TreeCapitator] (set value to 900)]
