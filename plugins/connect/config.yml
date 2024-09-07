@@ -5,7 +5,7 @@ endpoint: cyan-italy
 # This setting is only relevant if you want to allow cracked players to join.
 # This should not be irritated by offline-mode servers behind an online-mode proxy, keep this setting disabled.
 # If left blank, the correct mode will be securely detected automatically.
-allow-offline-mode-players: false
+allow-offline-mode-players: true
 
 # Super endpoints are authorized to control this endpoint via Connect API.
 # e.g. disconnect players from this endpoint, send messages to players, etc.
