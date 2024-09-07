@@ -287,3 +287,6 @@ java.lang.IllegalArgumentException: Data cannot be null
 [19:46:25] [Server thread/INFO]: [CladdyDaddy: Set the time to 1000]
 [19:46:41] [Server thread/INFO]: [CladdyDaddy: Set own game mode to Survival Mode]
 [19:47:21] [Server thread/INFO]: [CladdyDaddy: Triggered [TreeCapitator]]
+[19:47:29] [Server thread/INFO]: [CladdyDaddy: Triggered [TreeCapitator] (set value to 800)]
+[19:47:42] [Server thread/INFO]: [CladdyDaddy: Triggered [TreeCapitator] (set value to 901)]
+[19:47:46] [Server thread/INFO]: [CladdyDaddy: Triggered [bac_apple_a_day]]
