@@ -99,3 +99,202 @@
 [19:15:53] [Server thread/WARN]: Legacy plugin MagmanodeCore v1.0-SNAPSHOT does not specify an api-version.
 [19:15:53] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.4-SNAPSHOT
 [19:15:53] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.4-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[19:15:55] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[19:15:56] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[19:15:57] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[19:15:57] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[19:15:58] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.11.1
+[19:16:00] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4ecf22a]
+[19:16:00] [Server thread/INFO]: [VirtualPlayers] Loading server plugin VirtualPlayers v3.0.0
+[19:16:00] [Server thread/INFO]: [MinecraftDashboard] Loading server plugin MinecraftDashboard v1.1.7
+[19:16:00] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.7.10.0
+[19:16:00] [Server thread/INFO]: [UltimateTeams] Loading server plugin UltimateTeams v2.5
+[19:16:00] [Server thread/INFO]: [LetUrMemoryRest] Loading server plugin LetUrMemoryRest v3.2
+[19:16:00] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.1.3
+[19:16:00] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.11-beta1+a801a9d
+[19:16:00] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0-SNAPSHOT-726
+[19:16:01] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.0) has not yet been tested! Proceed with caution.
+[19:16:01] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.4-SNAPSHOT
+[19:16:01] [Server thread/INFO]: [LibreLogin] Loading server plugin LibreLogin v0.23.0
+[19:16:01] [Server thread/INFO]: [LibreLogin] Analyzing server setup...
+[19:16:01] [Server thread/INFO]: [LibreLogin] Detected Adventure-compatible server distribution - Purpur 1.21-2284-4e55e26 (MC: 1.21)
+[19:16:01] [Server thread/INFO]: [LibreLogin] Loading libraries...
+[19:16:03] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[19:16:03] [Server thread/INFO]: [MagmanodeCore] Loading server plugin MagmanodeCore v1.0-SNAPSHOT
+[19:16:03] [Server thread/ERROR]: Permission node 'groups' in permissions.yml is invalid
+java.lang.IllegalArgumentException: 'default' key contained unknown value
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:303) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:240) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.loadCustomPermissions(CraftServer.java:1253) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:596) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:327) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[19:16:03] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.11.1
+[19:16:03] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[19:16:03] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[19:16:03] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:16:03] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:16:03] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightFaweAdapter as the Bukkit adapter
+[19:16:04] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.1.3
+[19:16:04] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0-SNAPSHOT-726
+[19:16:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:16:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:16:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:16:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:16:04] [Server thread/INFO]: Preparing level "world"
+[19:16:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:16:06] [Server thread/INFO]: Time elapsed: 1088 ms
+[19:16:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:16:08] [Server thread/INFO]: Time elapsed: 2941 ms
+[19:16:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:16:10] [Server thread/INFO]: Time elapsed: 1296 ms
+[19:16:10] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.4-SNAPSHOT
+[19:16:10] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[19:16:10] [Server thread/INFO]: [VirtualPlayers] Enabling VirtualPlayers v3.0.0
+[19:16:10] [Server thread/INFO]: [MinecraftDashboard] Enabling MinecraftDashboard v1.1.7
+[19:16:14] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 138 ms to scan 1 urls, producing 2 keys and 34 values
+[19:16:14] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.7.10.0
+[19:16:14] [Server thread/INFO]: [ImageFrame] ImageFrame has hooked into ViaVersion!
+[19:16:15] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[19:16:15] [Server thread/INFO]: [UltimateTeams] Enabling UltimateTeams v2.5
+[19:16:15] [Server thread/INFO]: [UltimateTeams] [ACF] Enabled Asynchronous Tab Completion Support!
+[19:16:15] [Server thread/INFO]: [UltimateTeams] Initializing plugin config & locale files...
+[19:16:15] [Server thread/INFO]: [UltimateTeams] Successfully initialized plugin config & locale files
+[19:16:15] [Server thread/INFO]: [UltimateTeams] Initializing SQLite database connection...
+[19:16:15] [Server thread/INFO]: [UltimateTeams] Attempting to connect to database
+[19:16:15] [Server thread/INFO]: [UltimateTeams] Created the SQLite database file
+[19:16:16] [Server thread/INFO]: [UltimateTeams] SQLite Database Connected!
+[19:16:16] [Server thread/INFO]: [UltimateTeams] Database tables created
+[19:16:16] [Server thread/INFO]: [UltimateTeams] Successfully initialized SQLite database connection
+[19:16:16] [Server thread/INFO]: [UltimateTeams] Initializing commands...
+[19:16:16] [Server thread/INFO]: [UltimateTeams] Successfully initialized commands
+[19:16:16] [Server thread/INFO]: [UltimateTeams] Initializing events...
+[19:16:16] [Server thread/INFO]: [UltimateTeams] Successfully initialized events
+[19:16:16] [Server thread/INFO]: [UltimateTeams] Initializing teams...
+[19:16:16] [Server thread/INFO]: [UltimateTeams] Successfully initialized teams
+[19:16:16] [Server thread/INFO]: -------------------------------------------
+[19:16:16] [Server thread/INFO]: UltimateTeams: PlaceholderAPI not found!
+[19:16:16] [Server thread/INFO]: UltimateTeams: External placeholders disabled!
+[19:16:16] [Server thread/INFO]: -------------------------------------------
+[19:16:16] [Server thread/INFO]: -------------------------------------------
+[19:16:16] [Server thread/INFO]: UltimateTeams: FloodgateApi not found/feature disabled!
+[19:16:16] [Server thread/INFO]: UltimateTeams: Bedrock support won't work!
+[19:16:16] [Server thread/INFO]: -------------------------------------------
+[19:16:16] [Server thread/INFO]: [UltimateTeams] Initializing metrics...
+[19:16:16] [Server thread/INFO]: [UltimateTeams] Successfully initialized metrics
+[19:16:16] [Server thread/INFO]: [LetUrMemoryRest] Enabling LetUrMemoryRest v3.2
+[19:16:17] [Server thread/INFO]: [LetUrMemoryRest] ————————————————————————————————————————————
+[19:16:17] [Server thread/INFO]: [LetUrMemoryRest] |   __       __  __           ____         |
+[19:16:17] [Server thread/INFO]: [LetUrMemoryRest] |  /\ \     /\ \/\ \  /'\_/`\/\  _`\       |
+[19:16:17] [Server thread/INFO]: [LetUrMemoryRest] |  \ \ \    \ \ \ \ \/\      \ \ \L\ \     |
+[19:16:17] [Server thread/INFO]: [LetUrMemoryRest] |   \ \ \  __\ \ \ \ \ \ \__\ \ \ ,  /     |
+[19:16:17] [Server thread/INFO]: [LetUrMemoryRest] |    \ \ \L\ \\ \ \_\ \ \ \_/\ \ \ \\ \    |
+[19:16:17] [Server thread/INFO]: [LetUrMemoryRest] |     \ \____/ \ \_____\ \_\\ \_\ \_\ \_\  |
+[19:16:17] [Server thread/INFO]: [LetUrMemoryRest] |      \/___/   \/_____/\/_/ \/_/\/_/\/ /  |
+[19:16:17] [Server thread/INFO]: [LetUrMemoryRest] |——————————————————————————————————————————|
+[19:16:17] [Server thread/INFO]: [LetUrMemoryRest] |             Made by BloodRed             |
+[19:16:17] [Server thread/INFO]: [LetUrMemoryRest] ————————————————————————————————————————————
+[19:16:17] [Server thread/INFO]: [LetUrMemoryRest] LetUrMemoryRest is up to date!
+[19:16:17] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.11-beta1+a801a9d
+[19:16:17] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[19:16:17] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[19:16:17] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[19:16:17] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[19:16:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[19:16:17] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[19:16:17] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[19:16:17] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[19:16:17] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[19:16:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[19:16:17] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[19:16:17] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[19:16:17] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[19:16:17] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[19:16:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[19:16:17] [Server thread/INFO]: [WorldGuard] Loading region data...
+[19:16:18] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.4-SNAPSHOT
+[19:16:18] [Server thread/INFO]: [LibreLogin] Enabling LibreLogin v0.23.0
+[19:16:18] [Server thread/INFO]: [LibreLogin] Bootstrapping LibreLogin...
+[19:16:18] [Server thread/INFO]: [LibreLogin] Loading messages...
+[19:16:18] [Server thread/INFO]: [LibreLogin] Loading configuration...
+[19:16:18] [Server thread/INFO]: [LibreLogin] Loading forbidden passwords...
+[19:16:18] [Server thread/INFO]: [LibreLogin] Loaded 984904 forbidden passwords
+[19:16:18] [Server thread/INFO]: [LibreLogin] Connecting to the database...
+[19:16:18] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.HikariDataSource] LibreLogin SQLite Pool - Starting...
+[19:16:18] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.pool.HikariPool] LibreLogin SQLite Pool - Added connection org.sqlite.jdbc4.JDBC4Connection@8325ce5
+[19:16:18] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.HikariDataSource] LibreLogin SQLite Pool - Start completed.
+[19:16:18] [Server thread/INFO]: [LibreLogin] Successfully connected to the database
+[19:16:18] [Server thread/INFO]: [LibreLogin] Validating schema
+[19:16:18] [Server thread/INFO]: [LibreLogin] Schema validated
+[19:16:18] [Server thread/INFO]: [LibreLogin] Found world file for limbo, loading...
+[19:16:18] [Server thread/INFO]: Preparing start region for dimension minecraft:limbo
+[19:16:20] [Server thread/INFO]: Time elapsed: 1632 ms
+[19:16:20] [Server thread/INFO]: [WorldGuard] (limbo) TNT ignition is PERMITTED.
+[19:16:20] [Server thread/INFO]: [WorldGuard] (limbo) Lighters are PERMITTED.
+[19:16:20] [Server thread/INFO]: [WorldGuard] (limbo) Lava fire is PERMITTED.
+[19:16:20] [Server thread/INFO]: [WorldGuard] (limbo) Fire spread is UNRESTRICTED.
+[19:16:20] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'limbo'
+[19:16:20] [Server thread/INFO]: [LibreLogin] [ACF] Enabled Asynchronous Tab Completion Support!
+[19:16:20] [Server thread/ERROR]: Permission node 'paste' in plugin description file for BuildPaste v1.11.1 is invalid
+java.lang.IllegalArgumentException: Data cannot be null
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:143) ~[guava-32.1.2-jre.jar:?]
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:293) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:240) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:945) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:641) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:603) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:757) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:519) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:363) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[19:16:20] [Server thread/ERROR]: Permission node 'upload' in plugin description file for BuildPaste v1.11.1 is invalid
+java.lang.IllegalArgumentException: Data cannot be null
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:143) ~[guava-32.1.2-jre.jar:?]
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:293) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:240) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:945) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:641) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:603) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:757) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:519) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:363) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[19:16:20] [Server thread/ERROR]: Permission node 'construct' in plugin description file for BuildPaste v1.11.1 is invalid
+java.lang.IllegalArgumentException: Data cannot be null
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:143) ~[guava-32.1.2-jre.jar:?]
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:293) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:240) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:945) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:641) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:603) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:757) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:519) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:363) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[19:16:20] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[19:16:20] [Server thread/INFO]: [MagmanodeCore] Enabling MagmanodeCore v1.0-SNAPSHOT*
+[19:16:21] [Server thread/INFO]: [spark] Starting background profiler...
+[19:16:21] [Server thread/INFO]: Done preparing level "world" (17.351s)
+[19:16:21] [Server thread/INFO]: Starting GS4 status listener
+[19:16:21] [Server thread/INFO]: Thread Query Listener started
+[19:16:21] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[19:16:21] [Server thread/INFO]: Running delayed init tasks
+[19:16:21] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[19:16:21] [Craft Scheduler Thread - 6 - UltimateTeams/INFO]: UltimateTeams: Cleared all outstanding team invites!
+[19:16:21] [Craft Scheduler Thread - 9 - UltimateTeams/INFO]: Loaded 0 teams!
+[19:16:21] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[19:16:21] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[19:16:21] [Server thread/INFO]: [LetUrMemoryRest] Memory cleanup performed.
+[19:16:21] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[19:16:21] [Server thread/INFO]: Done (80.451s)! For help, type "help"
+[19:16:22] [Craft Scheduler Thread - 7 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 1 ImageMaps!
+[19:16:22] [Craft Scheduler Thread - 4 - LibreLogin/INFO]: [LibreLogin] Checking for updates...
+[19:16:22] [Craft Scheduler Thread - 4 - LibreLogin/INFO]: [LibreLogin] You are running the latest version of LibreLogin
