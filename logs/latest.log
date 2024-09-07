@@ -9,3 +9,93 @@
 [19:15:04] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
  - BuildPaste (1.11.1), FastAsyncWorldEdit (2.11.1), ImageFrame (1.7.10.0), LetUrMemoryRest (3.2), MagmanodeCore (1.0-SNAPSHOT), MinecraftDashboard (1.1.7), ProtocolLib (5.3.0-SNAPSHOT-726), UltimateTeams (2.5), Veinminer (2.1.3), ViaBackwards (5.0.4-SNAPSHOT), ViaVersion (5.0.4-SNAPSHOT), WorldGuard (7.0.11-beta1+a801a9d)
 [19:15:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:15:27] [ServerMain/INFO]: Loaded 1290 recipes
+[19:15:32] [ServerMain/INFO]: Loaded 2496 advancements
+[19:15:33] [Server thread/INFO]: Starting minecraft server version 1.21
+[19:15:33] [Server thread/INFO]: Loading properties
+[19:15:33] [Server thread/INFO]: This server is running Purpur version 1.21-2284-ver/1.21@4e55e26 (2024-08-10T17:35:56Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[19:15:34] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[19:15:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:15:35] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:15:38] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[19:15:40] [Server thread/INFO]: Default game type: SURVIVAL
+[19:15:40] [Server thread/INFO]: Generating keypair
+[19:15:40] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:24129
+[19:15:40] [Server thread/INFO]: Using default channel type
+[19:15:40] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:15:40] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loading 6 libraries... please wait
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/9.0.0/mysql-connector-j-9.0.0.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/4.26.1/protobuf-parent-4.26.1.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/4.26.1/protobuf-bom-4.26.1.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/mariadb/jdbc/mariadb-java-client/3.4.1/mariadb-java-client-3.4.1.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.0/junit-bom-5.7.0.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/software/amazon/awssdk/bom/2.21.1/bom-2.21.1.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/software/amazon/awssdk/aws-sdk-java-pom/2.21.1/aws-sdk-java-pom-2.21.1.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/github/waffle/waffle-parent/3.3.0/waffle-parent-3.3.0.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/2.0.7/slf4j-parent-2.0.7.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.19.0/checker-qual-3.19.0.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.10.0/error_prone_parent-2.10.0.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.32.0/checker-qual-3.32.0.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.36/slf4j-parent-1.7.36.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/2.3.232/h2-2.3.232.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.pom
+[19:15:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.pom
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/9.0.0/mysql-connector-j-9.0.0.jar
+[19:15:45] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.jar
+[19:15:45] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar
+[19:15:45] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar
+[19:15:45] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/mariadb/jdbc/mariadb-java-client/3.4.1/mariadb-java-client-3.4.1.jar
+[19:15:45] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
+[19:15:45] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.jar
+[19:15:45] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar
+[19:15:45] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar
+[19:15:45] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[19:15:45] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar
+[19:15:45] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar
+[19:15:45] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/2.3.232/h2-2.3.232.jar
+[19:15:45] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar
+[19:15:45] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/com/mysql/mysql-connector-j/9.0.0/mysql-connector-j-9.0.0.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/mariadb/jdbc/mariadb-java-client/3.4.1/mariadb-java-client-3.4.1.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/com/h2database/h2/2.3.232/h2-2.3.232.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [UltimateTeams] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loading 4 libraries... please wait
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.0.0/kotlin-stdlib-2.0.0.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json/1.7.1/kotlinx-serialization-json-1.7.1.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.7.1/kotlinx-serialization-json-jvm-1.7.1.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlin/kotlin-stdlib-common/2.0.0/kotlin-stdlib-common-2.0.0.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.7.1/kotlinx-serialization-core-jvm-1.7.1.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.9.0-RC/kotlinx-coroutines-core-1.9.0-RC.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.9.0-RC/kotlinx-coroutines-core-jvm-1.9.0-RC.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
+[19:15:45] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
+[19:15:45] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[19:15:53] [Server thread/WARN]: Legacy plugin MagmanodeCore v1.0-SNAPSHOT does not specify an api-version.
+[19:15:53] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.4-SNAPSHOT
+[19:15:53] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.4-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
