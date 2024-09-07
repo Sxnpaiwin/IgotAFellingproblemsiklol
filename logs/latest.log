@@ -245,3 +245,10 @@ java.lang.IllegalArgumentException: Data cannot be null
 [19:27:35] [Craft Scheduler Thread - 10 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 1 ImageMaps!
 [19:27:35] [Craft Scheduler Thread - 4 - LibreLogin/INFO]: [LibreLogin] Checking for updates...
 [19:27:35] [Craft Scheduler Thread - 4 - LibreLogin/INFO]: [LibreLogin] You are running the latest version of LibreLogin
+[19:27:54] [Server thread/INFO]: [connect] Connect tunneled player logged in as CladdyDaddy (UUID: 41a7d88c-27d7-3fde-ab2b-6fcfd7d3c029)
+[19:28:01] [Server thread/INFO]: CladdyDaddy joined the game
+[19:28:01] [Server thread/INFO]: CladdyDaddy[/196.210.0.239:0] logged in with entity id 207 at ([limbo]0.0, 70.0, 0.0)
+[19:28:01] [Craft Scheduler Thread - 6 - UltimateTeams/INFO]: [UltimateTeams] Attempting to connect to database
+[19:28:01] [Craft Scheduler Thread - 6 - UltimateTeams/INFO]: [UltimateTeams] SQLite Database Connected!
+[19:28:01] [Craft Scheduler Thread - 6 - UltimateTeams/INFO]: [UltimateTeams] Attempting to connect to database
+[19:28:01] [Craft Scheduler Thread - 6 - UltimateTeams/INFO]: [UltimateTeams] SQLite Database Connected!
