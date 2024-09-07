@@ -306,3 +306,14 @@ java.lang.IllegalArgumentException: Data cannot be null
 [18:41:28] [Server thread/INFO]: [LetUrMemoryRest] Memory cleanup performed.
 [18:41:58] [Server thread/INFO]: [LetUrMemoryRest] Memory cleanup performed.
 [18:42:28] [Server thread/INFO]: [LetUrMemoryRest] Memory cleanup performed.
+[18:42:57] [pool-14-thread-3/WARN]: Executing command "pl"..
+[18:42:57] [Server thread/INFO]: Paper Plugins: (2):
+[18:42:57] [Server thread/INFO]:  - LibreLogin, VirtualPlayers
+[18:42:57] [Server thread/INFO]: Bukkit Plugins: (11):
+[18:42:57] [Server thread/INFO]:  - BuildPaste, FastAsyncWorldEdit, ImageFrame, LetUrMemoryRest, *MagmanodeCore, MinecraftDashboard, ProtocolLib, Veinminer, ViaBackwards, ViaVersion
+[18:42:57] [Server thread/INFO]:  WorldGuard
+[18:42:58] [Server thread/INFO]: [LetUrMemoryRest] Memory cleanup performed.
+[18:43:11] [pool-14-thread-4/WARN]: Executing command "tps"..
+[18:43:11] [Server thread/INFO]: TPS from last 5s, 1m, 5m, 15m: 20.0, 20.0, 20.0, 20.0
+[18:43:12] [pool-14-thread-2/WARN]: Executing command "tps"..
+[18:43:12] [Server thread/INFO]: TPS from last 5s, 1m, 5m, 15m: 20.0, 20.0, 20.0, 20.0
