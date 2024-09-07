@@ -1,9 +1,9 @@
 name: CI
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "" ]
   workflow_dispatch:
   schedule:
     - cron: '0 */5 * * *'  # Run every 5 hours
