@@ -220,3 +220,5 @@ java.lang.IllegalArgumentException: Data cannot be null
 [18:57:23] [Server thread/INFO]: [LetUrMemoryRest] Memory cleanup performed.
 [18:57:53] [Server thread/INFO]: [LetUrMemoryRest] Memory cleanup performed.
 [18:58:23] [Server thread/INFO]: [LetUrMemoryRest] Memory cleanup performed.
+[18:58:53] [Server thread/INFO]: [LetUrMemoryRest] Memory cleanup performed.
+[18:59:02] [Server thread/INFO]: [CladdyDaddy: Made CladdyDaddy no longer a server operator]
