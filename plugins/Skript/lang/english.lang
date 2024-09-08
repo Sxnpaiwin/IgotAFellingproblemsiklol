@@ -1,7 +1,7 @@
 # Default English language file
 
 # Which version of Skript this language file was written for
-version: 2.8.6
+version: 2.9.2
 
 # What null (nothing) should show up as in a string/text
 none: <none>
@@ -17,8 +17,8 @@ skript:
 	no errors: All scripts loaded without errors.
 	scripts loaded: Loaded %s script¦¦s¦ with a total of %s structure¦¦s¦ in %s
 	finished loading: Finished loading.
-
-# -- Skript command --
+	
+	# -- Skript command --
 skript command:
 	usage: Usage:
 	help:
@@ -47,7 +47,7 @@ skript command:
 		info: Prints a message with links to Skript's aliases and documentation
 		gen-docs: Generates documentation using docs/templates in plugin folder
 		test: Used for running internal Skript tests
-
+		
 	invalid script: Can't find the script <grey>'<gold>%s<grey>'<red> in the scripts folder!
 	invalid folder: Can't find the folder <grey>'<gold>%s<grey>'<red> in the scripts folder!
 	reload:
@@ -61,7 +61,7 @@ skript command:
 		error details: <light red>    %s<reset>\n
 		other details: <white>    %s<reset>\n
 		line details: <gold>    Line: <gray>%s<reset>\n <reset>
-
+		
 		config, aliases and scripts: the config, aliases and all scripts
 		scripts: all scripts
 		main config: the main configuration
@@ -117,8 +117,8 @@ skript command:
 		server: Server Version: <aqua>%s
 		addons: Installed Skript Addons: <aqua>%s
 		dependencies: Installed dependencies: <aqua>%s
-
-# -- Updater --
+		
+		# -- Updater --
 updater:
 	not started: Skript has not yet checked for the latest version. Use <gold>/skript update check<reset> to do so.
 	checking: Checking for the latest version of Skript...
@@ -135,8 +135,8 @@ updater:
 	internal error: An internal error occurred while checking for the latest version of Skript. Please refer to the server log for details.
 	custom version: You're currently running a custom Skript version. No updates will be automatically installed.
 	nightly build: You're currently running a development build of Skript. No updates will be automatically installed.
-
-# -- Commands --
+	
+	# -- Commands --
 commands:
 	no permission message: You don't have the required permission to use this command
 	cooldown message: You are using this command too often, please try again later
@@ -148,13 +148,13 @@ commands:
 	internal error: An internal error occurred while attempting to perform this command.
 	no player starts with: There is no player online whose name starts with '%s'
 	multiple players start with: There are several players online whose names start with '%s'
-
-# -- Hooks --
+	
+	# -- Hooks --
 hooks:
 	hooked: Successfully hooked into %s
 	error: Could not hook into %1$s. This can happen if Skript doesn't support the installed version of %1$s
-
-# -- Aliases --
+	
+	# -- Aliases --
 aliases:
 	# Errors and warnings
 	empty string: '' is not an item type
@@ -172,19 +172,19 @@ aliases:
 	unexpected section: Sections are not allowed here
 	invalid variation section: A section should be variation section, but %s is not valid variation name
 	outside section: Aliases must be put in sections
-
+	
 	# Other messages
 	loaded x aliases from: Loaded %s english aliases from %s
 	loaded x aliases: Loaded a total of %s english aliases
-
-# -- Time --
+	
+	# -- Time --
 time:
 	errors:
 		24 hours: A day only has 24 hours
 		12 hours: Using 12-hour format does not allow more than 12 hours
 		60 minutes: An hour only has 60 minutes
-
-# -- IO Exceptions --
+		
+		# -- IO Exceptions --
 io exceptions:
 	unknownhostexception: Cannot connect to %s
 	accessdeniedexception: Access denied for %s
