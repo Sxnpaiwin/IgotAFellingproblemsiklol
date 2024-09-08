@@ -289,3 +289,4 @@ java.lang.IllegalArgumentException: Data cannot be null
 [06:54:25] [Server thread/INFO]: Server uptime is 05 hours, 33 minutes, and 47 seconds
 [06:54:28] [pool-13-thread-2/WARN]: Executing command "ram"..
 [06:54:28] [Server thread/INFO]: Ram Usage: 7.1G/16.0G (44%)
+[07:02:24] [Server thread/WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
