@@ -340,3 +340,5 @@ java.lang.IllegalArgumentException: Data cannot be null
 [09:43:22] [User Authenticator #0/INFO]: UUID of player CladdyDaddy is 41a7d88c-27d7-3fde-ab2b-6fcfd7d3c029
 [09:43:26] [Server thread/INFO]: CladdyDaddy joined the game
 [09:43:27] [Server thread/INFO]: CladdyDaddy[/127.84.203.153:38391] logged in with entity id 200 at ([limbo]0.0, 70.0, 0.0)
+[09:44:14] [Craft Scheduler Thread - 12 - InteractiveChat/INFO]: [Not Secure] <CladdyDaddy> §f[§b%player_name%'s Inventory§f]
+[09:44:15] [Craft Scheduler Thread - 9 - InteractiveChat/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
