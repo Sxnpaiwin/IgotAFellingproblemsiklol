@@ -302,6 +302,8 @@
   },
   "blazeandcave:challenges/stack_all_the_items": {
     "criteria": {
+      "water_bucket": "2024-09-08 08:34:40 +0000",
+      "wooden_hoe": "2024-09-08 08:34:45 +0000",
       "wheat_seeds": "2024-09-08 07:34:14 +0000",
       "iron_ingot": "2024-09-07 16:00:05 +0000",
       "wooden_axe": "2024-09-07 16:01:19 +0000",
@@ -334,6 +336,7 @@
   },
   "blazeandcave:bacap/advancement_legend": {
     "criteria": {
+      "time_to_farm": "2024-09-08 08:34:45 +0000",
       "diamonds": "2024-09-07 15:59:00 +0000",
       "time_to_strike": "2024-09-07 15:59:00 +0000",
       "acquire_hardware": "2024-09-07 16:00:05 +0000",
@@ -341,6 +344,7 @@
       "do_you_want_to_trade": "2024-09-07 19:49:36 +0000",
       "the_first_night": "2024-09-07 16:02:03 +0000",
       "cow_tipper": "2024-09-07 17:03:07 +0000",
+      "farming_root": "2024-09-08 08:34:45 +0000",
       "sweet_dreams": "2024-09-07 19:49:36 +0000",
       "raise_the_flag": "2024-09-07 16:21:37 +0000",
       "weaponry_root": "2024-09-07 15:59:00 +0000",
@@ -475,6 +479,8 @@
   },
   "blazeandcave:challenges/all_the_items": {
     "criteria": {
+      "water_bucket": "2024-09-08 08:34:40 +0000",
+      "wooden_hoe": "2024-09-08 08:34:45 +0000",
       "mutton": "2024-09-07 17:00:23 +0000",
       "wheat_seeds": "2024-09-07 19:48:22 +0000",
       "wooden_sword": "2024-09-07 19:42:13 +0000",
@@ -1139,6 +1145,30 @@
   "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
       "has_wheat": "2024-09-08 07:34:11 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/time_to_farm": {
+    "criteria": {
+      "wooden_hoe": "2024-09-08 08:34:45 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/farming_milestone": {
+    "criteria": {
+      "root": "2024-09-08 08:34:45 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:farming/root": {
+    "criteria": {
+      "hoe": "2024-09-08 08:34:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-09-08 08:34:40 +0000"
     },
     "done": true
   },
