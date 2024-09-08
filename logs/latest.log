@@ -329,3 +329,10 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ArrayIndex
 [16:45:15] [Server thread/INFO]: CladdyDaddy[/127.84.203.153:45999] logged in with entity id 195 at ([limbo]0.0, 70.0, 0.0)
 [16:46:03] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: c80118da-2057-44af-8d49-310f4cac46a1, mapped to Cow['Cow'/59, uuid='c80118da-2057-44af-8d49-310f4cac46a1', l='ServerLevel[world]', x=-27.23, y=68.00, z=-244.15, cpos=[-2, -16], tl=256518, v=true], can't add Cow['Cow'/236, uuid='c80118da-2057-44af-8d49-310f4cac46a1', l='ServerLevel[world]', x=-35.48, y=69.00, z=-230.64, cpos=[-3, -15], tl=248989, v=false]
 [16:46:21] [Craft Scheduler Thread - 21 - InteractiveChat/INFO]: [Not Secure] <CladdyDaddy> c
+[16:47:20] [pool-19-thread-1/WARN]: Executing command "sk reload chat.sk"..
+[16:47:20] [Server thread/INFO]: [Skript] Reloading chat.sk...
+[16:47:20] [Server thread/INFO]: Line 22: (chat.sk)
+[16:47:20] [Server thread/INFO]:     Can't understand this condition: '{lastsound::%loop-player%} is not set or difference between now and {lastsound::%loop-player%} is greater than 5 seconds'
+[16:47:20] [Server thread/INFO]:     Line: if {lastsound::%loop-player%} is not set or difference between now and {lastsound::%loop-player%} is greater than {@sound-spam-delay}:
+[16:47:20] [Server thread/INFO]:  
+[16:47:20] [Server thread/INFO]: [Skript] Encountered 1 error while reloading chat.sk! (36ms)
