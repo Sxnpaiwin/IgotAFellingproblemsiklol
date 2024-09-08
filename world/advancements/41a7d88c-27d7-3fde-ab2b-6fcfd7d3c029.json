@@ -347,23 +347,29 @@
       "farming_root": "2024-09-08 08:34:45 +0000",
       "sweet_dreams": "2024-09-07 19:49:36 +0000",
       "raise_the_flag": "2024-09-07 16:21:37 +0000",
+      "a_seedy_place": "2024-09-08 08:40:20 +0000",
       "weaponry_root": "2024-09-07 15:59:00 +0000",
       "time_to_chop": "2024-09-07 16:01:20 +0000",
       "viking": "2024-09-07 19:48:47 +0000",
+      "a_good_start": "2024-09-08 08:38:36 +0000",
       "help_ive_been_framed": "2024-09-07 16:27:16 +0000",
       "theres_a_zombie_on_the_lawn": "2024-09-07 16:00:14 +0000",
       "wooly": "2024-09-07 17:00:24 +0000",
       "for_you_my_sweet": "2024-09-07 16:00:14 +0000",
       "monsters_root": "2024-09-07 15:59:00 +0000",
+      "glowstone_miner": "2024-09-08 08:37:28 +0000",
       "statistics_root": "2024-09-07 15:59:00 +0000",
       "adventure_root": "2024-09-07 15:59:00 +0000",
       "cut_in_half": "2024-09-07 16:22:08 +0000",
+      "stationary_storage": "2024-09-08 08:39:59 +0000",
       "getting_wood": "2024-09-07 19:46:50 +0000",
+      "glowing": "2024-09-08 08:37:31 +0000",
       "biomes_root": "2024-09-07 17:00:24 +0000",
       "heavy_metal": "2024-09-07 17:08:54 +0000",
       "diamond_miner": "2024-09-07 15:59:00 +0000",
       "just_keep_swimming": "2024-09-07 16:03:53 +0000",
       "spring_in_your_step": "2024-09-07 17:13:30 +0000",
+      "en_garde": "2024-09-08 08:38:46 +0000",
       "stairs_no": "2024-09-07 16:22:43 +0000"
     },
     "done": false
@@ -382,24 +388,33 @@
   },
   "blazeandcave:challenges/all_the_blocks": {
     "criteria": {
-      "white_wool": "2024-09-07 17:00:23 +0000",
-      "barrel": "2024-09-07 15:59:00 +0000",
+      "dark_oak_log": "2024-09-08 08:38:39 +0000",
       "cyan_banner": "2024-09-08 08:29:14 +0000",
       "poppy": "2024-09-07 16:00:11 +0000",
       "spruce_slab": "2024-09-07 16:22:08 +0000",
       "oak_sapling": "2024-09-07 19:48:23 +0000",
       "anvil": "2024-09-07 17:08:52 +0000",
-      "grass_block": "2024-09-07 15:59:00 +0000",
       "iron_block": "2024-09-07 17:08:52 +0000",
-      "torch": "2024-09-08 07:34:13 +0000",
       "light_blue_banner": "2024-09-07 16:21:33 +0000",
-      "sunflower": "2024-09-07 16:00:11 +0000",
+      "glowstone": "2024-09-08 08:37:27 +0000",
       "dark_oak_stairs": "2024-09-07 16:22:43 +0000",
       "dandelion": "2024-09-07 17:02:39 +0000",
-      "oak_log": "2024-09-07 19:48:22 +0000",
-      "acacia_log": "2024-09-07 19:46:50 +0000",
       "acacia_sapling": "2024-09-07 19:46:50 +0000",
-      "dark_oak_slab": "2024-09-07 16:22:20 +0000"
+      "dark_oak_slab": "2024-09-07 16:22:20 +0000",
+      "spruce_log": "2024-09-08 08:38:36 +0000",
+      "dark_oak_fence": "2024-09-08 08:38:45 +0000",
+      "white_wool": "2024-09-07 17:00:23 +0000",
+      "barrel": "2024-09-07 15:59:00 +0000",
+      "chest": "2024-09-08 08:39:55 +0000",
+      "oak_planks": "2024-09-08 08:38:35 +0000",
+      "dark_oak_planks": "2024-09-08 08:38:41 +0000",
+      "grass_block": "2024-09-07 15:59:00 +0000",
+      "torch": "2024-09-08 07:34:13 +0000",
+      "lantern": "2024-09-08 08:40:31 +0000",
+      "sunflower": "2024-09-07 16:00:11 +0000",
+      "oak_log": "2024-09-07 19:48:22 +0000",
+      "dark_oak_fence_gate": "2024-09-08 08:39:35 +0000",
+      "acacia_log": "2024-09-07 19:46:50 +0000"
     },
     "done": false
   },
@@ -422,13 +437,15 @@
   "blazeandcave:redstone/engineer": {
     "criteria": {
       "barrel": "2024-09-07 15:59:00 +0000",
-      "white_wool": "2024-09-07 17:00:23 +0000"
+      "white_wool": "2024-09-07 17:00:23 +0000",
+      "chest": "2024-09-08 08:39:55 +0000"
     },
     "done": false
   },
   "blazeandcave:redstone/master_engineer": {
     "criteria": {
-      "barrel": "2024-09-07 15:59:00 +0000"
+      "barrel": "2024-09-07 15:59:00 +0000",
+      "chest": "2024-09-08 08:39:55 +0000"
     },
     "done": false
   },
@@ -551,14 +568,22 @@
   },
   "blazeandcave:challenges/stack_all_the_blocks": {
     "criteria": {
+      "dark_oak_log": "2024-09-08 08:38:39 +0000",
       "barrel": "2024-09-07 15:59:00 +0000",
+      "chest": "2024-09-08 08:39:55 +0000",
       "cyan_banner": "2024-09-08 08:29:14 +0000",
       "spruce_slab": "2024-09-07 16:22:08 +0000",
+      "oak_planks": "2024-09-08 08:38:35 +0000",
       "anvil": "2024-09-07 17:08:52 +0000",
+      "dark_oak_planks": "2024-09-08 08:38:41 +0000",
       "grass_block": "2024-09-07 15:59:00 +0000",
-      "dark_oak_slab": "2024-09-07 16:22:20 +0000",
       "light_blue_banner": "2024-09-07 16:21:33 +0000",
-      "dark_oak_stairs": "2024-09-07 16:22:43 +0000"
+      "glowstone": "2024-09-08 08:37:27 +0000",
+      "dark_oak_stairs": "2024-09-07 16:22:43 +0000",
+      "dark_oak_fence_gate": "2024-09-08 08:39:35 +0000",
+      "dark_oak_slab": "2024-09-07 16:22:20 +0000",
+      "spruce_log": "2024-09-08 08:38:36 +0000",
+      "dark_oak_fence": "2024-09-08 08:38:45 +0000"
     },
     "done": false
   },
@@ -799,10 +824,14 @@
   },
   "blazeandcave:bacap/building_milestone": {
     "criteria": {
+      "a_good_start": "2024-09-08 08:38:36 +0000",
       "cut_in_half": "2024-09-07 16:22:08 +0000",
       "help_ive_been_framed": "2024-09-07 16:27:16 +0000",
+      "stationary_storage": "2024-09-08 08:39:59 +0000",
+      "glowing": "2024-09-08 08:37:31 +0000",
       "sweet_dreams": "2024-09-07 19:49:36 +0000",
       "raise_the_flag": "2024-09-07 16:21:37 +0000",
+      "en_garde": "2024-09-08 08:38:46 +0000",
       "stairs_no": "2024-09-07 16:22:43 +0000"
     },
     "done": false
@@ -815,7 +844,8 @@
   },
   "blazeandcave:building/spruce_lee": {
     "criteria": {
-      "spruce_slab": "2024-09-07 16:22:08 +0000"
+      "spruce_slab": "2024-09-07 16:22:08 +0000",
+      "spruce_log": "2024-09-08 08:38:36 +0000"
     },
     "done": false
   },
@@ -840,8 +870,12 @@
   },
   "blazeandcave:building/professor_dark_oak": {
     "criteria": {
+      "dark_oak_log": "2024-09-08 08:38:39 +0000",
+      "dark_oak_fence_gate": "2024-09-08 08:39:35 +0000",
+      "dark_oak_planks": "2024-09-08 08:38:41 +0000",
       "dark_oak_slab": "2024-09-07 16:22:20 +0000",
-      "dark_oak_stairs": "2024-09-07 16:22:43 +0000"
+      "dark_oak_stairs": "2024-09-07 16:22:43 +0000",
+      "dark_oak_fence": "2024-09-08 08:38:45 +0000"
     },
     "done": false
   },
@@ -1004,8 +1038,10 @@
   },
   "blazeandcave:building/yay_i_got_my_wood": {
     "criteria": {
+      "dark_oak_log": "2024-09-08 08:38:39 +0000",
       "oak_log": "2024-09-07 19:48:22 +0000",
-      "acacia_log": "2024-09-07 19:46:50 +0000"
+      "acacia_log": "2024-09-07 19:46:50 +0000",
+      "spruce_log": "2024-09-08 08:38:36 +0000"
     },
     "done": false
   },
@@ -1071,7 +1107,8 @@
   },
   "blazeandcave:building/professor_oak": {
     "criteria": {
-      "oak_log": "2024-09-07 19:48:22 +0000"
+      "oak_log": "2024-09-07 19:48:22 +0000",
+      "oak_planks": "2024-09-08 08:38:35 +0000"
     },
     "done": false
   },
@@ -1154,9 +1191,46 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:35 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:building/glowing": {
+    "criteria": {
+      "glowstone": "2024-09-08 08:37:31 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:building/en_garde": {
+    "criteria": {
+      "fence": "2024-09-08 08:38:46 +0000"
+    },
+    "done": true
+  },
   "blazeandcave:bacap/farming_milestone": {
     "criteria": {
-      "root": "2024-09-08 08:34:45 +0000"
+      "root": "2024-09-08 08:34:45 +0000",
+      "a_seedy_place": "2024-09-08 08:40:20 +0000"
     },
     "done": false
   },
@@ -1166,9 +1240,184 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:35 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:building/stationary_storage": {
+    "criteria": {
+      "chest": "2024-09-08 08:39:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2024-09-08 08:38:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2024-09-08 08:38:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2024-09-08 08:38:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:35 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:nether/spreading_corruption": {
+    "criteria": {
+      "glowstone": "2024-09-08 08:37:31 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:building/a_good_start": {
+    "criteria": {
+      "spruce_log": "2024-09-08 08:38:36 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:farming/come_to_the_countryside": {
+    "criteria": {
+      "wheat": "2024-09-08 08:40:20 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:nether/glowstone_miner": {
+    "criteria": {
+      "glowstone": "2024-09-08 08:37:27 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:building/master_logger": {
+    "criteria": {
+      "dark_oak_log": "2024-09-08 08:38:39 +0000",
+      "spruce_log": "2024-09-08 08:38:36 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:bacap/nether_milestone": {
+    "criteria": {
+      "glowstone_miner": "2024-09-08 08:37:28 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2024-09-08 08:38:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:35 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:building/let_there_be_light": {
+    "criteria": {
+      "glowstone": "2024-09-08 08:37:27 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2024-09-08 08:37:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2024-09-08 08:34:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2024-09-08 08:40:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:41 +0000"
     },
     "done": true
   },
