@@ -361,3 +361,8 @@ java.lang.IllegalArgumentException: Data cannot be null
 [10:44:35] [User Authenticator #0/INFO]: UUID of player CladdyDaddy is 41a7d88c-27d7-3fde-ab2b-6fcfd7d3c029
 [10:44:38] [Server thread/INFO]: CladdyDaddy joined the game
 [10:44:39] [Server thread/INFO]: CladdyDaddy[/127.84.203.153:35229] logged in with entity id 217 at ([limbo]0.0, 70.0, 0.0)
+[10:46:13] [Server thread/INFO]: CladdyDaddy lost connection: Disconnected
+[10:46:13] [Server thread/INFO]: CladdyDaddy left the game
+[10:46:23] [User Authenticator #1/INFO]: UUID of player CladdyDaddy is 41a7d88c-27d7-3fde-ab2b-6fcfd7d3c029
+[10:46:25] [Server thread/INFO]: CladdyDaddy joined the game
+[10:46:25] [Server thread/INFO]: CladdyDaddy[/127.84.203.153:49921] logged in with entity id 955 at ([limbo]0.0, 70.0, 0.0)
