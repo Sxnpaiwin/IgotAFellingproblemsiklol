@@ -267,3 +267,95 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ArrayIndex
 [10:14:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'limbo'
 [10:14:39] [Server thread/INFO]: [LibreLogin] [ACF] Enabled Asynchronous Tab Completion Support!
 [10:14:39] [Server thread/INFO]: [LibreLogin] LuckPerms detected, enabling context provider
+[10:14:39] [Server thread/INFO]: [PvPManager] Enabling PvPManager v3.18.26
+[10:14:39] [Server thread/INFO]: [PvPManager] Using player nametags: true
+[10:14:39] [Server thread/INFO]: [PvPManager] Connected to SQLITE database successfully
+[10:14:39] [Server thread/INFO]: [PvPManager] Players stored: 1
+[10:14:39] [Server thread/INFO]: [PvPManager] WorldGuard Found! Enabling Support For WorldGuard Regions
+[10:14:39] [Server thread/INFO]: [PvPManager] Vault Found! Using it for currency related features
+[10:14:39] [Server thread/WARN]: [PvPManager] Error loading Vault! No Economy plugin found
+[10:14:39] [Server thread/INFO]: [PvPManager] PlaceholderAPI Found! Hooked successfully
+[10:14:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: pvpmanager [3.18.26]
+[10:14:39] [Server thread/INFO]: [PvPManager] PvPManager v3.18.26 enabled (244 ms)
+[10:14:39] [Server thread/ERROR]: Permission node 'paste' in plugin description file for BuildPaste v1.11.1 is invalid
+java.lang.IllegalArgumentException: Data cannot be null
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:143) ~[guava-32.1.2-jre.jar:?]
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:293) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:240) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:945) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:641) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:603) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:757) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:519) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:363) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:14:39] [Server thread/ERROR]: Permission node 'upload' in plugin description file for BuildPaste v1.11.1 is invalid
+java.lang.IllegalArgumentException: Data cannot be null
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:143) ~[guava-32.1.2-jre.jar:?]
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:293) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:240) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:945) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:641) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:603) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:757) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:519) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:363) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:14:39] [Server thread/ERROR]: Permission node 'construct' in plugin description file for BuildPaste v1.11.1 is invalid
+java.lang.IllegalArgumentException: Data cannot be null
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:143) ~[guava-32.1.2-jre.jar:?]
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:293) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:240) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:945) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:641) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:603) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:757) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:519) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:363) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:14:39] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[10:14:39] [Server thread/INFO]: [spark] Starting background profiler...
+[10:14:40] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[10:14:40] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[10:14:40] [Server thread/INFO]: Done preparing level "world" (27.470s)
+[10:14:40] [Server thread/INFO]: Starting GS4 status listener
+[10:14:40] [Server thread/INFO]: Thread Query Listener started
+[10:14:40] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[10:14:40] [Server thread/INFO]: Running delayed init tasks
+[10:14:40] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[10:14:40] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[10:14:40] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[10:14:40] [Craft Scheduler Thread - 9 - InteractiveChat/INFO]: [InteractiveChat] Loading languages...
+[10:14:40] [Craft Scheduler Thread - 15 - Vault/INFO]: [Vault] Checking for Updates ... 
+[10:14:41] [Craft Scheduler Thread - 15 - Vault/INFO]: [Vault] No new version available
+[10:14:41] [Server thread/INFO]: [Skript] Loading variables...
+[10:14:41] [Server thread/INFO]: [Skript] Loaded 1 variables in 0.0 seconds
+[10:14:42] [Server thread/INFO]: [Skript] Line 41: (chat pop.sk)
+[10:14:42] [Server thread/INFO]:     There's no loop that matches 'loop-player with pitch 1 volume 5'
+[10:14:42] [Server thread/INFO]:     Line: play sound "block.note_block.pling" at loop-player with pitch 1 volume 5
+[10:14:42] [Server thread/INFO]:  
+[10:14:42] [Server thread/INFO]: [Skript] Line 43: (chat pop.sk)
+[10:14:42] [Server thread/INFO]:     There's no loop that matches 'loop-player offset by 0.5, 1, 0.5 with speed 0.1 and count 10'
+[10:14:42] [Server thread/INFO]:     Line: play particle "happy_villager" at loop-player offset by 0.5, 1, 0.5 with speed 0.1 and count 10
+[10:14:42] [Server thread/INFO]:  
+[10:14:42] [Server thread/INFO]: [Skript] Line 44: (chat pop.sk)
+[10:14:42] [Server thread/INFO]:     There's no loop that matches 'loop-player offset by 0.5, 1, 0.5 with speed 0.1 and count 10'
+[10:14:42] [Server thread/INFO]:     Line: play particle "crit" at loop-player offset by 0.5, 1, 0.5 with speed 0.1 and count 10
+[10:14:42] [Server thread/INFO]:  
+[10:14:42] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
+[10:14:42] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 4 structures in 1.23 seconds
+[10:14:42] [Server thread/INFO]: [Skript] Finished loading.
+[10:14:42] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[10:14:42] [Server thread/INFO]: Done (86.060s)! For help, type "help"
+[10:14:42] [PvPManager Worker Thread - 0/INFO]: [PvPManager] Checking for updates...
+[10:14:42] [PvPManager Worker Thread - 0/INFO]: [PvPManager] No update found
+[10:14:42] [Craft Scheduler Thread - 4 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 2 ImageMaps!
+[10:14:42] [Craft Scheduler Thread - 9 - LibreLogin/INFO]: [LibreLogin] Checking for updates...
+[10:14:43] [Craft Scheduler Thread - 9 - LibreLogin/INFO]: [LibreLogin] You are running the latest version of LibreLogin
+[10:14:43] [Craft Scheduler Thread - 14 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
