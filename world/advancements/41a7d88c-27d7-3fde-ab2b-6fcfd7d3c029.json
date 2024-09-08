@@ -302,13 +302,15 @@
   },
   "blazeandcave:challenges/stack_all_the_items": {
     "criteria": {
+      "wheat_seeds": "2024-09-08 07:34:14 +0000",
       "iron_ingot": "2024-09-07 16:00:05 +0000",
       "wooden_axe": "2024-09-07 16:01:19 +0000",
       "iron_axe": "2024-09-07 19:46:35 +0000",
       "diamond": "2024-09-07 15:59:00 +0000",
       "iron_sword": "2024-09-07 17:08:54 +0000",
       "netherite_sword": "2024-09-07 15:59:00 +0000",
-      "wooden_sword": "2024-09-07 19:42:13 +0000"
+      "wooden_sword": "2024-09-07 19:42:13 +0000",
+      "wheat": "2024-09-08 07:34:17 +0000"
     },
     "done": false
   },
@@ -384,6 +386,7 @@
       "anvil": "2024-09-07 17:08:52 +0000",
       "grass_block": "2024-09-07 15:59:00 +0000",
       "iron_block": "2024-09-07 17:08:52 +0000",
+      "torch": "2024-09-08 07:34:13 +0000",
       "light_blue_banner": "2024-09-07 16:21:33 +0000",
       "sunflower": "2024-09-07 16:00:11 +0000",
       "dark_oak_stairs": "2024-09-07 16:22:43 +0000",
@@ -485,7 +488,8 @@
       "paper": "2024-09-07 16:27:10 +0000",
       "iron_sword": "2024-09-07 17:08:54 +0000",
       "netherite_sword": "2024-09-07 15:59:00 +0000",
-      "stick": "2024-09-07 19:46:53 +0000"
+      "stick": "2024-09-07 19:46:53 +0000",
+      "wheat": "2024-09-08 07:34:11 +0000"
     },
     "done": false
   },
@@ -983,60 +987,11 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/ladder": {
-    "criteria": {
-      "has_stick": "2024-09-07 19:46:53 +0000"
-    },
-    "done": true
-  },
-  "blazeandcave:weaponry/viking": {
-    "criteria": {
-      "axe": "2024-09-07 19:48:46 +0000"
-    },
-    "done": true
-  },
   "blazeandcave:building/the_acacia_king": {
     "criteria": {
       "acacia_log": "2024-09-07 19:46:50 +0000"
     },
     "done": false
-  },
-  "blazeandcave:adventure/raidin_master": {
-    "criteria": {
-      "village_plains": "2024-09-07 19:49:35 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/tools/wooden_axe": {
-    "criteria": {
-      "has_stick": "2024-09-07 19:46:53 +0000"
-    },
-    "done": true
-  },
-  "blazeandcave:weaponry/axeman": {
-    "criteria": {
-      "iron_axe": "2024-09-07 19:48:46 +0000"
-    },
-    "done": false
-  },
-  "minecraft:adventure/sleep_in_bed": {
-    "criteria": {
-      "slept_in_bed": "2024-09-07 19:49:36 +0000"
-    },
-    "done": true
-  },
-  "blazeandcave:weaponry/multiclassed": {
-    "criteria": {
-      "sword": "2024-09-07 19:49:28 +0000",
-      "axe": "2024-09-07 19:48:46 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/food/cooked_beef_from_smoking": {
-    "criteria": {
-      "has_beef": "2024-09-07 19:50:36 +0000"
-    },
-    "done": true
   },
   "blazeandcave:building/yay_i_got_my_wood": {
     "criteria": {
@@ -1044,6 +999,36 @@
       "acacia_log": "2024-09-07 19:46:50 +0000"
     },
     "done": false
+  },
+  "blazeandcave:bacap/getting_wood": {
+    "criteria": {
+      "acacia_log": "2024-09-07 19:46:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2024-09-07 19:46:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2024-09-07 19:46:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2024-09-07 19:46:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2024-09-07 19:46:53 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
@@ -1063,27 +1048,9 @@
     },
     "done": true
   },
-  "blazeandcave:adventure/do_you_want_to_trade": {
-    "criteria": {
-      "village": "2024-09-07 19:49:35 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2024-09-07 19:46:53 +0000"
-    },
-    "done": true
-  },
-  "blazeandcave:bacap/getting_wood": {
-    "criteria": {
-      "acacia_log": "2024-09-07 19:46:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/acacia_wood": {
-    "criteria": {
-      "has_log": "2024-09-07 19:46:50 +0000"
     },
     "done": true
   },
@@ -1105,9 +1072,46 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/acacia_planks": {
+  "blazeandcave:weaponry/viking": {
     "criteria": {
-      "has_log": "2024-09-07 19:46:50 +0000"
+      "axe": "2024-09-07 19:48:46 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:weaponry/axeman": {
+    "criteria": {
+      "iron_axe": "2024-09-07 19:48:46 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:weaponry/multiclassed": {
+    "criteria": {
+      "sword": "2024-09-07 19:49:28 +0000",
+      "axe": "2024-09-07 19:48:46 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:adventure/raidin_master": {
+    "criteria": {
+      "village_plains": "2024-09-07 19:49:35 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:adventure/do_you_want_to_trade": {
+    "criteria": {
+      "village": "2024-09-07 19:49:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-09-07 19:49:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2024-09-07 19:50:36 +0000"
     },
     "done": true
   },
@@ -1120,6 +1124,18 @@
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
       "has_beef": "2024-09-07 19:50:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-09-08 07:34:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-09-08 07:34:11 +0000"
     },
     "done": true
   },
