@@ -1,0 +1,44 @@
+{
+  "type": "com.loohp.imageframe.objectholders.URLStaticImageMap",
+  "index": 7,
+  "name": "nogrief",
+  "url": "https://i.ibb.co/h9DbCh0/771006810997007077.png",
+  "width": 3,
+  "height": 2,
+  "ditheringType": "nearest-color",
+  "creator": "41a7d88c-27d7-3fde-ab2b-6fcfd7d3c029",
+  "hasAccess": {},
+  "creationTime": 1725786322390,
+  "mapdata": [
+    {
+      "mapid": 166,
+      "image": "0.png",
+      "markers": []
+    },
+    {
+      "mapid": 167,
+      "image": "1.png",
+      "markers": []
+    },
+    {
+      "mapid": 168,
+      "image": "2.png",
+      "markers": []
+    },
+    {
+      "mapid": 169,
+      "image": "3.png",
+      "markers": []
+    },
+    {
+      "mapid": 170,
+      "image": "4.png",
+      "markers": []
+    },
+    {
+      "mapid": 171,
+      "image": "5.png",
+      "markers": []
+    }
+  ]
+}
