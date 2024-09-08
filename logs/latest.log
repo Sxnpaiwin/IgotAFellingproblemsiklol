@@ -432,3 +432,25 @@ java.lang.IllegalArgumentException: Data cannot be null
 [10:23:16] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
 [10:23:16] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
 [10:23:16] [Server thread/INFO]: [Skript] Encountered 2 errors while reloading chat pop.sk! (615ms)
+[10:24:01] [pool-14-thread-4/WARN]: Executing command "sk reload chat pop.sk"..
+[10:24:01] [Server thread/INFO]: [Skript] Reloading chat pop.sk...
+[10:24:01] [Server thread/INFO]: ChatPop » Plugin unloaded successfully :)
+[10:24:01] [Server thread/INFO]: Line 60: (chat pop.sk)
+[10:24:01] [Server thread/INFO]:     Can't understand this condition/effect: play sound {_sound} at player with volume 5 and pitch 1
+[10:24:01] [Server thread/INFO]:     Line: play sound {_sound} at player with volume 5 and pitch 1
+[10:24:01] [Server thread/INFO]:  
+[10:24:01] [Server thread/INFO]: Line 62: (chat pop.sk)
+[10:24:01] [Server thread/INFO]:     Can't understand this condition/effect: show {_particle} particle at player offset by 0.5, 1, 0.5 for 1 seconds
+[10:24:01] [Server thread/INFO]:     Line: show {_particle} particle at player offset by 0.5, 1, 0.5 for 1 seconds
+[10:24:01] [Server thread/INFO]:  
+[10:24:01] [Server thread/INFO]: Line 87: (chat pop.sk)
+[10:24:01] [Server thread/INFO]:     There's no loop that matches 'loop-player with volume 5 and pitch 1'
+[10:24:01] [Server thread/INFO]:     Line: play sound {_sound} at loop-player with volume 5 and pitch 1
+[10:24:01] [Server thread/INFO]:  
+[10:24:01] [Server thread/INFO]: Line 89: (chat pop.sk)
+[10:24:01] [Server thread/INFO]:     There's no loop that matches 'loop-player offset by 0.5, 1, 0.5 for 1 seconds'
+[10:24:01] [Server thread/INFO]:     Line: show {_particle} particle at loop-player offset by 0.5, 1, 0.5 for 1 seconds
+[10:24:01] [Server thread/INFO]:  
+[10:24:01] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
+[10:24:01] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
+[10:24:01] [Server thread/INFO]: [Skript] Encountered 4 errors while reloading chat pop.sk! (220ms)

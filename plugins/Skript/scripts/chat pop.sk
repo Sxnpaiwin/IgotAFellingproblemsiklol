@@ -57,9 +57,9 @@ command /chatpopdebug:
             if {_particle} is not set:
                 set {_particle} to "happy_villager"
             # Play the sound effect
-            play sound {_sound} with volume 5 and pitch 1 at player
+            play sound {_sound} at player with volume 5 and pitch 1
             # Display particle effects around the player
-            play {_particle} particle at location of player offset by 0.5, 1, 0.5 with speed 0.1 and amount 10
+            show {_particle} particle at player offset by 0.5, 1, 0.5 for 1 seconds
             send "&3ChatPop &7» &aDebug effects triggered."
         else:
             send "&3ChatPop &7» &cYou do not have permission to use this command."
@@ -84,9 +84,9 @@ on chat:
             if {_particle} is not set:
                 set {_particle} to "happy_villager"
             # Play the sound effect
-            play sound {_sound} with volume 5 and pitch 1 at loop-player
+            play sound {_sound} at loop-player with volume 5 and pitch 1
             # Display particle effects around the player
-            play {_particle} particle at location of loop-player offset by 0.5, 1, 0.5 with speed 0.1 and amount 10
+            show {_particle} particle at loop-player offset by 0.5, 1, 0.5 for 1 seconds
 
 on join:
     if {chatpop.toggle::%uuid of player%} is not set:
