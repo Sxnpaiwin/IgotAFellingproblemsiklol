@@ -324,3 +324,6 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ArrayIndex
 [16:44:19] [PvPManager Worker Thread - 0/INFO]: [PvPManager] No update found
 [16:44:21] [Craft Scheduler Thread - 14 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
 [16:44:22] [Server thread/INFO]: /127.84.203.153:43529 lost connection: Disconnected
+[16:45:11] [User Authenticator #0/INFO]: UUID of player CladdyDaddy is 41a7d88c-27d7-3fde-ab2b-6fcfd7d3c029
+[16:45:14] [Server thread/INFO]: CladdyDaddy joined the game
+[16:45:15] [Server thread/INFO]: CladdyDaddy[/127.84.203.153:45999] logged in with entity id 195 at ([limbo]0.0, 70.0, 0.0)
