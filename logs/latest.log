@@ -44,3 +44,262 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230) ~[purpur-1.21.jar:1.21-2284-4e55e26]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:26:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loading 4 libraries... please wait
+[07:26:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.0.0/kotlin-stdlib-2.0.0.jar
+[07:26:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[07:26:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json/1.7.1/kotlinx-serialization-json-1.7.1.jar
+[07:26:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.7.1/kotlinx-serialization-json-jvm-1.7.1.jar
+[07:26:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlin/kotlin-stdlib-common/2.0.0/kotlin-stdlib-common-2.0.0.jar
+[07:26:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.7.1/kotlinx-serialization-core-jvm-1.7.1.jar
+[07:26:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.9.0-RC/kotlinx-coroutines-core-1.9.0-RC.jar
+[07:26:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.9.0-RC/kotlinx-coroutines-core-jvm-1.9.0-RC.jar
+[07:26:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
+[07:26:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
+[07:26:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
+[07:26:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
+[07:26:03] [Server thread/INFO]: [SpigotLibraryLoader] [PvPManager] Loading 2 libraries... please wait
+[07:26:03] [Server thread/INFO]: [SpigotLibraryLoader] [PvPManager] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
+[07:26:03] [Server thread/INFO]: [SpigotLibraryLoader] [PvPManager] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar
+[07:26:03] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.4-SNAPSHOT
+[07:26:03] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.4-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[07:26:05] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[07:26:05] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[07:26:06] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[07:26:06] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[07:26:07] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.11.1
+[07:26:09] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3986852e]
+[07:26:09] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0-SNAPSHOT-726
+[07:26:09] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.0) has not yet been tested! Proceed with caution.
+[07:26:10] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.4-SNAPSHOT
+[07:26:10] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.11-beta1+a801a9d
+[07:26:10] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.141
+[07:26:10] [Server thread/INFO]: [MinecraftDashboard] Loading server plugin MinecraftDashboard v1.1.7
+[07:26:10] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.7.10.0
+[07:26:10] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.1.3
+[07:26:10] [Server thread/INFO]: [connect] Loading server plugin connect v0.5.0
+[07:26:14] [Server thread/WARN]: [connect] en_ is not a supported language.
+[07:26:14] [Server thread/INFO]: [connect] Took 3,106ms to boot Connect
+[07:26:14] [Server thread/INFO]: [LoadingScreenRemover] Loading server plugin LoadingScreenRemover v1.2
+[07:26:14] [Server thread/ERROR]: [LoadingScreenRemover] Error initializing plugin 'LoadingScreenRemover-1.2 (1).jar' in folder 'plugins/.paper-remapped' (Is it up to date?)
+java.lang.ExceptionInInitializerError: null
+	at LoadingScreenRemover-1.2 (1).jar/dev.unnm3d.loadingscreenremover.libraries.packetevents.impl.factory.spigot.SpigotPacketEventsBuilder$1.load(SpigotPacketEventsBuilder.java:103) ~[LoadingScreenRemover-1.2 (1).jar:?]
+	at LoadingScreenRemover-1.2 (1).jar/dev.unnm3d.loadingscreenremover.LoadingScreenRemover.onLoad(LoadingScreenRemover.java:23) ~[LoadingScreenRemover-1.2 (1).jar:?]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:560) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:326) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at LoadingScreenRemover-1.2 (1).jar/dev.unnm3d.loadingscreenremover.libraries.packetevents.impl.util.SpigotReflectionUtil.<clinit>(SpigotReflectionUtil.java:54) ~[LoadingScreenRemover-1.2 (1).jar:?]
+	... 11 more
+[07:26:14] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.2
+[07:26:14] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.10.0
+[07:26:14] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.10.0
+[07:26:14] [Server thread/INFO]: [BetterTeams] Checking if the file config.yml is up to date
+[07:26:14] [Server thread/INFO]: [BetterTeams] File is up to date
+[07:26:14] [Server thread/INFO]: [LibreLogin] Loading server plugin LibreLogin v0.23.0
+[07:26:14] [Server thread/INFO]: [LibreLogin] Analyzing server setup...
+[07:26:14] [Server thread/INFO]: [LibreLogin] Detected Adventure-compatible server distribution - Purpur 1.21-2284-4e55e26 (MC: 1.21)
+[07:26:14] [Server thread/INFO]: [LibreLogin] Loading libraries...
+[07:26:16] [Server thread/INFO]: [PvPManager] Loading server plugin PvPManager v3.18.26
+[07:26:16] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[07:26:16] [Server thread/ERROR]: Permission node 'groups' in permissions.yml is invalid
+java.lang.IllegalArgumentException: 'default' key contained unknown value
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:303) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:240) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.loadCustomPermissions(CraftServer.java:1253) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:596) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:327) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:26:16] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.11.1
+[07:26:16] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[07:26:16] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[07:26:16] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[07:26:16] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[07:26:16] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightFaweAdapter as the Bukkit adapter
+[07:26:17] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0-SNAPSHOT-726
+[07:26:17] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.141
+[07:26:18] [Server thread/INFO]:         __    
+[07:26:18] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.141
+[07:26:18] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
+[07:26:18] [Server thread/INFO]: 
+[07:26:18] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[07:26:18] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[07:26:19] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[07:26:19] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[07:26:19] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1427ms)
+[07:26:19] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.1.3
+[07:26:19] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.2
+[07:26:20] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[07:26:20] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[07:26:21] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[07:26:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:26:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:26:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:26:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:26:21] [Server thread/INFO]: Preparing level "world"
+[07:26:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:26:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[07:26:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[07:26:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[07:26:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[07:26:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[07:26:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:26:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.2
+[07:26:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 210a436
+[07:26:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[07:26:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:26:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:26:23] [Server thread/INFO]: Time elapsed: 1258 ms
+[07:26:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:26:24] [Server thread/INFO]: Time elapsed: 212 ms
+[07:26:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:26:24] [Server thread/INFO]: Time elapsed: 264 ms
+[07:26:24] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.4-SNAPSHOT
+[07:26:24] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[07:26:24] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.4-SNAPSHOT
+[07:26:24] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.11-beta1+a801a9d
+[07:26:24] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[07:26:24] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[07:26:24] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[07:26:24] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[07:26:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[07:26:24] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[07:26:24] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[07:26:24] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[07:26:24] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[07:26:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[07:26:24] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[07:26:24] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[07:26:24] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[07:26:24] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[07:26:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[07:26:24] [Server thread/INFO]: [WorldGuard] Loading region data...
+[07:26:25] [Server thread/INFO]: [MinecraftDashboard] Enabling MinecraftDashboard v1.1.7
+[07:26:29] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 156 ms to scan 1 urls, producing 2 keys and 34 values
+[07:26:29] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.7.10.0
+[07:26:30] [Server thread/INFO]: [ImageFrame] ImageFrame has hooked into ViaVersion!
+[07:26:30] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[07:26:30] [Server thread/INFO]: [connect] Enabling connect v0.5.0
+[07:26:31] [Server thread/INFO]: [connect] Endpoint name: cyan-italy
+[07:26:31] [Server thread/INFO]: [connect] Your public address: cyan-italy.play.minekube.net
+[07:26:31] [Server thread/INFO]: [LoadingScreenRemover] Enabling LoadingScreenRemover v1.2
+[07:26:31] [Server thread/ERROR]: Error occurred while enabling LoadingScreenRemover v1.2 (Is it up to date?)
+java.lang.NoClassDefFoundError: Could not initialize class dev.unnm3d.loadingscreenremover.libraries.packetevents.impl.util.SpigotReflectionUtil
+	at LoadingScreenRemover-1.2 (1).jar/dev.unnm3d.loadingscreenremover.libraries.packetevents.impl.factory.spigot.SpigotPacketEventsBuilder$1.load(SpigotPacketEventsBuilder.java:103) ~[LoadingScreenRemover-1.2 (1).jar:?]
+	at LoadingScreenRemover-1.2 (1).jar/dev.unnm3d.loadingscreenremover.libraries.packetevents.impl.factory.spigot.SpigotPacketEventsBuilder$1.init(SpigotPacketEventsBuilder.java:136) ~[LoadingScreenRemover-1.2 (1).jar:?]
+	at LoadingScreenRemover-1.2 (1).jar/dev.unnm3d.loadingscreenremover.LoadingScreenRemover.onEnable(LoadingScreenRemover.java:36) ~[LoadingScreenRemover-1.2 (1).jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:654) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:603) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:757) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:519) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:363) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3 [in thread "Server thread"]
+	at LoadingScreenRemover-1.2 (1).jar/dev.unnm3d.loadingscreenremover.libraries.packetevents.impl.util.SpigotReflectionUtil.<clinit>(SpigotReflectionUtil.java:54) ~[LoadingScreenRemover-1.2 (1).jar:?]
+	at LoadingScreenRemover-1.2 (1).jar/dev.unnm3d.loadingscreenremover.libraries.packetevents.impl.factory.spigot.SpigotPacketEventsBuilder$1.load(SpigotPacketEventsBuilder.java:103) ~[LoadingScreenRemover-1.2 (1).jar:?]
+	at LoadingScreenRemover-1.2 (1).jar/dev.unnm3d.loadingscreenremover.LoadingScreenRemover.onLoad(LoadingScreenRemover.java:23) ~[LoadingScreenRemover-1.2 (1).jar:?]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:560) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:326) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	... 3 more
+[07:26:31] [Server thread/INFO]: [LoadingScreenRemover] Disabling LoadingScreenRemover v1.2
+[07:26:31] [Server thread/INFO]: [GSit] Enabling GSit v1.10.0
+[07:26:31] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[07:26:31] [Server thread/INFO]: [GSit] Link with WorldGuard successful!
+[07:26:31] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.10.0
+[07:26:31] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
+[07:26:31] [Server thread/INFO]: [BetterTeams] File is up to date
+[07:26:31] [OkHttp https://watch-connect.minekube.net/.../INFO]: [connect] Started watching for new player sessions
+[07:26:32] [Server thread/INFO]: Display team name config value: prefix
+[07:26:32] [Server thread/INFO]: Loading below name. Type: PREFIX
+[07:26:32] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@6f38f063
+[07:26:32] [Server thread/INFO]: [LibreLogin] Enabling LibreLogin v0.23.0
+[07:26:32] [Server thread/INFO]: [LibreLogin] Bootstrapping LibreLogin...
+[07:26:32] [Server thread/INFO]: [LibreLogin] Loading messages...
+[07:26:32] [Server thread/INFO]: [LibreLogin] Loading configuration...
+[07:26:32] [Server thread/INFO]: [LibreLogin] Loading forbidden passwords...
+[07:26:32] [Server thread/INFO]: [LibreLogin] Loaded 984904 forbidden passwords
+[07:26:32] [Server thread/INFO]: [LibreLogin] Connecting to the database...
+[07:26:33] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.HikariDataSource] LibreLogin SQLite Pool - Starting...
+[07:26:33] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.pool.HikariPool] LibreLogin SQLite Pool - Added connection org.sqlite.jdbc4.JDBC4Connection@2e6e5215
+[07:26:33] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.HikariDataSource] LibreLogin SQLite Pool - Start completed.
+[07:26:33] [Server thread/INFO]: [LibreLogin] Successfully connected to the database
+[07:26:33] [Server thread/INFO]: [LibreLogin] Validating schema
+[07:26:33] [Server thread/INFO]: [LibreLogin] Schema validated
+[07:26:33] [Server thread/INFO]: [LibreLogin] Found world file for limbo, loading...
+[07:26:33] [Server thread/INFO]: Preparing start region for dimension minecraft:limbo
+[07:26:33] [Server thread/INFO]: Time elapsed: 224 ms
+[07:26:33] [Server thread/INFO]: [WorldGuard] (limbo) TNT ignition is PERMITTED.
+[07:26:33] [Server thread/INFO]: [WorldGuard] (limbo) Lighters are PERMITTED.
+[07:26:33] [Server thread/INFO]: [WorldGuard] (limbo) Lava fire is PERMITTED.
+[07:26:33] [Server thread/INFO]: [WorldGuard] (limbo) Fire spread is UNRESTRICTED.
+[07:26:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'limbo'
+[07:26:33] [Server thread/INFO]: [LibreLogin] [ACF] Enabled Asynchronous Tab Completion Support!
+[07:26:33] [Server thread/INFO]: [LibreLogin] LuckPerms detected, enabling context provider
+[07:26:33] [Server thread/INFO]: [PvPManager] Enabling PvPManager v3.18.26
+[07:26:33] [Server thread/INFO]: [PvPManager] Using player nametags: true
+[07:26:33] [Server thread/INFO]: [PvPManager] Connected to SQLITE database successfully
+[07:26:33] [Server thread/INFO]: [PvPManager] Players stored: 1
+[07:26:33] [Server thread/INFO]: [PvPManager] WorldGuard Found! Enabling Support For WorldGuard Regions
+[07:26:33] [Server thread/WARN]: [PvPManager] Vault not found! Features requiring Vault won't work!
+[07:26:34] [Server thread/INFO]: [PvPManager] PvPManager v3.18.26 enabled (374 ms)
+[07:26:34] [Server thread/ERROR]: Permission node 'paste' in plugin description file for BuildPaste v1.11.1 is invalid
+java.lang.IllegalArgumentException: Data cannot be null
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:143) ~[guava-32.1.2-jre.jar:?]
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:293) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:240) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:945) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:641) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:603) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:757) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:519) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:363) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:26:34] [Server thread/ERROR]: Permission node 'upload' in plugin description file for BuildPaste v1.11.1 is invalid
+java.lang.IllegalArgumentException: Data cannot be null
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:143) ~[guava-32.1.2-jre.jar:?]
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:293) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:240) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:945) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:641) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:603) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:757) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:519) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:363) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:26:34] [Server thread/ERROR]: Permission node 'construct' in plugin description file for BuildPaste v1.11.1 is invalid
+java.lang.IllegalArgumentException: Data cannot be null
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:143) ~[guava-32.1.2-jre.jar:?]
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:293) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:240) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:945) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:641) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:603) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:757) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:519) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:363) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:26:34] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[07:26:34] [Server thread/INFO]: [spark] Starting background profiler...
