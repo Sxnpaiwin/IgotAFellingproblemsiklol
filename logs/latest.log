@@ -663,3 +663,14 @@ c<--[HERE]
 [10:29:47] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
 [10:29:47] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
 [10:29:47] [Server thread/INFO]: [Skript] Successfully reloaded chat pop.sk. (39ms)
+[10:30:07] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
+...minecraft:{_sound} master CladdyDaddy ~ ~ ~ 1 1<--[HERE]
+[10:30:07] [Server thread/INFO]: Unknown particle: minecraft:
+...minecraft:{_particle} CladdyDaddy ~0.5 ~1 ~0.5 0.1 0.1 0.1 0.1 10<--[HERE]
+[10:30:13] [Craft Scheduler Thread - 32 - InteractiveChat/INFO]: [Not Secure] <CladdyDaddy> t
+[10:30:15] [Craft Scheduler Thread - 27 - InteractiveChat/INFO]: [Not Secure] <CladdyDaddy> test
+[10:30:34] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
+...minecraft:{_sound} master CladdyDaddy ~ ~ ~ 1 1<--[HERE]
+[10:30:34] [Server thread/INFO]: Unknown particle: minecraft:
+...minecraft:{_particle} CladdyDaddy ~0.5 ~1 ~0.5 0.1 0.1 0.1 0.1 10<--[HERE]
+[10:30:34] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] <CladdyDaddy> s
