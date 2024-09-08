@@ -327,3 +327,14 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ArrayIndex
 [10:58:26] [Server thread/INFO]: Unknown particle: minecraft:
 ...minecraft:{_particle} shqdoow ~0.5 ~1 ~0.5 0.1 0.1 0.1 0.1 10<--[HERE]
 [10:58:26] [Craft Scheduler Thread - 7 - InteractiveChat/INFO]: [Not Secure] <CladdyDaddy> wsg
+[10:58:30] [Craft Scheduler Thread - 18 - InteractiveChat/INFO]: [Not Secure] <shqdoow> peak ping
+[10:58:33] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
+...minecraft:{_sound} master CladdyDaddy ~ ~ ~ 1 1<--[HERE]
+[10:58:33] [Server thread/INFO]: Unknown particle: minecraft:
+...minecraft:{_particle} CladdyDaddy ~0.5 ~1 ~0.5 0.1 0.1 0.1 0.1 10<--[HERE]
+[10:58:33] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
+...minecraft:{_sound} master shqdoow ~ ~ ~ 1 1<--[HERE]
+[10:58:33] [Server thread/INFO]: Unknown particle: minecraft:
+...minecraft:{_particle} shqdoow ~0.5 ~1 ~0.5 0.1 0.1 0.1 0.1 10<--[HERE]
+[10:58:33] [Craft Scheduler Thread - 10 - InteractiveChat/INFO]: [Not Secure] <shqdoow> why i got 86 ms
+[10:58:36] [Craft Scheduler Thread - 11 - InteractiveChat/INFO]: [Not Secure] <CladdyDaddy> cold
