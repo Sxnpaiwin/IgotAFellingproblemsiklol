@@ -373,6 +373,7 @@
       "heavy_metal": "2024-09-07 17:08:54 +0000",
       "diamond_miner": "2024-09-07 15:59:00 +0000",
       "just_keep_swimming": "2024-09-07 16:03:53 +0000",
+      "camping_out": "2024-09-08 09:00:51 +0000",
       "spring_in_your_step": "2024-09-07 17:13:30 +0000",
       "en_garde": "2024-09-08 08:38:46 +0000",
       "stairs_no": "2024-09-07 16:22:43 +0000"
@@ -840,6 +841,7 @@
       "help_ive_been_framed": "2024-09-07 16:27:16 +0000",
       "stationary_storage": "2024-09-08 08:39:59 +0000",
       "glowing": "2024-09-08 08:37:31 +0000",
+      "camping_out": "2024-09-08 09:00:51 +0000",
       "sweet_dreams": "2024-09-07 19:49:36 +0000",
       "raise_the_flag": "2024-09-07 16:21:37 +0000",
       "pathways": "2024-09-08 08:55:17 +0000",
@@ -1371,6 +1373,12 @@
       "glowstone": "2024-09-08 08:37:31 +0000"
     },
     "done": false
+  },
+  "blazeandcave:building/camping_out": {
+    "criteria": {
+      "campfire": "2024-09-08 09:00:51 +0000"
+    },
+    "done": true
   },
   "blazeandcave:building/a_good_start": {
     "criteria": {
