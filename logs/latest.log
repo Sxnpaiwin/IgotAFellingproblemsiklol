@@ -363,3 +363,6 @@ java.lang.IllegalArgumentException: Data cannot be null
 [07:20:12] [User Authenticator #0/INFO]: UUID of player CladdyDaddy is 41a7d88c-27d7-3fde-ab2b-6fcfd7d3c029
 [07:20:19] [Server thread/INFO]: CladdyDaddy joined the game
 [07:20:20] [Server thread/INFO]: CladdyDaddy[/127.84.203.153:51229] logged in with entity id 213 at ([limbo]0.0, 70.0, 0.0)
+[07:21:42] [Server thread/INFO]: Locating element nova_structures:remnant_graveyard took 64 ms
+[07:21:45] [Server thread/INFO]: [CladdyDaddy: Teleported CladdyDaddy to 1024.500000, 78.410894, 464.500000]
+[07:21:57] [Server thread/INFO]: [CladdyDaddy: Set own game mode to Spectator Mode]
