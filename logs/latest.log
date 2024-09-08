@@ -336,3 +336,14 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ArrayIndex
 [16:47:20] [Server thread/INFO]:     Line: if {lastsound::%loop-player%} is not set or difference between now and {lastsound::%loop-player%} is greater than {@sound-spam-delay}:
 [16:47:20] [Server thread/INFO]:  
 [16:47:20] [Server thread/INFO]: [Skript] Encountered 1 error while reloading chat.sk! (36ms)
+[16:48:36] [pool-19-thread-2/WARN]: Executing command "sk reload chat.sk"..
+[16:48:36] [Server thread/INFO]: [Skript] Reloading chat.sk...
+[16:48:37] [Server thread/INFO]: Line 24: (chat.sk)
+[16:48:37] [Server thread/INFO]:     There's no loop that matches 'loop-player with pitch 1 volume 1'
+[16:48:37] [Server thread/INFO]:     Line: play sound {@sound-name} at loop-player with pitch 1 volume 1
+[16:48:37] [Server thread/INFO]:  
+[16:48:37] [Server thread/INFO]: Line 27: (chat.sk)
+[16:48:37] [Server thread/INFO]:     There's no loop that matches 'loop-player with pitch 1 volume 1'
+[16:48:37] [Server thread/INFO]:     Line: play sound {@sound-name} at loop-player with pitch 1 volume 1
+[16:48:37] [Server thread/INFO]:  
+[16:48:37] [Server thread/INFO]: [Skript] Encountered 2 errors while reloading chat.sk! (168ms)
