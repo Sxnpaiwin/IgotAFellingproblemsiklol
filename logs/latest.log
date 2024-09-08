@@ -74,3 +74,130 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [16:43:38] [Server thread/INFO]: [Origins-Reborn] Loading server plugin Origins-Reborn v2.3.18
 [16:43:38] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0-SNAPSHOT-726
 [16:43:38] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.0) has not yet been tested! Proceed with caution.
+[16:43:38] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.4-SNAPSHOT
+[16:43:38] [Server thread/INFO]: [Origins-Fantasy] Loading server plugin Origins-Fantasy v1.0.15
+[16:43:38] [Server thread/INFO]: [MinecraftDashboard] Loading server plugin MinecraftDashboard v1.1.7
+[16:43:38] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.7.10.0
+[16:43:38] [Server thread/INFO]: [Origins-Mobs] Loading server plugin Origins-Mobs v1.0.18
+[16:43:38] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.1.3
+[16:43:39] [Server thread/INFO]: [InteractiveChat] Loading server plugin InteractiveChat v4.2.11.0
+[16:43:39] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.4.0
+[16:43:41] [Server thread/INFO]: [LoadingScreenRemover] Loading server plugin LoadingScreenRemover v1.2
+[16:43:41] [Server thread/ERROR]: [LoadingScreenRemover] Error initializing plugin 'LoadingScreenRemover-1.2 (1).jar' in folder 'plugins/.paper-remapped' (Is it up to date?)
+java.lang.ExceptionInInitializerError: null
+	at LoadingScreenRemover-1.2 (1).jar/dev.unnm3d.loadingscreenremover.libraries.packetevents.impl.factory.spigot.SpigotPacketEventsBuilder$1.load(SpigotPacketEventsBuilder.java:103) ~[LoadingScreenRemover-1.2 (1).jar:?]
+	at LoadingScreenRemover-1.2 (1).jar/dev.unnm3d.loadingscreenremover.LoadingScreenRemover.onLoad(LoadingScreenRemover.java:23) ~[LoadingScreenRemover-1.2 (1).jar:?]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:560) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:326) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at LoadingScreenRemover-1.2 (1).jar/dev.unnm3d.loadingscreenremover.libraries.packetevents.impl.util.SpigotReflectionUtil.<clinit>(SpigotReflectionUtil.java:54) ~[LoadingScreenRemover-1.2 (1).jar:?]
+	... 11 more
+[16:43:41] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.2
+[16:43:41] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.10.0
+[16:43:41] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.10.0
+[16:43:41] [Server thread/INFO]: [BetterTeams] Checking if the file config.yml is up to date
+[16:43:41] [Server thread/INFO]: [BetterTeams] File is up to date
+[16:43:41] [Server thread/INFO]: [LibreLogin] Loading server plugin LibreLogin v0.23.0
+[16:43:41] [Server thread/INFO]: [LibreLogin] Analyzing server setup...
+[16:43:41] [Server thread/INFO]: [LibreLogin] Detected Adventure-compatible server distribution - Purpur 1.21-2284-4e55e26 (MC: 1.21)
+[16:43:41] [Server thread/INFO]: [LibreLogin] Loading libraries...
+[16:43:43] [Server thread/INFO]: [PvPManager] Loading server plugin PvPManager v3.18.26
+[16:43:43] [Server thread/INFO]: [ZeroInventoryProblems] Loading server plugin ZeroInventoryProblems v1.0.14
+[16:43:43] [Server thread/INFO]: [Origins-Monsters] Loading server plugin Origins-Monsters v1.1.10
+[16:43:43] [Server thread/ERROR]: Permission node 'groups' in permissions.yml is invalid
+java.lang.IllegalArgumentException: 'default' key contained unknown value
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:303) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:240) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.loadCustomPermissions(CraftServer.java:1253) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:596) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:327) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[16:43:43] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.141
+[16:43:43] [Server thread/INFO]:         __    
+[16:43:43] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.141
+[16:43:43] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
+[16:43:43] [Server thread/INFO]: 
+[16:43:43] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[16:43:43] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[16:43:44] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[16:43:44] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[16:43:44] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1389ms)
+[16:43:44] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[16:43:44] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:43:44] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[16:43:44] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[16:43:44] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.11.1
+[16:43:45] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[16:43:45] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[16:43:45] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:43:45] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[16:43:45] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightFaweAdapter as the Bukkit adapter
+[16:43:47] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0-SNAPSHOT-726
+[16:43:47] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.1.3
+[16:43:47] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.2
+[16:43:47] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[16:43:48] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[16:43:49] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[16:43:49] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.4.2]
+[16:43:49] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[16:43:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:43:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:43:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:43:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:43:49] [Server thread/INFO]: Preparing level "world"
+[16:43:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:43:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[16:43:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[16:43:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[16:43:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[16:43:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[16:43:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:43:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.2
+[16:43:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 210a436
+[16:43:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[16:43:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:43:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:43:51] [Server thread/INFO]: Time elapsed: 1084 ms
+[16:43:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:43:51] [Server thread/INFO]: Time elapsed: 194 ms
+[16:43:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:43:51] [Server thread/INFO]: Time elapsed: 101 ms
+[16:43:51] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.4-SNAPSHOT
+[16:43:51] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[16:43:51] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.11-beta1+a801a9d
+[16:43:51] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[16:43:51] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[16:43:51] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[16:43:51] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[16:43:51] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[16:43:51] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[16:43:51] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[16:43:51] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[16:43:51] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[16:43:51] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[16:43:51] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[16:43:51] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[16:43:51] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[16:43:51] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[16:43:51] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[16:43:51] [Server thread/INFO]: [WorldGuard] Loading region data...
+[16:43:52] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[16:43:53] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:43:53] [Server thread/INFO]: [Skript] Enabling Skript v2.9.2
+[16:43:54] [ForkJoinPool.commonPool-worker-3/INFO]: [Skript] You're currently running the latest stable version of Skript.
+[16:44:06] [Server thread/INFO]: [Skript] Loaded 233074 aliases in 11883ms
+[16:44:07] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[16:44:07] [Server thread/INFO]: [Origins-Reborn] Enabling Origins-Reborn v2.3.18
+[16:44:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: origin [unknown]
+[16:44:08] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.4-SNAPSHOT
+[16:44:08] [Server thread/INFO]: [Origins-Fantasy] Enabling Origins-Fantasy v1.0.15
+[16:44:08] [Server thread/INFO]: [MinecraftDashboard] Enabling MinecraftDashboard v1.1.7

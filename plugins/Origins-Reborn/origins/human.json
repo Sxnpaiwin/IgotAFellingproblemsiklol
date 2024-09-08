@@ -1,0 +1,8 @@
+{
+	"icon": {
+		"item": "minecraft:player_head"
+	},
+	"order": 0,
+	"impact": 0,
+	"description": "A regular human. Your ordinary Minecraft experience awaits."
+}

@@ -1,0 +1,66 @@
+origins:fragile:
+  value: x
+  operation: default
+origins:tailwind:
+  value: x
+  operation: default
+origins:nine_lives:
+  value: x
+  operation: default
+origins:natural_armor:
+  value: x
+  operation: default
+origins:extra_reach_blocks:
+  value: x
+  operation: default
+origins:extra_reach_entities:
+  value: x
+  operation: default
+fantasyorigins:double_health:
+  value: x
+  operation: default
+fantasyorigins:elegy:
+  value: x
+  operation: default
+fantasyorigins:increased_cooldown:
+  value: x
+  operation: default
+fantasyorigins:increased_damage:
+  value: x
+  operation: default
+fantasyorigins:end_health:
+  value: x
+  operation: default
+fantasyorigins:end_strength:
+  value: x
+  operation: default
+fantasyorigins:land_weakness:
+  value: x
+  operation: default
+fantasyorigins:land_health:
+  value: x
+  operation: default
+fantasyorigins:land_slowness:
+  value: x
+  operation: default
+fantasyorigins:moon_strength:
+  value: x
+  operation: default
+fantasyorigins:natural_armor:
+  value: x
+  operation: default
+fantasyorigins:water_health:
+  value: x
+  operation: default
+fantasyorigins:water_strength:
+  value: x
+  operation: default
+fantasyorigins:stronger:
+  value: x
+  operation: default
+fantasyorigins:large_body:
+  value: x
+  operation: default
+fantasyorigins:small_body:
+  value: x
+  operation: default

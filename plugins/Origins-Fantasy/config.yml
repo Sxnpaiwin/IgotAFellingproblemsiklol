@@ -1,0 +1,8 @@
+# Vampire transform chance - a number between 0 and 1 with 1 being always and 0 being never
+vampire-transform-chance: 1
+
+# Amount to multiply arrow speed by when using the Increased Arrow Speed ability
+arrow-speed-multiplier: 2
+
+# Amount to increase arrow damage by when using the Increased Arrow Damage ability
+arrow-damage-increase: 3
