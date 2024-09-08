@@ -338,3 +338,23 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ArrayIndex
 ...minecraft:{_particle} shqdoow ~0.5 ~1 ~0.5 0.1 0.1 0.1 0.1 10<--[HERE]
 [10:58:33] [Craft Scheduler Thread - 10 - InteractiveChat/INFO]: [Not Secure] <shqdoow> why i got 86 ms
 [10:58:36] [Craft Scheduler Thread - 11 - InteractiveChat/INFO]: [Not Secure] <CladdyDaddy> cold
+[10:58:59] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
+...minecraft:{_sound} master CladdyDaddy ~ ~ ~ 1 1<--[HERE]
+[10:58:59] [Server thread/INFO]: Unknown particle: minecraft:
+...minecraft:{_particle} CladdyDaddy ~0.5 ~1 ~0.5 0.1 0.1 0.1 0.1 10<--[HERE]
+[10:58:59] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
+...minecraft:{_sound} master shqdoow ~ ~ ~ 1 1<--[HERE]
+[10:58:59] [Server thread/INFO]: Unknown particle: minecraft:
+...minecraft:{_particle} shqdoow ~0.5 ~1 ~0.5 0.1 0.1 0.1 0.1 10<--[HERE]
+[10:58:59] [Craft Scheduler Thread - 8 - InteractiveChat/INFO]: [Not Secure] <shqdoow> cold
+[10:59:02] [Craft Scheduler Thread - 8 - InteractiveChat/INFO]: [Not Secure] <shqdoow> i remember this
+[10:59:05] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
+...minecraft:{_sound} master CladdyDaddy ~ ~ ~ 1 1<--[HERE]
+[10:59:05] [Server thread/INFO]: Unknown particle: minecraft:
+...minecraft:{_particle} CladdyDaddy ~0.5 ~1 ~0.5 0.1 0.1 0.1 0.1 10<--[HERE]
+[10:59:05] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
+...minecraft:{_sound} master shqdoow ~ ~ ~ 1 1<--[HERE]
+[10:59:05] [Server thread/INFO]: Unknown particle: minecraft:
+...minecraft:{_particle} shqdoow ~0.5 ~1 ~0.5 0.1 0.1 0.1 0.1 10<--[HERE]
+[10:59:05] [Craft Scheduler Thread - 10 - InteractiveChat/INFO]: [Not Secure] <shqdoow> plugin
+[10:59:25] [Server thread/INFO]: [CladdyDaddy: Set the time to 1000]
