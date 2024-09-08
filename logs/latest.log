@@ -345,3 +345,19 @@ java.lang.IllegalArgumentException: Data cannot be null
 [10:44:27] [Craft Scheduler Thread - 10 - Vault/INFO]: [Vault] No new version available
 [10:44:27] [Server thread/INFO]: [Skript] Loading variables...
 [10:44:27] [Server thread/INFO]: [Skript] Loaded 3 variables in 0.0 seconds
+[10:44:28] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
+[10:44:28] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
+[10:44:28] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[10:44:28] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 6 structures in 0.63 seconds
+[10:44:28] [Server thread/INFO]: [Skript] Finished loading.
+[10:44:28] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[10:44:28] [Server thread/INFO]: Done (83.453s)! For help, type "help"
+[10:44:28] [Craft Scheduler Thread - 6 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 2 ImageMaps!
+[10:44:28] [Craft Scheduler Thread - 10 - LibreLogin/INFO]: [LibreLogin] Checking for updates...
+[10:44:28] [PvPManager Worker Thread - 0/INFO]: [PvPManager] Checking for updates...
+[10:44:28] [PvPManager Worker Thread - 0/INFO]: [PvPManager] No update found
+[10:44:28] [Craft Scheduler Thread - 10 - LibreLogin/INFO]: [LibreLogin] You are running the latest version of LibreLogin
+[10:44:29] [Craft Scheduler Thread - 4 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
+[10:44:35] [User Authenticator #0/INFO]: UUID of player CladdyDaddy is 41a7d88c-27d7-3fde-ab2b-6fcfd7d3c029
+[10:44:38] [Server thread/INFO]: CladdyDaddy joined the game
+[10:44:39] [Server thread/INFO]: CladdyDaddy[/127.84.203.153:35229] logged in with entity id 217 at ([limbo]0.0, 70.0, 0.0)
