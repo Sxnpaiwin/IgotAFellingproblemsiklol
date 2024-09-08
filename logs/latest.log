@@ -178,3 +178,97 @@ java.lang.IllegalArgumentException: 'default' key contained unknown value
 [20:18:09] [Server thread/INFO]: [MinecraftDashboard] Enabling MinecraftDashboard v1.1.7
 [20:18:13] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 135 ms to scan 1 urls, producing 2 keys and 34 values
 [20:18:13] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.7.10.0
+[20:18:13] [Server thread/INFO]: [ImageFrame] ImageFrame has hooked into ViaVersion!
+[20:18:13] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[20:18:13] [Server thread/INFO]: [Origins-Mobs] Enabling Origins-Mobs v1.0.18
+[20:18:14] [Server thread/INFO]: [InteractiveChat] Enabling InteractiveChat v4.2.11.0
+[20:18:14] [Server thread/INFO]: [InteractiveChat] Opened Sqlite database successfully
+[20:18:14] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into ViaVersion!
+[20:18:14] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into LuckPerms!
+[20:18:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: interactivechat [4.2.11.0]
+[20:18:15] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Enabled!
+[20:18:15] [Server thread/INFO]: [packetevents] Enabling packetevents v2.4.0
+[20:18:15] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[20:18:15] [Server thread/INFO]: [GSit] Enabling GSit v1.10.0
+[20:18:15] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[20:18:15] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
+[20:18:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [1.10.0]
+[20:18:15] [Server thread/INFO]: [GSit] Link with WorldGuard successful!
+[20:18:15] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.10.0
+[20:18:15] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
+[20:18:15] [Server thread/INFO]: [BetterTeams] File is up to date
+[20:18:15] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release of PacketEvents. Your build: (2.4.0)
+[20:18:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterTeams [4.10.0]
+[20:18:15] [Server thread/INFO]: Display team name config value: prefix
+[20:18:15] [Server thread/INFO]: Loading below name. Type: PREFIX
+[20:18:15] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@737881e0
+[20:18:15] [Server thread/INFO]: [LibreLogin] Enabling LibreLogin v0.23.0
+[20:18:15] [Server thread/INFO]: [LibreLogin] Bootstrapping LibreLogin...
+[20:18:15] [Server thread/INFO]: [LibreLogin] Loading messages...
+[20:18:16] [Server thread/INFO]: [LibreLogin] Loading configuration...
+[20:18:16] [Server thread/INFO]: [LibreLogin] Loading forbidden passwords...
+[20:18:16] [Server thread/INFO]: [LibreLogin] Loaded 984904 forbidden passwords
+[20:18:16] [Server thread/INFO]: [LibreLogin] Connecting to the database...
+[20:18:16] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.HikariDataSource] LibreLogin SQLite Pool - Starting...
+[20:18:16] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.pool.HikariPool] LibreLogin SQLite Pool - Added connection org.sqlite.jdbc4.JDBC4Connection@53a1a02e
+[20:18:16] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.HikariDataSource] LibreLogin SQLite Pool - Start completed.
+[20:18:16] [Server thread/INFO]: [LibreLogin] Successfully connected to the database
+[20:18:16] [Server thread/INFO]: [LibreLogin] Validating schema
+[20:18:16] [Server thread/INFO]: [LibreLogin] Schema validated
+[20:18:16] [Server thread/INFO]: [LibreLogin] Found world file for limbo, loading...
+[20:18:16] [Server thread/INFO]: Preparing start region for dimension minecraft:limbo
+[20:18:16] [Server thread/INFO]: Time elapsed: 96 ms
+[20:18:16] [Server thread/INFO]: [WorldGuard] (limbo) TNT ignition is PERMITTED.
+[20:18:16] [Server thread/INFO]: [WorldGuard] (limbo) Lighters are PERMITTED.
+[20:18:16] [Server thread/INFO]: [WorldGuard] (limbo) Lava fire is PERMITTED.
+[20:18:16] [Server thread/INFO]: [WorldGuard] (limbo) Fire spread is UNRESTRICTED.
+[20:18:16] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'limbo'
+[20:18:17] [Server thread/INFO]: [LibreLogin] [ACF] Enabled Asynchronous Tab Completion Support!
+[20:18:17] [Server thread/INFO]: [LibreLogin] LuckPerms detected, enabling context provider
+[20:18:17] [Server thread/INFO]: [PvPManager] Enabling PvPManager v3.18.26
+[20:18:17] [Server thread/INFO]: [PvPManager] Using player nametags: true
+[20:18:17] [Server thread/INFO]: [PvPManager] Connected to SQLITE database successfully
+[20:18:17] [Server thread/INFO]: [PvPManager] Players stored: 2
+[20:18:17] [Server thread/INFO]: [PvPManager] WorldGuard Found! Enabling Support For WorldGuard Regions
+[20:18:17] [Server thread/INFO]: [PvPManager] Vault Found! Using it for currency related features
+[20:18:17] [Server thread/WARN]: [PvPManager] Error loading Vault! No Economy plugin found
+[20:18:17] [Server thread/INFO]: [PvPManager] PlaceholderAPI Found! Hooked successfully
+[20:18:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: pvpmanager [3.18.26]
+[20:18:17] [Server thread/INFO]: [PvPManager] PvPManager v3.18.26 enabled (345 ms)
+[20:18:17] [Server thread/INFO]: [ZeroInventoryProblems] Enabling ZeroInventoryProblems v1.0.14
+[20:18:17] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:18:17] [Server thread/INFO]: [Origins-Monsters] Enabling Origins-Monsters v1.1.10
+[20:18:17] [Server thread/INFO]: [spark] Starting background profiler...
+[20:18:18] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:18:18] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[20:18:18] [Server thread/INFO]: Done preparing level "world" (27.382s)
+[20:18:18] [Server thread/INFO]: Starting GS4 status listener
+[20:18:18] [Server thread/INFO]: Thread Query Listener started
+[20:18:18] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[20:18:18] [Server thread/INFO]: Running delayed init tasks
+[20:18:18] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[20:18:18] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[20:18:18] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[20:18:18] [Craft Scheduler Thread - 9 - InteractiveChat/INFO]: [InteractiveChat] Loading languages...
+[20:18:18] [Craft Scheduler Thread - 12 - Vault/INFO]: [Vault] Checking for Updates ... 
+[20:18:18] [Craft Scheduler Thread - 12 - Vault/INFO]: [Vault] No new version available
+[20:18:19] [Server thread/INFO]: [Skript] Loading variables...
+[20:18:19] [Server thread/INFO]: [Skript] Loaded 3 variables in 0.0 seconds
+[20:18:19] [Server thread/INFO]: [Skript] Line 24: (chat.sk)
+[20:18:19] [Server thread/INFO]:     There's no loop that matches 'loop-player with pitch 1 volume 1'
+[20:18:19] [Server thread/INFO]:     Line: play sound {@sound-name} at loop-player with pitch 1 volume 1
+[20:18:19] [Server thread/INFO]:  
+[20:18:19] [Server thread/INFO]: [Skript] Line 27: (chat.sk)
+[20:18:19] [Server thread/INFO]:     There's no loop that matches 'loop-player with pitch 1 volume 1'
+[20:18:19] [Server thread/INFO]:     Line: play sound {@sound-name} at loop-player with pitch 1 volume 1
+[20:18:19] [Server thread/INFO]:  
+[20:18:19] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 4 structures in 0.46 seconds
+[20:18:19] [Server thread/INFO]: [Skript] Finished loading.
+[20:18:19] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[20:18:19] [Server thread/INFO]: Done (87.719s)! For help, type "help"
+[20:18:19] [Craft Scheduler Thread - 5 - LibreLogin/INFO]: [LibreLogin] Checking for updates...
+[20:18:19] [Craft Scheduler Thread - 6 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 2 ImageMaps!
+[20:18:20] [Craft Scheduler Thread - 5 - LibreLogin/INFO]: [LibreLogin] You are running the latest version of LibreLogin
+[20:18:20] [PvPManager Worker Thread - 0/INFO]: [PvPManager] Checking for updates...
+[20:18:20] [PvPManager Worker Thread - 0/INFO]: [PvPManager] No update found
+[20:18:20] [Craft Scheduler Thread - 11 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
