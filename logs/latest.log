@@ -393,3 +393,4 @@ java.lang.IllegalArgumentException: Data cannot be null
 [10:08:48] [Server thread/INFO]: CladdyDaddy[/127.84.203.153:54867] logged in with entity id 209 at ([limbo]0.0, 70.0, 0.0)
 [10:09:15] [Craft Scheduler Thread - 11 - InteractiveChat/INFO]: [Not Secure] <CladdyDaddy> c
 [10:09:17] [Craft Scheduler Thread - 13 - InteractiveChat/INFO]: [Not Secure] <CladdyDaddy> v
+[10:09:29] [Server thread/INFO]: [Skript] Can't find the script 'chatpop' in the scripts folder!
