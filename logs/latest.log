@@ -14522,3 +14522,21 @@ java.lang.IllegalArgumentException: Data cannot be null
 [07:35:53] [Server thread/INFO]: Changed the block at 30, 67, -298
 [07:35:53] [Server thread/INFO]: Changed the block at 31, 67, -298
 [07:35:53] [Server thread/INFO]: Changed the block at 32, 67, -298
+[07:35:59] [Server thread/INFO]: Could not set the block
+[07:35:59] [Server thread/INFO]: Could not set the block
+[07:35:59] [Server thread/INFO]: Could not set the block
+[07:35:59] [Server thread/INFO]: Could not set the block
+[07:35:59] [Server thread/INFO]: Changed the block at 33, 63, -291
+[07:35:59] [Server thread/INFO]: Could not set the block
+[07:35:59] [Server thread/INFO]: Could not set the block
+[07:35:59] [Server thread/INFO]: Changed the block at 33, 64, -291
+[07:35:59] [Server thread/INFO]: Could not set the block
+[07:35:59] [Server thread/INFO]: Changed the block at 33, 65, -292
+[07:35:59] [Server thread/INFO]: Changed the block at 33, 65, -291
+[07:35:59] [Server thread/INFO]: Changed the block at 33, 65, -290
+[07:35:59] [Server thread/INFO]: Changed the block at 33, 66, -292
+[07:35:59] [Server thread/INFO]: Changed the block at 33, 66, -291
+[07:35:59] [Server thread/INFO]: Changed the block at 33, 66, -290
+[07:35:59] [Server thread/INFO]: Changed the block at 33, 67, -292
+[07:35:59] [Server thread/INFO]: Changed the block at 33, 67, -291
+[07:35:59] [Server thread/INFO]: Changed the block at 33, 67, -290
