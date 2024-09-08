@@ -415,3 +415,20 @@ java.lang.IllegalArgumentException: Data cannot be null
 [10:22:21] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
 [10:22:21] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
 [10:22:21] [Server thread/INFO]: [Skript] Encountered 2 errors while reloading chat pop.sk! (365ms)
+[10:23:10] [Server thread/INFO]: ChatPop » Plugin unloaded successfully :)
+[10:23:11] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
+[10:23:11] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
+[10:23:16] [pool-14-thread-1/WARN]: Executing command "sk reload chat pop.sk"..
+[10:23:16] [Server thread/INFO]: [Skript] Reloading chat pop.sk...
+[10:23:16] [Server thread/INFO]: ChatPop » Plugin unloaded successfully :)
+[10:23:16] [Server thread/INFO]: Line 62: (chat pop.sk)
+[10:23:16] [Server thread/INFO]:     Can't understand this condition/effect: play {_particle} particle at location of player offset by 0.5, 1, 0.5 with speed 0.1 and amount 10
+[10:23:16] [Server thread/INFO]:     Line: play {_particle} particle at location of player offset by 0.5, 1, 0.5 with speed 0.1 and amount 10
+[10:23:16] [Server thread/INFO]:  
+[10:23:16] [Server thread/INFO]: Line 89: (chat pop.sk)
+[10:23:16] [Server thread/INFO]:     There's no loop that matches 'loop-player offset by 0.5, 1, 0.5 with speed 0.1 and amount 10'
+[10:23:16] [Server thread/INFO]:     Line: play {_particle} particle at location of loop-player offset by 0.5, 1, 0.5 with speed 0.1 and amount 10
+[10:23:16] [Server thread/INFO]:  
+[10:23:16] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
+[10:23:16] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
+[10:23:16] [Server thread/INFO]: [Skript] Encountered 2 errors while reloading chat pop.sk! (615ms)
