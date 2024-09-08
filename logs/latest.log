@@ -454,3 +454,72 @@ java.lang.IllegalArgumentException: Data cannot be null
 [10:24:01] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
 [10:24:01] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
 [10:24:01] [Server thread/INFO]: [Skript] Encountered 4 errors while reloading chat pop.sk! (220ms)
+[10:24:47] [pool-14-thread-2/WARN]: Executing command "sk reload chat pop.sk"..
+[10:24:47] [Server thread/INFO]: [Skript] Reloading chat pop.sk...
+[10:24:47] [Server thread/INFO]: ChatPop » Plugin unloaded successfully :)
+[10:24:47] [Server thread/INFO]: Line 60: (chat pop.sk)
+[10:24:47] [Server thread/INFO]:     Can't understand this condition/effect: play sound {_sound} at player with volume 1 and pitch 1
+[10:24:47] [Server thread/INFO]:     Line: play sound {_sound} at player with volume 1 and pitch 1
+[10:24:47] [Server thread/INFO]:  
+[10:24:47] [Server thread/INFO]: Line 62: (chat pop.sk)
+[10:24:47] [Server thread/INFO]:     You cannot get all values of type 'time'
+[10:24:47] [Server thread/INFO]:     Line: play {_particle} particle at player offset by 0.5, 1, 0.5 with speed 0.1 for 10 times
+[10:24:47] [Server thread/INFO]:  
+[10:24:47] [Server thread/INFO]: Line 87: (chat pop.sk)
+[10:24:47] [Server thread/INFO]:     There's no loop that matches 'loop-player with volume 1 and pitch 1'
+[10:24:47] [Server thread/INFO]:     Line: play sound {_sound} at loop-player with volume 1 and pitch 1
+[10:24:47] [Server thread/INFO]:  
+[10:24:47] [Server thread/INFO]: Line 89: (chat pop.sk)
+[10:24:47] [Server thread/INFO]:     There's no loop that matches 'loop-player offset by 0.5, 1, 0.5 with speed 0.1 for 10 times'
+[10:24:47] [Server thread/INFO]:     Line: play {_particle} particle at loop-player offset by 0.5, 1, 0.5 with speed 0.1 for 10 times
+[10:24:47] [Server thread/INFO]:  
+[10:24:47] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
+[10:24:47] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
+[10:24:47] [Server thread/INFO]: [Skript] Encountered 4 errors while reloading chat pop.sk! (287ms)
+[10:24:52] [pool-14-thread-3/WARN]: Executing command "sk reload chat pop.sk"..
+[10:24:52] [Server thread/INFO]: [Skript] Reloading chat pop.sk...
+[10:24:52] [Server thread/INFO]: ChatPop » Plugin unloaded successfully :)
+[10:24:52] [Server thread/INFO]: Line 60: (chat pop.sk)
+[10:24:52] [Server thread/INFO]:     Can't understand this condition/effect: play sound {_sound} at player with volume 1 and pitch 1
+[10:24:52] [Server thread/INFO]:     Line: play sound {_sound} at player with volume 1 and pitch 1
+[10:24:52] [Server thread/INFO]:  
+[10:24:52] [Server thread/INFO]: Line 62: (chat pop.sk)
+[10:24:52] [Server thread/INFO]:     You cannot get all values of type 'time'
+[10:24:52] [Server thread/INFO]:     Line: play {_particle} particle at player offset by 0.5, 1, 0.5 with speed 0.1 for 10 times
+[10:24:52] [Server thread/INFO]:  
+[10:24:52] [Server thread/INFO]: Line 87: (chat pop.sk)
+[10:24:52] [Server thread/INFO]:     There's no loop that matches 'loop-player with volume 1 and pitch 1'
+[10:24:52] [Server thread/INFO]:     Line: play sound {_sound} at loop-player with volume 1 and pitch 1
+[10:24:52] [Server thread/INFO]:  
+[10:24:52] [Server thread/INFO]: Line 89: (chat pop.sk)
+[10:24:52] [Server thread/INFO]:     There's no loop that matches 'loop-player offset by 0.5, 1, 0.5 with speed 0.1 for 10 times'
+[10:24:52] [Server thread/INFO]:     Line: play {_particle} particle at loop-player offset by 0.5, 1, 0.5 with speed 0.1 for 10 times
+[10:24:52] [Server thread/INFO]:  
+[10:24:52] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
+[10:24:52] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
+[10:24:52] [Server thread/INFO]: [Skript] Encountered 4 errors while reloading chat pop.sk! (261ms)
+[10:25:04] [Server thread/INFO]: ChatPop » Plugin unloaded successfully :)
+[10:25:04] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
+[10:25:04] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
+[10:25:10] [pool-14-thread-3/WARN]: Executing command "sk reload chat pop.sk"..
+[10:25:10] [Server thread/INFO]: [Skript] Reloading chat pop.sk...
+[10:25:10] [Server thread/INFO]: ChatPop » Plugin unloaded successfully :)
+[10:25:10] [Server thread/INFO]: Line 60: (chat pop.sk)
+[10:25:10] [Server thread/INFO]:     Can't understand this condition/effect: play sound {_sound} at player with volume 1 and pitch 1
+[10:25:10] [Server thread/INFO]:     Line: play sound {_sound} at player with volume 1 and pitch 1
+[10:25:10] [Server thread/INFO]:  
+[10:25:10] [Server thread/INFO]: Line 62: (chat pop.sk)
+[10:25:10] [Server thread/INFO]:     You cannot get all values of type 'time'
+[10:25:10] [Server thread/INFO]:     Line: play {_particle} particle at player offset by 0.5, 1, 0.5 with speed 0.1 for 10 times
+[10:25:10] [Server thread/INFO]:  
+[10:25:10] [Server thread/INFO]: Line 87: (chat pop.sk)
+[10:25:10] [Server thread/INFO]:     There's no loop that matches 'loop-player with volume 1 and pitch 1'
+[10:25:10] [Server thread/INFO]:     Line: play sound {_sound} at loop-player with volume 1 and pitch 1
+[10:25:10] [Server thread/INFO]:  
+[10:25:10] [Server thread/INFO]: Line 89: (chat pop.sk)
+[10:25:10] [Server thread/INFO]:     There's no loop that matches 'loop-player offset by 0.5, 1, 0.5 with speed 0.1 for 10 times'
+[10:25:10] [Server thread/INFO]:     Line: play {_particle} particle at loop-player offset by 0.5, 1, 0.5 with speed 0.1 for 10 times
+[10:25:10] [Server thread/INFO]:  
+[10:25:10] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
+[10:25:10] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
+[10:25:10] [Server thread/INFO]: [Skript] Encountered 4 errors while reloading chat pop.sk! (263ms)
