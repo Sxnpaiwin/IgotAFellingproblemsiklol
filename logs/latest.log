@@ -318,3 +318,5 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ArrayIndex
 [11:15:47] [Server thread/INFO]:  - BetterTeams, connect, FastAsyncWorldEdit, GSit, ImageFrame, InteractiveChat, InteractiveChatDiscordSrvAddon, LoadingScreenRemover, LuckPerms, MinecraftDashboard
 [11:15:47] [Server thread/INFO]:  packetevents, PlaceholderAPI, ProtocolLib, PvPManager, SkinsRestorer, Skript, Vault, Veinminer, ViaBackwards, ViaVersion
 [11:15:47] [Server thread/INFO]:  WorldGuard, ZeroInventoryProblems
+[11:18:40] [pool-14-thread-3/WARN]: Executing command "tps"..
+[11:18:40] [Server thread/INFO]: TPS from last 5s, 1m, 5m, 15m: 20.0, 20.0, 20.0, 20.0
