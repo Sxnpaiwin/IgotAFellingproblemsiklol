@@ -201,3 +201,126 @@ java.lang.IllegalArgumentException: 'default' key contained unknown value
 [16:44:08] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.4-SNAPSHOT
 [16:44:08] [Server thread/INFO]: [Origins-Fantasy] Enabling Origins-Fantasy v1.0.15
 [16:44:08] [Server thread/INFO]: [MinecraftDashboard] Enabling MinecraftDashboard v1.1.7
+[16:44:11] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 130 ms to scan 1 urls, producing 2 keys and 34 values
+[16:44:11] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.7.10.0
+[16:44:12] [Server thread/INFO]: [ImageFrame] ImageFrame has hooked into ViaVersion!
+[16:44:12] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[16:44:12] [Server thread/INFO]: [Origins-Mobs] Enabling Origins-Mobs v1.0.18
+[16:44:12] [Server thread/INFO]: [InteractiveChat] Enabling InteractiveChat v4.2.11.0
+[16:44:13] [Server thread/INFO]: [InteractiveChat] Opened Sqlite database successfully
+[16:44:13] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into ViaVersion!
+[16:44:13] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into LuckPerms!
+[16:44:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: interactivechat [4.2.11.0]
+[16:44:14] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Enabled!
+[16:44:14] [Server thread/INFO]: [packetevents] Enabling packetevents v2.4.0
+[16:44:14] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[16:44:14] [Server thread/INFO]: [LoadingScreenRemover] Enabling LoadingScreenRemover v1.2
+[16:44:14] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release of PacketEvents. Your build: (2.4.0)
+[16:44:14] [Server thread/ERROR]: Error occurred while enabling LoadingScreenRemover v1.2 (Is it up to date?)
+java.lang.NoClassDefFoundError: Could not initialize class dev.unnm3d.loadingscreenremover.libraries.packetevents.impl.util.SpigotReflectionUtil
+	at LoadingScreenRemover-1.2 (1).jar/dev.unnm3d.loadingscreenremover.libraries.packetevents.impl.factory.spigot.SpigotPacketEventsBuilder$1.load(SpigotPacketEventsBuilder.java:103) ~[LoadingScreenRemover-1.2 (1).jar:?]
+	at LoadingScreenRemover-1.2 (1).jar/dev.unnm3d.loadingscreenremover.libraries.packetevents.impl.factory.spigot.SpigotPacketEventsBuilder$1.init(SpigotPacketEventsBuilder.java:136) ~[LoadingScreenRemover-1.2 (1).jar:?]
+	at LoadingScreenRemover-1.2 (1).jar/dev.unnm3d.loadingscreenremover.LoadingScreenRemover.onEnable(LoadingScreenRemover.java:36) ~[LoadingScreenRemover-1.2 (1).jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:654) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:603) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:757) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:519) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:363) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3 [in thread "Server thread"]
+	at LoadingScreenRemover-1.2 (1).jar/dev.unnm3d.loadingscreenremover.libraries.packetevents.impl.util.SpigotReflectionUtil.<clinit>(SpigotReflectionUtil.java:54) ~[LoadingScreenRemover-1.2 (1).jar:?]
+	at LoadingScreenRemover-1.2 (1).jar/dev.unnm3d.loadingscreenremover.libraries.packetevents.impl.factory.spigot.SpigotPacketEventsBuilder$1.load(SpigotPacketEventsBuilder.java:103) ~[LoadingScreenRemover-1.2 (1).jar:?]
+	at LoadingScreenRemover-1.2 (1).jar/dev.unnm3d.loadingscreenremover.LoadingScreenRemover.onLoad(LoadingScreenRemover.java:23) ~[LoadingScreenRemover-1.2 (1).jar:?]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:560) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:326) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	... 3 more
+[16:44:14] [Server thread/INFO]: [LoadingScreenRemover] Disabling LoadingScreenRemover v1.2
+[16:44:14] [Server thread/INFO]: [GSit] Enabling GSit v1.10.0
+[16:44:14] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[16:44:14] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
+[16:44:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [1.10.0]
+[16:44:14] [Server thread/INFO]: [GSit] Link with WorldGuard successful!
+[16:44:14] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.10.0
+[16:44:14] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
+[16:44:14] [Server thread/INFO]: [BetterTeams] File is up to date
+[16:44:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterTeams [4.10.0]
+[16:44:14] [Server thread/INFO]: Display team name config value: prefix
+[16:44:14] [Server thread/INFO]: Loading below name. Type: PREFIX
+[16:44:14] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@22d198b7
+[16:44:14] [Server thread/INFO]: [LibreLogin] Enabling LibreLogin v0.23.0
+[16:44:14] [Server thread/INFO]: [LibreLogin] Bootstrapping LibreLogin...
+[16:44:14] [Server thread/INFO]: [LibreLogin] Loading messages...
+[16:44:15] [Server thread/INFO]: [LibreLogin] Loading configuration...
+[16:44:15] [Server thread/INFO]: [LibreLogin] Loading forbidden passwords...
+[16:44:15] [Server thread/INFO]: [LibreLogin] Loaded 984904 forbidden passwords
+[16:44:15] [Server thread/INFO]: [LibreLogin] Connecting to the database...
+[16:44:15] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.HikariDataSource] LibreLogin SQLite Pool - Starting...
+[16:44:15] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.pool.HikariPool] LibreLogin SQLite Pool - Added connection org.sqlite.jdbc4.JDBC4Connection@4611df65
+[16:44:15] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.HikariDataSource] LibreLogin SQLite Pool - Start completed.
+[16:44:15] [Server thread/INFO]: [LibreLogin] Successfully connected to the database
+[16:44:15] [Server thread/INFO]: [LibreLogin] Validating schema
+[16:44:15] [Server thread/INFO]: [LibreLogin] Schema validated
+[16:44:15] [Server thread/INFO]: [LibreLogin] Found world file for limbo, loading...
+[16:44:15] [Server thread/INFO]: Preparing start region for dimension minecraft:limbo
+[16:44:15] [Server thread/INFO]: Time elapsed: 98 ms
+[16:44:15] [Server thread/INFO]: [WorldGuard] (limbo) TNT ignition is PERMITTED.
+[16:44:15] [Server thread/INFO]: [WorldGuard] (limbo) Lighters are PERMITTED.
+[16:44:15] [Server thread/INFO]: [WorldGuard] (limbo) Lava fire is PERMITTED.
+[16:44:15] [Server thread/INFO]: [WorldGuard] (limbo) Fire spread is UNRESTRICTED.
+[16:44:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'limbo'
+[16:44:16] [Server thread/INFO]: [LibreLogin] [ACF] Enabled Asynchronous Tab Completion Support!
+[16:44:16] [Server thread/INFO]: [LibreLogin] LuckPerms detected, enabling context provider
+[16:44:16] [Server thread/INFO]: [PvPManager] Enabling PvPManager v3.18.26
+[16:44:16] [Server thread/INFO]: [PvPManager] Using player nametags: true
+[16:44:16] [Server thread/INFO]: [PvPManager] Connected to SQLITE database successfully
+[16:44:16] [Server thread/INFO]: [PvPManager] Players stored: 2
+[16:44:16] [Server thread/INFO]: [PvPManager] WorldGuard Found! Enabling Support For WorldGuard Regions
+[16:44:16] [Server thread/INFO]: [PvPManager] Vault Found! Using it for currency related features
+[16:44:16] [Server thread/WARN]: [PvPManager] Error loading Vault! No Economy plugin found
+[16:44:16] [Server thread/INFO]: [PvPManager] PlaceholderAPI Found! Hooked successfully
+[16:44:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: pvpmanager [3.18.26]
+[16:44:16] [Server thread/INFO]: [PvPManager] PvPManager v3.18.26 enabled (374 ms)
+[16:44:16] [Server thread/INFO]: [ZeroInventoryProblems] Enabling ZeroInventoryProblems v1.0.14
+[16:44:16] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:44:16] [Server thread/INFO]: [Origins-Monsters] Enabling Origins-Monsters v1.1.10
+[16:44:17] [Server thread/INFO]: [spark] Starting background profiler...
+[16:44:17] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[16:44:17] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[16:44:17] [Server thread/INFO]: Done preparing level "world" (28.215s)
+[16:44:17] [Server thread/INFO]: Starting GS4 status listener
+[16:44:17] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[16:44:17] [Server thread/INFO]: Thread Query Listener started
+[16:44:17] [Server thread/INFO]: Running delayed init tasks
+[16:44:17] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[16:44:17] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[16:44:17] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[16:44:17] [Craft Scheduler Thread - 14 - Vault/INFO]: [Vault] Checking for Updates ... 
+[16:44:17] [Craft Scheduler Thread - 9 - InteractiveChat/INFO]: [InteractiveChat] Loading languages...
+[16:44:17] [Craft Scheduler Thread - 14 - Vault/INFO]: [Vault] No new version available
+[16:44:18] [Server thread/INFO]: [Skript] Loading variables...
+[16:44:18] [Server thread/INFO]: [Skript] Loaded 3 variables in 0.0 seconds
+[16:44:18] [Server thread/INFO]: [Skript] Line 22: (chat.sk)
+[16:44:18] [Server thread/INFO]:     Can't understand this condition: '{lastsound::%loop-player%} is not set or difference between now and {lastsound::%loop-player%} is greater than 5 seconds'
+[16:44:18] [Server thread/INFO]:     Line: if {lastsound::%loop-player%} is not set or difference between now and {lastsound::%loop-player%} is greater than {@sound-spam-delay}:
+[16:44:18] [Server thread/INFO]:  
+[16:44:18] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 4 structures in 0.3 seconds
+[16:44:18] [Server thread/INFO]: [Skript] Finished loading.
+[16:44:18] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[16:44:18] [Server thread/INFO]: Done (90.674s)! For help, type "help"
+[16:44:18] [Craft Scheduler Thread - 6 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 2 ImageMaps!
+[16:44:18] [Craft Scheduler Thread - 5 - LibreLogin/INFO]: [LibreLogin] Checking for updates...
+[16:44:19] [Craft Scheduler Thread - 5 - LibreLogin/INFO]: [LibreLogin] You are running the latest version of LibreLogin
+[16:44:19] [PvPManager Worker Thread - 0/INFO]: [PvPManager] Checking for updates...
+[16:44:19] [PvPManager Worker Thread - 0/INFO]: [PvPManager] No update found
+[16:44:21] [Craft Scheduler Thread - 14 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
+[16:44:22] [Server thread/INFO]: /127.84.203.153:43529 lost connection: Disconnected

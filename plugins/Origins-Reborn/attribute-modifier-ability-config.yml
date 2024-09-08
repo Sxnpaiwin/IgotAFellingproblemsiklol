@@ -64,3 +64,81 @@ fantasyorigins:large_body:
 fantasyorigins:small_body:
   value: x
   operation: default
+moborigins:small_bug:
+  value: x
+  operation: default
+moborigins:small_fox:
+  value: x
+  operation: default
+moborigins:sly:
+  value: x
+  operation: default
+moborigins:timid_creature:
+  value: x
+  operation: default
+moborigins:small_weak:
+  value: x
+  operation: default
+moborigins:small_weak_knockback:
+  value: x
+  operation: default
+moborigins:surface_slowness:
+  value: x
+  operation: default
+moborigins:prismarine_skin:
+  value: x
+  operation: default
+moborigins:frigid_strength:
+  value: x
+  operation: default
+moborigins:wolf_body:
+  value: x
+  operation: default
+moborigins:full_moon:
+  value: x
+  operation: default
+moborigins:full_moon_health:
+  value: x
+  operation: default
+moborigins:full_moon_attack:
+  value: x
+  operation: default
+moborigins:wolf_pack:
+  value: x
+  operation: default
+moborigins:wolf_pack_attack:
+  value: x
+  operation: default
+moborigins:melting:
+  value: x
+  operation: default
+moborigins:melting_speed:
+  value: x
+  operation: default
+monsterorigins:trident_expert:
+  value: x
+  operation: default
+moborigins:lava_walk:
+  value: x
+  operation: default
+monsterorigins:double_health:
+  value: x
+  operation: default
+monsterorigins:skeleton_body:
+  value: x
+  operation: default
+monsterorigins:slowness:
+  value: x
+  operation: default
+monsterorigins:land_slowness:
+  value: x
+  operation: default
+monsterorigins:heat_slowness:
+  value: x
+  operation: default
+monsterorigins:cold_slowness:
+  value: x
+  operation: default
+monsterorigins:better_gold_armour:
+  value: x
+  operation: default
