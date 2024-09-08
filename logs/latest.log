@@ -323,3 +323,5 @@ java.lang.IllegalArgumentException: Data cannot be null
 [07:27:45] [Server thread/INFO]: CladdyDaddy[/127.84.203.153:44307] logged in with entity id 154 at ([limbo]0.0, 70.0, 0.0)
 [07:28:17] [Server thread/INFO]: [CladdyDaddy: Set own game mode to Spectator Mode]
 [07:28:21] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: b5aba856-10c0-42b7-8bf1-dc1aab4e7e58, mapped to Sheep['Sheep'/793, uuid='b5aba856-10c0-42b7-8bf1-dc1aab4e7e58', l='ServerLevel[world]', x=22.48, y=75.00, z=-36.74, cpos=[1, -3], tl=572, v=true], can't add Sheep['Sheep'/818, uuid='b5aba856-10c0-42b7-8bf1-dc1aab4e7e58', l='ServerLevel[world]', x=17.20, y=74.00, z=-28.49, cpos=[1, -2], tl=1022, v=false]
+[07:28:44] [Server thread/INFO]: Locating element nova_structures:remnant_school_remnant took 452 ms
+[07:28:47] [Server thread/INFO]: [CladdyDaddy: Teleported CladdyDaddy to -3471.500000, 65.500000, -5167.500000]
