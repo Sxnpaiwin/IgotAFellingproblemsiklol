@@ -325,3 +325,5 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ArrayIndex
 [11:54:21] [Server thread/INFO]: CladdyDaddy[/127.84.203.153:52553] logged in with entity id 205 at ([limbo]0.0, 70.0, 0.0)
 [11:54:39] [Server thread/INFO]: CladdyDaddy lost connection: Disconnected
 [11:54:39] [Server thread/INFO]: CladdyDaddy left the game
+[16:13:30] [PvPManager Worker Thread - 2/INFO]: [PvPManager] Checking for updates...
+[16:13:30] [PvPManager Worker Thread - 2/INFO]: [PvPManager] No update found
