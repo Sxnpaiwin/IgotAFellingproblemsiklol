@@ -7,44 +7,94 @@
 # Sharing this skript is not allowed
 # Editing skript content is not allowed
 #
-# Version: 1.2 (Updated for Minecraft 1.21)
+# Version: 1.6 (Updated for Minecraft 1.21)
 
-command /chatpop [<text>]:
+command /chatpop [<text>] [<text>]:
     executable by: players, console
-    usage: /chatpop <on/off/reload>
+    usage: /chatpop <on/off/reload/sound/particle> [value]
     trigger:
         if argument 1 is set:
             if sender has permission "chatpop.admin":
                 if arg-1 is "on":
-                    set {chatpop.toggle} to "enabled"
+                    set {chatpop.toggle::%uuid of player%} to "enabled"
                     send "&3ChatPop &7» &aYou enabled chatpop"
                 else if arg-1 is "off":
-                    set {chatpop.toggle} to "disabled"
+                    set {chatpop.toggle::%uuid of player%} to "disabled"
                     send "&3ChatPop &7» &aYou disabled chatpop"
                 else if arg-1 is "reload":
                     send "&3ChatPop &7» &aReloading..."
                     make console execute command "sk reload chatpop"
                     send "&3ChatPop &7» &aPlugin reloaded successfully :)"
+                else if arg-1 is "sound":
+                    if argument 2 is set:
+                        set {chatpop.sound::%uuid of player%} to arg-2
+                        send "&3ChatPop &7» &aChatPop sound set to %arg-2%"
+                    else:
+                        send "&3ChatPop &7» &cUsage: /chatpop sound <sound>"
+                else if arg-1 is "particle":
+                    if argument 2 is set:
+                        set {chatpop.particle::%uuid of player%} to arg-2
+                        send "&3ChatPop &7» &aChatPop particle effect set to %arg-2%"
+                    else:
+                        send "&3ChatPop &7» &cUsage: /chatpop particle <particle>"
                 else:
-                    send "&3ChatPop &7» &cUsage: /chatpop <on/off/reload>"
-                    send "&3ChatPop &7» &aChatPop is now %{chatpop.toggle}%"
+                    send "&3ChatPop &7» &cUsage: /chatpop <on/off/reload/sound/particle> [value]"
             else:
                 send "&3ChatPop &7» &cYou do not have permission to use this command."
         else:
-            send "&3ChatPop &7» &cUsage: /chatpop <on/off/reload>"
-            send "&3ChatPop &7» &aChatPop is now %{chatpop.toggle}%"
+            send "&3ChatPop &7» &cUsage: /chatpop <on/off/reload/sound/particle> [value]"
+
+command /chatpopdebug:
+    executable by: players
+    usage: /chatpopdebug
+    trigger:
+        if sender has permission "chatpop.admin":
+            # Get the player's custom settings or fall back to default settings
+            set {_sound} to {chatpop.sound::%uuid of player%}
+            if {_sound} is not set:
+                set {_sound} to "block.note_block.pling"
+            set {_particle} to {chatpop.particle::%uuid of player%}
+            if {_particle} is not set:
+                set {_particle} to "happy_villager"
+            # Play the sound effect
+            play sound {_sound} at player with pitch 1 volume 5
+            # Display particle effects around the player
+            play particle {_particle} at player offset by 0.5, 1, 0.5 with speed 0.1 and count 10
+            send "&3ChatPop &7» &aDebug effects triggered."
+        else:
+            send "&3ChatPop &7» &cYou do not have permission to use this command."
 
 on chat:
-    if {chatpop.toggle} is "enabled":
-        loop all players:
-            # Play a stimulating sound effect
-            play sound "block.note_block.pling" at loop-player with pitch 1 volume 5
+    loop all players:
+        if {chatpop.toggle::%uuid of loop-player%} is "enabled":
+            # Check for spam
+            set {_lastMessageTime} to {chatpop.lastMessage::%uuid of loop-player%}
+            if {_lastMessageTime} is not set:
+                set {_lastMessageTime} to 0
+            set {_currentTime} to now
+            if difference between {_currentTime} and {_lastMessageTime} is less than 5 seconds:
+                stop
+            # Update last message time
+            set {chatpop.lastMessage::%uuid of loop-player%} to {_currentTime}
+            # Get the player's custom settings or fall back to default settings
+            set {_sound} to {chatpop.sound::%uuid of loop-player%}
+            if {_sound} is not set:
+                set {_sound} to "block.note_block.pling"
+            set {_particle} to {chatpop.particle::%uuid of loop-player%}
+            if {_particle} is not set:
+                set {_particle} to "happy_villager"
+            # Play the sound effect
+            play sound {_sound} at loop-player with pitch 1 volume 5
             # Display particle effects around the player
-            play particle "happy_villager" at loop-player offset by 0.5, 1, 0.5 with speed 0.1 and count 10
-            play particle "crit" at loop-player offset by 0.5, 1, 0.5 with speed 0.1 and count 10
+            play particle {_particle} at loop-player offset by 0.5, 1, 0.5 with speed 0.1 and count 10
+
+on join:
+    if {chatpop.toggle::%uuid of player%} is not set:
+        set {chatpop.toggle::%uuid of player%} to "enabled"
 
 on load:
     send "&3ChatPop &7» &3Plugin loaded successfully :)" to console
+    send "&3ChatPop &7» &aChatPop is enabled by default" to console
 
 on unload:
     send "&3ChatPop &7» &3Plugin unloaded successfully :)" to console
