@@ -342,3 +342,68 @@ java.lang.IllegalArgumentException: Data cannot be null
 [09:52:30] [Server thread/INFO]: CladdyDaddy[/127.84.203.153:52199] logged in with entity id 200 at ([limbo]0.0, 70.0, 0.0)
 [09:54:53] [Server thread/INFO]: CladdyDaddy lost connection: Disconnected
 [09:54:53] [Server thread/INFO]: CladdyDaddy left the game
+[09:55:59] [pool-14-thread-3/WARN]: Executing command "stop"..
+[09:55:59] [Server thread/INFO]: Stopping the server
+[09:55:59] [Server thread/INFO]: Stopping server
+[09:55:59] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[09:55:59] [Server thread/INFO]: [PvPManager] Disabling PvPManager v3.18.26
+[09:55:59] [Server thread/INFO]: [PvPManager] Saving player data to storage...
+[09:55:59] [Server thread/INFO]: [PvPManager] Closed SQLITE storage
+[09:55:59] [Server thread/INFO]: [LibreLogin] Disabling LibreLogin v0.23.0
+[09:55:59] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.HikariDataSource] LibreLogin SQLite Pool - Shutdown initiated...
+[09:55:59] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.HikariDataSource] LibreLogin SQLite Pool - Shutdown completed.
+[09:55:59] [Server thread/INFO]: [BetterTeams] Disabling BetterTeams v4.10.0
+[09:55:59] [Server thread/INFO]: [GSit] Disabling GSit v1.10.0
+[09:55:59] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[09:55:59] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.2
+[09:55:59] [Server thread/INFO]: [InteractiveChat] Disabling InteractiveChat v4.2.11.0
+[09:55:59] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion interactivechat
+[09:55:59] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin InteractiveChat was disabled.
+[09:55:59] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Disabled!
+[09:55:59] [Server thread/INFO]: [connect] Disabling connect v0.5.0
+[09:55:59] [Server thread/INFO]: [connect] Stopped watching for sessions
+[09:55:59] [Server thread/INFO]: [Veinminer] Disabling Veinminer v2.1.3
+[09:55:59] [Server thread/INFO]: [ImageFrame] Disabling ImageFrame v1.7.10.0
+[09:55:59] [Server thread/INFO]: [ImageFrame] ImageFrame has been Disabled!
+[09:55:59] [Server thread/INFO]: [MinecraftDashboard] Disabling MinecraftDashboard v1.1.7
+[09:55:59] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.11-beta1+a801a9d
+[09:55:59] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[09:55:59] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.4-SNAPSHOT
+[09:55:59] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[09:55:59] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0-SNAPSHOT-726
+[09:55:59] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.11.1
+[09:55:59] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[09:55:59] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[09:55:59] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.141
+[09:55:59] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[09:55:59] [Server thread/INFO]: [LuckPerms] Closing storage...
+[09:55:59] [Server thread/INFO]: [LuckPerms] Goodbye!
+[09:55:59] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.4-SNAPSHOT
+[09:55:59] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[09:55:59] [Server thread/INFO]: Saving players
+[09:56:00] [Server thread/INFO]: Saving worlds
+[09:56:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09:56:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[09:56:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[09:56:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[09:56:01] [Server thread/INFO]: [ChunkHolderManager] Saved 750 block chunks, 750 entity chunks, 0 poi chunks in world 'world' in 1.10s
+[09:56:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[09:56:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[09:56:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[09:56:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[09:56:01] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.06s
+[09:56:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[09:56:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[09:56:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[09:56:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[09:56:01] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[09:56:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[limbo]'/minecraft:limbo
+[09:56:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'limbo'
+[09:56:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'limbo'
+[09:56:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'limbo'
+[09:56:01] [Server thread/INFO]: [ChunkHolderManager] Saved 525 block chunks, 525 entity chunks, 0 poi chunks in world 'limbo' in 0.14s
+[09:56:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:56:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:56:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:56:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (limbo): All chunks are saved
+[09:56:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
