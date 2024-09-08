@@ -358,3 +358,5 @@ java.lang.IllegalArgumentException: Data cannot be null
 [07:18:49] [Server thread/INFO]: /pvpstatus: Allows the player to see his or others pvp status
 [07:18:49] [Server thread/INFO]: /pvptag: Shows time left until out of combat or tag player
 [07:18:49] [Server thread/INFO]: /untag: Untags a player
+[07:19:11] [pool-16-thread-3/WARN]: Executing command "pvpmanager"..
+[07:19:11] [Server thread/INFO]: You don't have permission or command doesn't exist!
