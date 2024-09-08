@@ -380,6 +380,7 @@
     "criteria": {
       "white_wool": "2024-09-07 17:00:23 +0000",
       "barrel": "2024-09-07 15:59:00 +0000",
+      "cyan_banner": "2024-09-08 08:29:14 +0000",
       "poppy": "2024-09-07 16:00:11 +0000",
       "spruce_slab": "2024-09-07 16:22:08 +0000",
       "oak_sapling": "2024-09-07 19:48:23 +0000",
@@ -545,6 +546,7 @@
   "blazeandcave:challenges/stack_all_the_blocks": {
     "criteria": {
       "barrel": "2024-09-07 15:59:00 +0000",
+      "cyan_banner": "2024-09-08 08:29:14 +0000",
       "spruce_slab": "2024-09-07 16:22:08 +0000",
       "anvil": "2024-09-07 17:08:52 +0000",
       "grass_block": "2024-09-07 15:59:00 +0000",
@@ -778,6 +780,7 @@
   },
   "blazeandcave:building/no_banner_only_color": {
     "criteria": {
+      "cyan_banner": "2024-09-08 08:29:14 +0000",
       "light_blue_banner": "2024-09-07 16:21:33 +0000"
     },
     "done": false
