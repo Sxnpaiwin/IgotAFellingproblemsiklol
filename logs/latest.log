@@ -340,3 +340,21 @@ java.lang.IllegalArgumentException: Data cannot be null
 [07:17:11] [Craft Scheduler Thread - 5 - LibreLogin/WARN]: [LibreLogin] Failed to check for updates
 [07:17:11] [PvPManager Worker Thread - 1/INFO]: [PvPManager] Checking for updates...
 [07:17:12] [PvPManager Worker Thread - 1/INFO]: [PvPManager] No update found
+[07:18:35] [pool-16-thread-3/WARN]: Executing command "pvpmanager"..
+[07:18:35] [Server thread/INFO]: You don't have permission or command doesn't exist!
+[07:18:42] [pool-16-thread-2/WARN]: Executing command "pvp"..
+[07:18:42] [Server thread/INFO]: You don't have permission or command doesn't exist!
+[07:18:49] [pool-16-thread-3/WARN]: Executing command "help pvpmanager"..
+[07:18:49] [Server thread/INFO]: --------- Help: PvPManager ----------------------
+[07:18:49] [Server thread/INFO]: Below is a list of all PvPManager commands:
+[07:18:49] [Server thread/INFO]: /announce: Broadcasts a message to all players with color support
+[07:18:49] [Server thread/INFO]: /newbie: Check time left as a newbie or force disable newbie
+[07:18:49] [Server thread/INFO]: /pvp: Toggles PvP status
+[07:18:49] [Server thread/INFO]: /pvpglobal: Toggle PvP for the whole server
+[07:18:49] [Server thread/INFO]: /pvpinfo: Allows the player to see his or others information
+[07:18:49] [Server thread/INFO]: /pvplist: List the PvP state of all online or offline players
+[07:18:49] [Server thread/INFO]: /pvpmanager: Shows the main PvPManager help page
+[07:18:49] [Server thread/INFO]: /pvpoverride: Allows the player to attack everyone everywhere
+[07:18:49] [Server thread/INFO]: /pvpstatus: Allows the player to see his or others pvp status
+[07:18:49] [Server thread/INFO]: /pvptag: Shows time left until out of combat or tag player
+[07:18:49] [Server thread/INFO]: /untag: Untags a player
