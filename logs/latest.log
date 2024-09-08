@@ -318,3 +318,6 @@ java.lang.IllegalArgumentException: Data cannot be null
 [07:26:36] [Craft Scheduler Thread - 8 - LibreLogin/INFO]: [LibreLogin] You are running the latest version of LibreLogin
 [07:26:36] [PvPManager Worker Thread - 0/INFO]: [PvPManager] Checking for updates...
 [07:26:37] [PvPManager Worker Thread - 0/INFO]: [PvPManager] No update found
+[07:27:42] [User Authenticator #0/INFO]: UUID of player CladdyDaddy is 41a7d88c-27d7-3fde-ab2b-6fcfd7d3c029
+[07:27:45] [Server thread/INFO]: CladdyDaddy joined the game
+[07:27:45] [Server thread/INFO]: CladdyDaddy[/127.84.203.153:44307] logged in with entity id 154 at ([limbo]0.0, 70.0, 0.0)
