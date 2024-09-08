@@ -359,3 +359,6 @@ java.lang.IllegalArgumentException: Data cannot be null
 [10:14:42] [Craft Scheduler Thread - 9 - LibreLogin/INFO]: [LibreLogin] Checking for updates...
 [10:14:43] [Craft Scheduler Thread - 9 - LibreLogin/INFO]: [LibreLogin] You are running the latest version of LibreLogin
 [10:14:43] [Craft Scheduler Thread - 14 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
+[10:18:08] [User Authenticator #0/INFO]: UUID of player CladdyDaddy is 41a7d88c-27d7-3fde-ab2b-6fcfd7d3c029
+[10:18:11] [Server thread/INFO]: CladdyDaddy joined the game
+[10:18:11] [Server thread/INFO]: CladdyDaddy[/127.84.203.153:56985] logged in with entity id 231 at ([limbo]0.0, 70.0, 0.0)
