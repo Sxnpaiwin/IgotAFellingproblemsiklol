@@ -74,3 +74,107 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [20:17:39] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.1.3
 [20:17:40] [Server thread/INFO]: [InteractiveChat] Loading server plugin InteractiveChat v4.2.11.0
 [20:17:40] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.4.0
+[20:17:42] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.2
+[20:17:42] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.10.0
+[20:17:43] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.10.0
+[20:17:43] [Server thread/INFO]: [BetterTeams] Checking if the file config.yml is up to date
+[20:17:43] [Server thread/INFO]: [BetterTeams] File is up to date
+[20:17:43] [Server thread/INFO]: [LibreLogin] Loading server plugin LibreLogin v0.23.0
+[20:17:43] [Server thread/INFO]: [LibreLogin] Analyzing server setup...
+[20:17:43] [Server thread/INFO]: [LibreLogin] Detected Adventure-compatible server distribution - Purpur 1.21-2284-4e55e26 (MC: 1.21)
+[20:17:43] [Server thread/INFO]: [LibreLogin] Loading libraries...
+[20:17:44] [Server thread/INFO]: [PvPManager] Loading server plugin PvPManager v3.18.26
+[20:17:44] [Server thread/INFO]: [ZeroInventoryProblems] Loading server plugin ZeroInventoryProblems v1.0.14
+[20:17:44] [Server thread/INFO]: [Origins-Monsters] Loading server plugin Origins-Monsters v1.1.10
+[20:17:44] [Server thread/ERROR]: Permission node 'groups' in permissions.yml is invalid
+java.lang.IllegalArgumentException: 'default' key contained unknown value
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:303) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:240) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.loadCustomPermissions(CraftServer.java:1253) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:596) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:327) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:17:44] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.141
+[20:17:45] [Server thread/INFO]:         __    
+[20:17:45] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.141
+[20:17:45] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
+[20:17:45] [Server thread/INFO]: 
+[20:17:45] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:17:45] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:17:46] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:17:46] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:17:46] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1716ms)
+[20:17:46] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[20:17:46] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[20:17:46] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[20:17:46] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[20:17:46] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.11.1
+[20:17:47] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[20:17:47] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[20:17:47] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:17:47] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[20:17:47] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightFaweAdapter as the Bukkit adapter
+[20:17:48] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0-SNAPSHOT-726
+[20:17:48] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.1.3
+[20:17:48] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.2
+[20:17:49] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[20:17:50] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[20:17:51] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[20:17:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.4.2]
+[20:17:51] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[20:17:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:17:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:17:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:17:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:17:51] [Server thread/INFO]: Preparing level "world"
+[20:17:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:17:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[20:17:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[20:17:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[20:17:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[20:17:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[20:17:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:17:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.2
+[20:17:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 210a436
+[20:17:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[20:17:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:17:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:17:53] [Server thread/INFO]: Time elapsed: 1637 ms
+[20:17:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:17:53] [Server thread/INFO]: Time elapsed: 232 ms
+[20:17:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:17:53] [Server thread/INFO]: Time elapsed: 148 ms
+[20:17:53] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.4-SNAPSHOT
+[20:17:53] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[20:17:53] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.11-beta1+a801a9d
+[20:17:54] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[20:17:54] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[20:17:54] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[20:17:54] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[20:17:54] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[20:17:54] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[20:17:54] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[20:17:54] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[20:17:54] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[20:17:54] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[20:17:54] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[20:17:54] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[20:17:54] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[20:17:54] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[20:17:54] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[20:17:54] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:17:55] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[20:17:55] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:17:55] [Server thread/INFO]: [Skript] Enabling Skript v2.9.2
+[20:17:56] [ForkJoinPool.commonPool-worker-2/INFO]: [Skript] You're currently running the latest stable version of Skript.
+[20:18:07] [Server thread/INFO]: [Skript] Loaded 233074 aliases in 11829ms
+[20:18:09] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[20:18:09] [Server thread/INFO]: [Origins-Reborn] Enabling Origins-Reborn v2.3.18
+[20:18:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: origin [2.3.18]
+[20:18:09] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.4-SNAPSHOT
+[20:18:09] [Server thread/INFO]: [Origins-Fantasy] Enabling Origins-Fantasy v1.0.15
+[20:18:09] [Server thread/INFO]: [MinecraftDashboard] Enabling MinecraftDashboard v1.1.7
+[20:18:13] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 135 ms to scan 1 urls, producing 2 keys and 34 values
+[20:18:13] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.7.10.0
