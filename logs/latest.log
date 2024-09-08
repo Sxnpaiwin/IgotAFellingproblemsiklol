@@ -254,3 +254,60 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ArrayIndex
 [11:13:25] [Server thread/INFO]: [LibreLogin] Loading messages...
 [11:13:25] [Server thread/INFO]: [LibreLogin] Loading configuration...
 [11:13:25] [Server thread/INFO]: [LibreLogin] Loading forbidden passwords...
+[11:13:26] [Server thread/INFO]: [LibreLogin] Loaded 984904 forbidden passwords
+[11:13:26] [Server thread/INFO]: [LibreLogin] Connecting to the database...
+[11:13:26] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.HikariDataSource] LibreLogin SQLite Pool - Starting...
+[11:13:26] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.pool.HikariPool] LibreLogin SQLite Pool - Added connection org.sqlite.jdbc4.JDBC4Connection@4bb65b38
+[11:13:26] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.HikariDataSource] LibreLogin SQLite Pool - Start completed.
+[11:13:26] [Server thread/INFO]: [LibreLogin] Successfully connected to the database
+[11:13:26] [Server thread/INFO]: [LibreLogin] Validating schema
+[11:13:26] [Server thread/INFO]: [LibreLogin] Schema validated
+[11:13:26] [Server thread/INFO]: [LibreLogin] Found world file for limbo, loading...
+[11:13:26] [Server thread/INFO]: Preparing start region for dimension minecraft:limbo
+[11:13:26] [Server thread/INFO]: Time elapsed: 101 ms
+[11:13:26] [Server thread/INFO]: [WorldGuard] (limbo) TNT ignition is PERMITTED.
+[11:13:26] [Server thread/INFO]: [WorldGuard] (limbo) Lighters are PERMITTED.
+[11:13:26] [Server thread/INFO]: [WorldGuard] (limbo) Lava fire is PERMITTED.
+[11:13:26] [Server thread/INFO]: [WorldGuard] (limbo) Fire spread is UNRESTRICTED.
+[11:13:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'limbo'
+[11:13:26] [Server thread/INFO]: [LibreLogin] [ACF] Enabled Asynchronous Tab Completion Support!
+[11:13:26] [Server thread/INFO]: [LibreLogin] LuckPerms detected, enabling context provider
+[11:13:26] [Server thread/INFO]: [PvPManager] Enabling PvPManager v3.18.26
+[11:13:27] [Server thread/INFO]: [PvPManager] Using player nametags: true
+[11:13:27] [Server thread/INFO]: [PvPManager] Connected to SQLITE database successfully
+[11:13:27] [Server thread/INFO]: [PvPManager] Players stored: 2
+[11:13:27] [Server thread/INFO]: [PvPManager] WorldGuard Found! Enabling Support For WorldGuard Regions
+[11:13:27] [Server thread/INFO]: [PvPManager] Vault Found! Using it for currency related features
+[11:13:27] [Server thread/WARN]: [PvPManager] Error loading Vault! No Economy plugin found
+[11:13:27] [Server thread/INFO]: [PvPManager] PlaceholderAPI Found! Hooked successfully
+[11:13:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: pvpmanager [3.18.26]
+[11:13:27] [Server thread/INFO]: [PvPManager] PvPManager v3.18.26 enabled (385 ms)
+[11:13:27] [Server thread/INFO]: [ZeroInventoryProblems] Enabling ZeroInventoryProblems v1.0.14
+[11:13:27] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:13:27] [Server thread/INFO]: [spark] Starting background profiler...
+[11:13:28] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[11:13:28] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[11:13:28] [Server thread/INFO]: Done preparing level "world" (28.461s)
+[11:13:28] [Server thread/INFO]: Starting GS4 status listener
+[11:13:28] [Server thread/INFO]: Thread Query Listener started
+[11:13:28] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[11:13:28] [Server thread/INFO]: Running delayed init tasks
+[11:13:28] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[11:13:28] [Craft Scheduler Thread - 10 - Vault/INFO]: [Vault] Checking for Updates ... 
+[11:13:28] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[11:13:28] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[11:13:28] [Craft Scheduler Thread - 9 - InteractiveChat/INFO]: [InteractiveChat] Loading languages...
+[11:13:28] [Craft Scheduler Thread - 10 - Vault/INFO]: [Vault] No new version available
+[11:13:28] [Server thread/INFO]: [Skript] Loading variables...
+[11:13:28] [Server thread/INFO]: [Skript] Loaded 3 variables in 0.0 seconds
+[11:13:28] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[11:13:28] [Server thread/INFO]: [Skript]     No scripts were found, maybe you should write some ;)
+[11:13:28] [Server thread/INFO]: [Skript] Finished loading.
+[11:13:28] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[11:13:28] [Server thread/INFO]: Done (85.595s)! For help, type "help"
+[11:13:28] [Craft Scheduler Thread - 6 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 2 ImageMaps!
+[11:13:29] [Craft Scheduler Thread - 13 - LibreLogin/INFO]: [LibreLogin] Checking for updates...
+[11:13:29] [Craft Scheduler Thread - 13 - LibreLogin/INFO]: [LibreLogin] You are running the latest version of LibreLogin
+[11:13:30] [PvPManager Worker Thread - 0/INFO]: [PvPManager] Checking for updates...
+[11:13:30] [PvPManager Worker Thread - 0/INFO]: [PvPManager] No update found
+[11:13:31] [Craft Scheduler Thread - 10 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
