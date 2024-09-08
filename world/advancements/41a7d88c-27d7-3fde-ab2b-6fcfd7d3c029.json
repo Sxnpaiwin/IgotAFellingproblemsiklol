@@ -356,6 +356,7 @@
       "a_seedy_place": "2024-09-08 08:40:20 +0000",
       "weaponry_root": "2024-09-07 15:59:00 +0000",
       "time_to_chop": "2024-09-07 16:01:20 +0000",
+      "spooky_skeleton": "2024-09-08 09:18:52 +0000",
       "viking": "2024-09-07 19:48:47 +0000",
       "a_good_start": "2024-09-08 08:38:36 +0000",
       "help_ive_been_framed": "2024-09-07 16:27:16 +0000",
@@ -366,6 +367,7 @@
       "monsters_root": "2024-09-07 15:59:00 +0000",
       "glowstone_miner": "2024-09-08 08:37:28 +0000",
       "pathways": "2024-09-08 08:55:17 +0000",
+      "monster_hunter": "2024-09-08 09:18:52 +0000",
       "lead_the_way": "2024-09-08 09:12:04 +0000",
       "statistics_root": "2024-09-07 15:59:00 +0000",
       "adventure_root": "2024-09-07 15:59:00 +0000",
@@ -509,35 +511,39 @@
   "blazeandcave:challenges/all_the_items": {
     "criteria": {
       "water_bucket": "2024-09-08 08:34:40 +0000",
-      "wooden_hoe": "2024-09-08 08:34:45 +0000",
-      "mutton": "2024-09-07 17:00:23 +0000",
-      "wheat_seeds": "2024-09-07 19:48:22 +0000",
-      "stone_shovel": "2024-09-08 08:55:17 +0000",
+      "arrow": "2024-09-08 09:18:52 +0000",
       "ender_eye": "2024-09-08 08:56:21 +0000",
-      "wooden_sword": "2024-09-07 19:42:13 +0000",
       "beef": "2024-09-07 19:50:36 +0000",
-      "leather": "2024-09-07 17:03:07 +0000",
-      "lead": "2024-09-08 09:12:01 +0000",
-      "item_frame": "2024-09-07 16:27:16 +0000",
-      "torchflower_seeds": "2024-09-08 09:13:02 +0000",
       "iron_ingot": "2024-09-07 16:00:05 +0000",
       "wooden_axe": "2024-09-07 16:01:19 +0000",
       "iron_axe": "2024-09-07 19:46:35 +0000",
       "spider_eye": "2024-09-07 15:59:00 +0000",
-      "diamond": "2024-09-07 15:59:00 +0000",
       "paper": "2024-09-07 16:27:10 +0000",
       "iron_sword": "2024-09-07 17:08:54 +0000",
       "netherite_sword": "2024-09-07 15:59:00 +0000",
       "stick": "2024-09-07 19:46:53 +0000",
       "wheat": "2024-09-08 07:34:11 +0000",
       "name_tag": "2024-09-08 09:13:12 +0000",
-      "golden_shovel": "2024-09-08 08:55:16 +0000"
+      "golden_shovel": "2024-09-08 08:55:16 +0000",
+      "wooden_hoe": "2024-09-08 08:34:45 +0000",
+      "mutton": "2024-09-07 17:00:23 +0000",
+      "wheat_seeds": "2024-09-07 19:48:22 +0000",
+      "stone_shovel": "2024-09-08 08:55:17 +0000",
+      "wooden_sword": "2024-09-07 19:42:13 +0000",
+      "bone": "2024-09-08 09:18:52 +0000",
+      "leather": "2024-09-07 17:03:07 +0000",
+      "lead": "2024-09-08 09:12:01 +0000",
+      "item_frame": "2024-09-07 16:27:16 +0000",
+      "torchflower_seeds": "2024-09-08 09:13:02 +0000",
+      "diamond": "2024-09-07 15:59:00 +0000"
     },
     "done": false
   },
   "blazeandcave:bacap/monsters_milestone": {
     "criteria": {
-      "root": "2024-09-07 15:59:00 +0000"
+      "root": "2024-09-07 15:59:00 +0000",
+      "monster_hunter": "2024-09-08 09:18:52 +0000",
+      "spooky_skeleton": "2024-09-08 09:18:52 +0000"
     },
     "done": false
   },
@@ -1324,6 +1330,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2024-09-08 09:18:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_oak_stairs": {
     "criteria": {
       "has_planks": "2024-09-08 08:38:41 +0000"
@@ -1351,6 +1363,12 @@
   "minecraft:recipes/building_blocks/dark_oak_slab": {
     "criteria": {
       "has_planks": "2024-09-08 08:38:41 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:monsters/spooky_skeleton": {
+    "criteria": {
+      "skeleton": "2024-09-08 09:18:52 +0000"
     },
     "done": true
   },
@@ -1446,6 +1464,12 @@
     },
     "done": true
   },
+  "blazeandcave:monsters/night_runner": {
+    "criteria": {
+      "skeleton": "2024-09-08 09:18:52 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
       "has_planks": "2024-09-08 08:38:35 +0000"
@@ -1486,6 +1510,12 @@
   "blazeandcave:animal/lead_the_way": {
     "criteria": {
       "lead": "2024-09-08 09:12:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "monster_hunter": "2024-09-08 09:18:52 +0000"
     },
     "done": true
   },
