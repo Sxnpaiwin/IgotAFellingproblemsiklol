@@ -598,3 +598,25 @@ c<--[HERE]
 [10:26:40] [pool-14-thread-1/WARN]: Executing command "c"..
 [10:26:40] [Server thread/INFO]: Unknown or incomplete command, see below for error
 c<--[HERE]
+[10:26:50] [pool-14-thread-2/WARN]: Executing command "sk reload chat pop.sk"..
+[10:26:50] [Server thread/INFO]: [Skript] Reloading chat pop.sk...
+[10:26:50] [Server thread/INFO]: ChatPop » Plugin unloaded successfully :)
+[10:26:50] [Server thread/INFO]: Line 60: (chat pop.sk)
+[10:26:50] [Server thread/INFO]:     Can't understand this condition/effect: play {_sound} to player at volume 1 pitch 1
+[10:26:50] [Server thread/INFO]:     Line: play {_sound} to player at volume 1 pitch 1
+[10:26:50] [Server thread/INFO]:  
+[10:26:50] [Server thread/INFO]: Line 62: (chat pop.sk)
+[10:26:50] [Server thread/INFO]:     The function 'playEffect' does not exist.
+[10:26:50] [Server thread/INFO]:     Line: playEffect(player, {_particle}, 0.5, 1, 0.5, 0.1, 10)
+[10:26:50] [Server thread/INFO]:  
+[10:26:50] [Server thread/INFO]: Line 87: (chat pop.sk)
+[10:26:50] [Server thread/INFO]:     There's no loop that matches 'loop-player at volume 1 pitch 1'
+[10:26:50] [Server thread/INFO]:     Line: play {_sound} to loop-player at volume 1 pitch 1
+[10:26:50] [Server thread/INFO]:  
+[10:26:50] [Server thread/INFO]: Line 89: (chat pop.sk)
+[10:26:50] [Server thread/INFO]:     The function 'playEffect' does not exist.
+[10:26:50] [Server thread/INFO]:     Line: playEffect(loop-player, {_particle}, 0.5, 1, 0.5, 0.1, 10)
+[10:26:50] [Server thread/INFO]:  
+[10:26:50] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
+[10:26:50] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
+[10:26:50] [Server thread/INFO]: [Skript] Encountered 4 errors while reloading chat pop.sk! (61ms)
