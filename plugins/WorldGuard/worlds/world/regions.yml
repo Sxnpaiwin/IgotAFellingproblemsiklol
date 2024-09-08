@@ -15,10 +15,18 @@ regions:
         max: {x: 84, y: 92, z: -219}
         members: {}
         flags: {other-explosion: deny, ice-form: deny, invincible: allow, greeting: '"Welcome
-                to the Spawn!"', ice-melt: deny, snow-fall: deny, pvp: deny, block-place: deny,
-            mob-spawning: deny, creeper-explosion: deny, build: deny, fall-damage: deny,
+                to the Spawn!"', ice-melt: deny, snow-fall: deny, pvp: deny, mob-spawning: deny,
+            block-place: deny, creeper-explosion: deny, build: deny, fall-damage: deny,
             block-break: deny, entity-item-frame-destroy: deny, farewell: '"Goodbye
                 and have fun!"'}
+        owners: {}
+        type: cuboid
+        priority: 0
+    wheatfarm:
+        min: {x: 11, y: 62, z: -314}
+        max: {x: 25, y: 64, z: -289}
+        members: {}
+        flags: {}
         owners: {}
         type: cuboid
         priority: 0
