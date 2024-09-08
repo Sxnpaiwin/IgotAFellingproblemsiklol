@@ -318,3 +318,12 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ArrayIndex
 [10:57:39] [User Authenticator #1/INFO]: UUID of player shqdoow is 552001d7-6d70-38f5-8fb4-a75f98f22291
 [10:57:47] [Server thread/INFO]: shqdoow joined the game
 [10:57:47] [Server thread/INFO]: shqdoow[/127.49.184.190:56651] logged in with entity id 1125 at ([limbo]0.0, 70.0, 0.0)
+[10:58:26] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
+...minecraft:{_sound} master CladdyDaddy ~ ~ ~ 1 1<--[HERE]
+[10:58:26] [Server thread/INFO]: Unknown particle: minecraft:
+...minecraft:{_particle} CladdyDaddy ~0.5 ~1 ~0.5 0.1 0.1 0.1 0.1 10<--[HERE]
+[10:58:26] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
+...minecraft:{_sound} master shqdoow ~ ~ ~ 1 1<--[HERE]
+[10:58:26] [Server thread/INFO]: Unknown particle: minecraft:
+...minecraft:{_particle} shqdoow ~0.5 ~1 ~0.5 0.1 0.1 0.1 0.1 10<--[HERE]
+[10:58:26] [Craft Scheduler Thread - 7 - InteractiveChat/INFO]: [Not Secure] <CladdyDaddy> wsg
