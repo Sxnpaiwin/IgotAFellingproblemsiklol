@@ -30,4 +30,4 @@ regions:
             block-place: allow, crop-growth: allow}
         owners: {}
         type: cuboid
-        priority: 0
+        priority: 1
