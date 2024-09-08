@@ -409,3 +409,4 @@ java.lang.IllegalArgumentException: Data cannot be null
 [09:59:43] [PvPManager Worker Thread - 0/INFO]: [PvPManager] Checking for updates...
 [09:59:43] [PvPManager Worker Thread - 0/INFO]: [PvPManager] No update found
 [09:59:43] [Craft Scheduler Thread - 14 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
+[10:01:52] [pool-15-thread-4/WARN]: Executing command "skript reload all"..

@@ -1,0 +1,50 @@
+# Info:
+# Skript coded by Marcelektro (marcloud.net)
+# Skript for marCloud server (IP: marcloud.net)
+#
+# Rules:
+# Claiming this skript is not allowed
+# Sharing this skript is not allowed
+# Editing skript content is not allowed
+#
+# Version: 1.2 (Updated for Minecraft 1.21)
+
+command /chatpop [<text>]:
+    executable by: players, console
+    usage: /chatpop <on/off/reload>
+    trigger:
+        if argument 1 is set:
+            if sender has permission "chatpop.admin":
+                if arg-1 is "on":
+                    set {chatpop.toggle} to "enabled"
+                    send "&3ChatPop &7» &aYou enabled chatpop"
+                else if arg-1 is "off":
+                    set {chatpop.toggle} to "disabled"
+                    send "&3ChatPop &7» &aYou disabled chatpop"
+                else if arg-1 is "reload":
+                    send "&3ChatPop &7» &aReloading..."
+                    make console execute command "sk reload chatpop"
+                    send "&3ChatPop &7» &aPlugin reloaded successfully :)"
+                else:
+                    send "&3ChatPop &7» &cUsage: /chatpop <on/off/reload>"
+                    send "&3ChatPop &7» &aChatPop is now %{chatpop.toggle}%"
+            else:
+                send "&3ChatPop &7» &cYou do not have permission to use this command."
+        else:
+            send "&3ChatPop &7» &cUsage: /chatpop <on/off/reload>"
+            send "&3ChatPop &7» &aChatPop is now %{chatpop.toggle}%"
+
+on chat:
+    if {chatpop.toggle} is "enabled":
+        loop all players:
+            # Play a stimulating sound effect
+            play sound "block.note_block.pling" at loop-player with pitch 1 volume 5
+            # Display particle effects around the player
+            play particle "happy_villager" at loop-player offset by 0.5, 1, 0.5 with speed 0.1 and count 10
+            play particle "crit" at loop-player offset by 0.5, 1, 0.5 with speed 0.1 and count 10
+
+on load:
+    send "&3ChatPop &7» &3Plugin loaded successfully :)" to console
+
+on unload:
+    send "&3ChatPop &7» &3Plugin unloaded successfully :)" to console
