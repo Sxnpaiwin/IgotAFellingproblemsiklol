@@ -311,3 +311,10 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ArrayIndex
 [11:13:30] [PvPManager Worker Thread - 0/INFO]: [PvPManager] Checking for updates...
 [11:13:30] [PvPManager Worker Thread - 0/INFO]: [PvPManager] No update found
 [11:13:31] [Craft Scheduler Thread - 10 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
+[11:15:47] [pool-14-thread-3/WARN]: Executing command "pl"..
+[11:15:47] [Server thread/INFO]: Paper Plugins: (1):
+[11:15:47] [Server thread/INFO]:  - LibreLogin
+[11:15:47] [Server thread/INFO]: Bukkit Plugins: (22):
+[11:15:47] [Server thread/INFO]:  - BetterTeams, connect, FastAsyncWorldEdit, GSit, ImageFrame, InteractiveChat, InteractiveChatDiscordSrvAddon, LoadingScreenRemover, LuckPerms, MinecraftDashboard
+[11:15:47] [Server thread/INFO]:  packetevents, PlaceholderAPI, ProtocolLib, PvPManager, SkinsRestorer, Skript, Vault, Veinminer, ViaBackwards, ViaVersion
+[11:15:47] [Server thread/INFO]:  WorldGuard, ZeroInventoryProblems
