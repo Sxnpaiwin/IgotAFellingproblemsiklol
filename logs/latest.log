@@ -363,3 +363,27 @@ java.lang.IllegalArgumentException: Data cannot be null
 [10:18:11] [Server thread/INFO]: CladdyDaddy joined the game
 [10:18:11] [Server thread/INFO]: CladdyDaddy[/127.84.203.153:56985] logged in with entity id 231 at ([limbo]0.0, 70.0, 0.0)
 [10:18:56] [Server thread/INFO]: [Skript] Can't find the script 'chatpop' in the scripts folder!
+[10:19:41] [pool-14-thread-2/WARN]: Executing command "skript reload chat pop.ski"..
+[10:19:41] [Server thread/INFO]: [Skript] Can't find the script 'chat pop.ski' in the scripts folder!
+[10:19:43] [pool-14-thread-3/WARN]: Executing command "skript reload chat pop.sk"..
+[10:19:43] [Server thread/INFO]: [Skript] Reloading chat pop.sk...
+[10:19:43] [Server thread/INFO]: ChatPop » Plugin unloaded successfully :)
+[10:19:43] [Server thread/INFO]: Line 60: (chat pop.sk)
+[10:19:43] [Server thread/INFO]:     Can't understand this condition/effect: play sound {_sound} at player with pitch 1 volume 5
+[10:19:43] [Server thread/INFO]:     Line: play sound {_sound} at player with pitch 1 volume 5
+[10:19:43] [Server thread/INFO]:  
+[10:19:43] [Server thread/INFO]: Line 62: (chat pop.sk)
+[10:19:43] [Server thread/INFO]:     Can't understand this condition/effect: play particle {_particle} at player offset by 0.5, 1, 0.5 with speed 0.1 and count 10
+[10:19:43] [Server thread/INFO]:     Line: play particle {_particle} at player offset by 0.5, 1, 0.5 with speed 0.1 and count 10
+[10:19:43] [Server thread/INFO]:  
+[10:19:44] [Server thread/INFO]: Line 87: (chat pop.sk)
+[10:19:44] [Server thread/INFO]:     There's no loop that matches 'loop-player with pitch 1 volume 5'
+[10:19:44] [Server thread/INFO]:     Line: play sound {_sound} at loop-player with pitch 1 volume 5
+[10:19:44] [Server thread/INFO]:  
+[10:19:44] [Server thread/INFO]: Line 89: (chat pop.sk)
+[10:19:44] [Server thread/INFO]:     There's no loop that matches 'loop-player offset by 0.5, 1, 0.5 with speed 0.1 and count 10'
+[10:19:44] [Server thread/INFO]:     Line: play particle {_particle} at loop-player offset by 0.5, 1, 0.5 with speed 0.1 and count 10
+[10:19:44] [Server thread/INFO]:  
+[10:19:44] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
+[10:19:44] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
+[10:19:44] [Server thread/INFO]: [Skript] Encountered 4 errors while reloading chat pop.sk! (395ms)
