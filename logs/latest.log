@@ -283,3 +283,9 @@ java.lang.IllegalArgumentException: Data cannot be null
 [01:21:43] [Craft Scheduler Thread - 8 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 1 ImageMaps!
 [01:21:44] [Craft Scheduler Thread - 10 - LibreLogin/INFO]: [LibreLogin] Checking for updates...
 [01:21:44] [Craft Scheduler Thread - 10 - LibreLogin/INFO]: [LibreLogin] You are running the latest version of LibreLogin
+[06:54:22] [pool-13-thread-4/WARN]: Executing command "tps"..
+[06:54:22] [Server thread/INFO]: TPS from last 5s, 1m, 5m, 15m: 20.0, 20.0, 20.0, 20.0
+[06:54:25] [pool-13-thread-3/WARN]: Executing command "uptime"..
+[06:54:25] [Server thread/INFO]: Server uptime is 05 hours, 33 minutes, and 47 seconds
+[06:54:28] [pool-13-thread-2/WARN]: Executing command "ram"..
+[06:54:28] [Server thread/INFO]: Ram Usage: 7.1G/16.0G (44%)
