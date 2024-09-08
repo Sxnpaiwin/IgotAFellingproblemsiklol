@@ -303,3 +303,18 @@ java.lang.IllegalArgumentException: Data cannot be null
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
 [07:26:34] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
 [07:26:34] [Server thread/INFO]: [spark] Starting background profiler...
+[07:26:35] [Server thread/INFO]: Done preparing level "world" (13.233s)
+[07:26:35] [Server thread/INFO]: Starting GS4 status listener
+[07:26:35] [Server thread/INFO]: Thread Query Listener started
+[07:26:35] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[07:26:35] [Server thread/INFO]: Running delayed init tasks
+[07:26:35] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[07:26:35] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[07:26:35] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[07:26:35] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[07:26:35] [Server thread/INFO]: Done (83.885s)! For help, type "help"
+[07:26:35] [Craft Scheduler Thread - 8 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 1 ImageMaps!
+[07:26:36] [Craft Scheduler Thread - 8 - LibreLogin/INFO]: [LibreLogin] Checking for updates...
+[07:26:36] [Craft Scheduler Thread - 8 - LibreLogin/INFO]: [LibreLogin] You are running the latest version of LibreLogin
+[07:26:36] [PvPManager Worker Thread - 0/INFO]: [PvPManager] Checking for updates...
+[07:26:37] [PvPManager Worker Thread - 0/INFO]: [PvPManager] No update found
