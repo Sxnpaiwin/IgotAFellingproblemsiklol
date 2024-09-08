@@ -648,3 +648,18 @@ c<--[HERE]
 [10:28:22] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
 [10:28:22] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
 [10:28:22] [Server thread/INFO]: [Skript] Encountered 4 errors while reloading chat pop.sk! (505ms)
+[10:29:36] [pool-14-thread-4/WARN]: Executing command "sk reload chat pop.sk"..
+[10:29:36] [Server thread/INFO]: [Skript] Reloading chat pop.sk...
+[10:29:36] [Server thread/INFO]: ChatPop » Plugin unloaded successfully :)
+[10:29:37] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
+[10:29:37] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
+[10:29:37] [Server thread/INFO]: [Skript] Successfully reloaded chat pop.sk. (41ms)
+[10:29:44] [pool-14-thread-4/WARN]: Executing command "c"..
+[10:29:44] [Server thread/INFO]: Unknown or incomplete command, see below for error
+c<--[HERE]
+[10:29:47] [pool-14-thread-1/WARN]: Executing command "sk reload chat pop.sk"..
+[10:29:47] [Server thread/INFO]: [Skript] Reloading chat pop.sk...
+[10:29:47] [Server thread/INFO]: ChatPop » Plugin unloaded successfully :)
+[10:29:47] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
+[10:29:47] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
+[10:29:47] [Server thread/INFO]: [Skript] Successfully reloaded chat pop.sk. (39ms)
