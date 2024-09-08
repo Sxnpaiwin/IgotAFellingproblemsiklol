@@ -391,3 +391,27 @@ java.lang.IllegalArgumentException: Data cannot be null
 [10:20:50] [Server thread/INFO]: ChatPop » Plugin unloaded successfully :)
 [10:20:51] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
 [10:20:51] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
+[10:21:59] [Server thread/INFO]: ChatPop » Plugin unloaded successfully :)
+[10:22:00] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
+[10:22:00] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
+[10:22:09] [Craft Scheduler Thread - 8 - InteractiveChat/INFO]: [Not Secure] <CladdyDaddy> c
+[10:22:11] [Server thread/INFO]: ChatPop » Plugin unloaded successfully :)
+[10:22:11] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
+[10:22:11] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
+[10:22:15] [pool-14-thread-4/WARN]: Executing command "/sk reload chat pop.sk"..
+[10:22:15] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/sk reload chat pop.sk<--[HERE]
+[10:22:21] [pool-14-thread-1/WARN]: Executing command "sk reload chat pop.sk"..
+[10:22:21] [Server thread/INFO]: [Skript] Reloading chat pop.sk...
+[10:22:21] [Server thread/INFO]: ChatPop » Plugin unloaded successfully :)
+[10:22:21] [Server thread/INFO]: Line 62: (chat pop.sk)
+[10:22:21] [Server thread/INFO]:     Can't understand this condition/effect: spawn {_particle} particle at location of player offset by 0.5, 1, 0.5 with speed 0.1 and amount 10
+[10:22:21] [Server thread/INFO]:     Line: spawn {_particle} particle at location of player offset by 0.5, 1, 0.5 with speed 0.1 and amount 10
+[10:22:21] [Server thread/INFO]:  
+[10:22:21] [Server thread/INFO]: Line 89: (chat pop.sk)
+[10:22:21] [Server thread/INFO]:     There's no loop that matches 'loop-player offset by 0.5, 1, 0.5 with speed 0.1 and amount 10'
+[10:22:21] [Server thread/INFO]:     Line: spawn {_particle} particle at location of loop-player offset by 0.5, 1, 0.5 with speed 0.1 and amount 10
+[10:22:21] [Server thread/INFO]:  
+[10:22:21] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
+[10:22:21] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
+[10:22:21] [Server thread/INFO]: [Skript] Encountered 2 errors while reloading chat pop.sk! (365ms)
