@@ -346,6 +346,7 @@
       "do_you_want_to_trade": "2024-09-07 19:49:36 +0000",
       "the_first_night": "2024-09-07 16:02:03 +0000",
       "cow_tipper": "2024-09-07 17:03:07 +0000",
+      "enders_chest": "2024-09-08 08:56:21 +0000",
       "time_to_dig": "2024-09-08 08:55:16 +0000",
       "farming_root": "2024-09-08 08:34:45 +0000",
       "sweet_dreams": "2024-09-07 19:49:36 +0000",
@@ -405,6 +406,7 @@
       "dandelion": "2024-09-07 17:02:39 +0000",
       "acacia_sapling": "2024-09-07 19:46:50 +0000",
       "dark_oak_slab": "2024-09-07 16:22:20 +0000",
+      "campfire": "2024-09-08 09:00:47 +0000",
       "spruce_log": "2024-09-08 08:38:36 +0000",
       "dark_oak_fence": "2024-09-08 08:38:45 +0000",
       "white_wool": "2024-09-07 17:00:23 +0000",
@@ -414,6 +416,7 @@
       "dark_oak_planks": "2024-09-08 08:38:41 +0000",
       "grass_block": "2024-09-07 15:59:00 +0000",
       "torch": "2024-09-08 07:34:13 +0000",
+      "ender_chest": "2024-09-08 08:56:21 +0000",
       "lantern": "2024-09-08 08:40:31 +0000",
       "sunflower": "2024-09-07 16:00:11 +0000",
       "oak_log": "2024-09-07 19:48:22 +0000",
@@ -505,6 +508,7 @@
       "mutton": "2024-09-07 17:00:23 +0000",
       "wheat_seeds": "2024-09-07 19:48:22 +0000",
       "stone_shovel": "2024-09-08 08:55:17 +0000",
+      "ender_eye": "2024-09-08 08:56:21 +0000",
       "wooden_sword": "2024-09-07 19:42:13 +0000",
       "beef": "2024-09-07 19:50:36 +0000",
       "leather": "2024-09-07 17:03:07 +0000",
@@ -583,6 +587,7 @@
       "anvil": "2024-09-07 17:08:52 +0000",
       "dark_oak_planks": "2024-09-08 08:38:41 +0000",
       "grass_block": "2024-09-07 15:59:00 +0000",
+      "ender_chest": "2024-09-08 08:56:21 +0000",
       "light_blue_banner": "2024-09-07 16:21:33 +0000",
       "glowstone": "2024-09-08 08:37:27 +0000",
       "dark_oak_stairs": "2024-09-07 16:22:43 +0000",
@@ -1240,6 +1245,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2024-09-08 08:56:21 +0000"
+    },
+    "done": true
+  },
   "blazeandcave:bacap/farming_milestone": {
     "criteria": {
       "root": "2024-09-08 08:34:45 +0000",
@@ -1286,6 +1297,12 @@
   "minecraft:recipes/decorations/oak_fence": {
     "criteria": {
       "has_planks": "2024-09-08 08:38:35 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:nether/enders_chest": {
+    "criteria": {
+      "ender_chest": "2024-09-08 08:56:21 +0000"
     },
     "done": true
   },
@@ -1382,6 +1399,7 @@
   },
   "blazeandcave:bacap/nether_milestone": {
     "criteria": {
+      "enders_chest": "2024-09-08 08:56:21 +0000",
       "glowstone_miner": "2024-09-08 08:37:28 +0000"
     },
     "done": false
@@ -1412,6 +1430,7 @@
   },
   "blazeandcave:building/let_there_be_light": {
     "criteria": {
+      "ender_chest": "2024-09-08 08:56:21 +0000",
       "glowstone": "2024-09-08 08:37:27 +0000"
     },
     "done": false
@@ -1437,6 +1456,12 @@
   "blazeandcave:bacap/time_to_dig": {
     "criteria": {
       "golden_shovel": "2024-09-08 08:55:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2024-09-08 08:56:21 +0000"
     },
     "done": true
   },
