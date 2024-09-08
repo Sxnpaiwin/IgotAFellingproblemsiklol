@@ -1217,23 +1217,68 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-09-08 08:34:40 +0000"
+    },
+    "done": true
+  },
   "blazeandcave:bacap/time_to_farm": {
     "criteria": {
       "wooden_hoe": "2024-09-08 08:34:45 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+  "blazeandcave:bacap/farming_milestone": {
     "criteria": {
-      "has_planks": "2024-09-08 08:38:41 +0000"
+      "root": "2024-09-08 08:34:45 +0000",
+      "a_seedy_place": "2024-09-08 08:40:20 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:farming/root": {
+    "criteria": {
+      "hoe": "2024-09-08 08:34:45 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+  "blazeandcave:nether/glowstone_miner": {
     "criteria": {
-      "has_planks": "2024-09-08 08:38:41 +0000"
+      "glowstone": "2024-09-08 08:37:27 +0000"
     },
     "done": true
+  },
+  "blazeandcave:building/let_there_be_light": {
+    "criteria": {
+      "ender_chest": "2024-09-08 08:56:21 +0000",
+      "glowstone": "2024-09-08 08:37:27 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2024-09-08 08:37:27 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/nether_milestone": {
+    "criteria": {
+      "enders_chest": "2024-09-08 08:56:21 +0000",
+      "glowstone_miner": "2024-09-08 08:37:28 +0000"
+    },
+    "done": false
+  },
+  "blazeandcave:building/glowing": {
+    "criteria": {
+      "glowstone": "2024-09-08 08:37:31 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:nether/spreading_corruption": {
+    "criteria": {
+      "glowstone": "2024-09-08 08:37:31 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
@@ -1247,70 +1292,9 @@
     },
     "done": true
   },
-  "blazeandcave:building/glowing": {
-    "criteria": {
-      "glowstone": "2024-09-08 08:37:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_nugget_from_smelting": {
-    "criteria": {
-      "has_golden_shovel": "2024-09-08 08:55:16 +0000"
-    },
-    "done": true
-  },
-  "blazeandcave:building/en_garde": {
-    "criteria": {
-      "fence": "2024-09-08 08:38:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_bone_meal": "2024-09-08 09:29:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_crystal": {
-    "criteria": {
-      "has_ender_eye": "2024-09-08 08:56:21 +0000"
-    },
-    "done": true
-  },
-  "blazeandcave:bacap/farming_milestone": {
-    "criteria": {
-      "root": "2024-09-08 08:34:45 +0000",
-      "a_seedy_place": "2024-09-08 08:40:20 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/misc/gold_nugget_from_blasting": {
-    "criteria": {
-      "has_golden_shovel": "2024-09-08 08:55:16 +0000"
-    },
-    "done": true
-  },
-  "blazeandcave:farming/root": {
-    "criteria": {
-      "hoe": "2024-09-08 08:34:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dark_oak_button": {
-    "criteria": {
-      "has_planks": "2024-09-08 08:38:41 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2024-09-08 08:38:35 +0000"
-    },
-    "done": true
-  },
-  "blazeandcave:building/stationary_storage": {
-    "criteria": {
-      "chest": "2024-09-08 08:39:59 +0000"
     },
     "done": true
   },
@@ -1326,9 +1310,33 @@
     },
     "done": true
   },
-  "blazeandcave:nether/enders_chest": {
+  "minecraft:recipes/redstone/oak_button": {
     "criteria": {
-      "ender_chest": "2024-09-08 08:56:21 +0000"
+      "has_planks": "2024-09-08 08:38:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:35 +0000"
     },
     "done": true
   },
@@ -1338,21 +1346,58 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/bone_meal": {
+  "minecraft:recipes/building_blocks/spruce_planks": {
     "criteria": {
-      "has_bone": "2024-09-08 09:18:52 +0000"
+      "has_logs": "2024-09-08 08:38:36 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:building/a_good_start": {
+    "criteria": {
+      "spruce_log": "2024-09-08 08:38:36 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:building/master_logger": {
+    "criteria": {
+      "dark_oak_log": "2024-09-08 08:38:39 +0000",
+      "spruce_log": "2024-09-08 08:38:36 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2024-09-08 08:38:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2024-09-08 08:38:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2024-09-08 08:38:41 +0000"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/dark_oak_stairs": {
     "criteria": {
       "has_planks": "2024-09-08 08:38:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_button": {
-    "criteria": {
-      "has_planks": "2024-09-08 08:38:35 +0000"
     },
     "done": true
   },
@@ -1374,57 +1419,27 @@
     },
     "done": true
   },
-  "blazeandcave:monsters/spooky_skeleton": {
-    "criteria": {
-      "skeleton": "2024-09-08 09:18:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_oak_planks": {
-    "criteria": {
-      "has_log": "2024-09-08 08:38:39 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/dark_oak_door": {
     "criteria": {
       "has_planks": "2024-09-08 08:38:41 +0000"
     },
     "done": true
   },
-  "blazeandcave:adventure/truffle_worm": {
+  "minecraft:recipes/decorations/dark_oak_sign": {
     "criteria": {
-      "torchflower_seeds": "2024-09-08 09:13:02 +0000"
+      "has_planks": "2024-09-08 08:38:41 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/spruce_planks": {
+  "blazeandcave:building/en_garde": {
     "criteria": {
-      "has_logs": "2024-09-08 08:38:36 +0000"
+      "fence": "2024-09-08 08:38:46 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_slab": {
+  "blazeandcave:building/stationary_storage": {
     "criteria": {
-      "has_planks": "2024-09-08 08:38:35 +0000"
-    },
-    "done": true
-  },
-  "blazeandcave:nether/spreading_corruption": {
-    "criteria": {
-      "glowstone": "2024-09-08 08:37:31 +0000"
-    },
-    "done": false
-  },
-  "blazeandcave:building/camping_out": {
-    "criteria": {
-      "campfire": "2024-09-08 09:00:51 +0000"
-    },
-    "done": true
-  },
-  "blazeandcave:building/a_good_start": {
-    "criteria": {
-      "spruce_log": "2024-09-08 08:38:36 +0000"
+      "chest": "2024-09-08 08:39:59 +0000"
     },
     "done": true
   },
@@ -1434,120 +1449,27 @@
     },
     "done": false
   },
-  "blazeandcave:nether/glowstone_miner": {
-    "criteria": {
-      "glowstone": "2024-09-08 08:37:27 +0000"
-    },
-    "done": true
-  },
-  "blazeandcave:adventure/i_hereby_dub_thee": {
-    "criteria": {
-      "name_tag": "2024-09-08 09:13:12 +0000"
-    },
-    "done": true
-  },
-  "blazeandcave:building/master_logger": {
-    "criteria": {
-      "dark_oak_log": "2024-09-08 08:38:39 +0000",
-      "spruce_log": "2024-09-08 08:38:36 +0000"
-    },
-    "done": false
-  },
-  "blazeandcave:bacap/nether_milestone": {
-    "criteria": {
-      "enders_chest": "2024-09-08 08:56:21 +0000",
-      "glowstone_miner": "2024-09-08 08:37:28 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/redstone/oak_fence_gate": {
-    "criteria": {
-      "has_planks": "2024-09-08 08:38:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_oak_wood": {
-    "criteria": {
-      "has_log": "2024-09-08 08:38:39 +0000"
-    },
-    "done": true
-  },
-  "blazeandcave:monsters/night_runner": {
-    "criteria": {
-      "skeleton": "2024-09-08 09:18:52 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/redstone/oak_pressure_plate": {
-    "criteria": {
-      "has_planks": "2024-09-08 08:38:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_door": {
-    "criteria": {
-      "has_planks": "2024-09-08 08:38:35 +0000"
-    },
-    "done": true
-  },
-  "blazeandcave:building/let_there_be_light": {
-    "criteria": {
-      "ender_chest": "2024-09-08 08:56:21 +0000",
-      "glowstone": "2024-09-08 08:37:27 +0000"
-    },
-    "done": false
-  },
-  "blazeandcave:animal/follow_the_leader": {
-    "criteria": {
-      "sniffer": "2024-09-08 09:12:04 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/redstone/redstone_lamp": {
-    "criteria": {
-      "has_glowstone": "2024-09-08 08:37:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2024-09-08 08:34:40 +0000"
-    },
-    "done": true
-  },
-  "blazeandcave:animal/lead_the_way": {
-    "criteria": {
-      "lead": "2024-09-08 09:12:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "monster_hunter": "2024-09-08 09:18:52 +0000"
-    },
-    "done": true
-  },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2024-09-08 08:40:20 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_shovel": "2024-09-08 08:55:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_shovel": "2024-09-08 08:55:16 +0000"
+    },
+    "done": true
+  },
   "blazeandcave:bacap/time_to_dig": {
     "criteria": {
       "golden_shovel": "2024-09-08 08:55:16 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/ender_chest": {
-    "criteria": {
-      "has_ender_eye": "2024-09-08 08:56:21 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dark_oak_sign": {
-    "criteria": {
-      "has_planks": "2024-09-08 08:38:41 +0000"
     },
     "done": true
   },
@@ -1563,17 +1485,95 @@
     },
     "done": false
   },
-  "blazeandcave:farming/combine_harvester": {
+  "minecraft:recipes/decorations/end_crystal": {
     "criteria": {
-      "wheat": "2024-09-08 09:29:46 +0000"
+      "has_ender_eye": "2024-09-08 08:56:21 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:nether/enders_chest": {
+    "criteria": {
+      "ender_chest": "2024-09-08 08:56:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2024-09-08 08:56:21 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:building/camping_out": {
+    "criteria": {
+      "campfire": "2024-09-08 09:00:51 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:animal/follow_the_leader": {
+    "criteria": {
+      "sniffer": "2024-09-08 09:12:04 +0000"
     },
     "done": false
+  },
+  "blazeandcave:animal/lead_the_way": {
+    "criteria": {
+      "lead": "2024-09-08 09:12:04 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:adventure/truffle_worm": {
+    "criteria": {
+      "torchflower_seeds": "2024-09-08 09:13:02 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:adventure/i_hereby_dub_thee": {
+    "criteria": {
+      "name_tag": "2024-09-08 09:13:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2024-09-08 09:18:52 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:monsters/spooky_skeleton": {
+    "criteria": {
+      "skeleton": "2024-09-08 09:18:52 +0000"
+    },
+    "done": true
+  },
+  "blazeandcave:monsters/night_runner": {
+    "criteria": {
+      "skeleton": "2024-09-08 09:18:52 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "monster_hunter": "2024-09-08 09:18:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2024-09-08 09:29:45 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
       "has_bone_meal": "2024-09-08 09:29:45 +0000"
     },
     "done": true
+  },
+  "blazeandcave:farming/combine_harvester": {
+    "criteria": {
+      "wheat": "2024-09-08 09:29:46 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3953
 }
