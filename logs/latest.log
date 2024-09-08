@@ -320,3 +320,8 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ArrayIndex
 [11:15:47] [Server thread/INFO]:  WorldGuard, ZeroInventoryProblems
 [11:18:40] [pool-14-thread-3/WARN]: Executing command "tps"..
 [11:18:40] [Server thread/INFO]: TPS from last 5s, 1m, 5m, 15m: 20.0, 20.0, 20.0, 20.0
+[11:54:12] [User Authenticator #0/INFO]: UUID of player CladdyDaddy is 41a7d88c-27d7-3fde-ab2b-6fcfd7d3c029
+[11:54:21] [Server thread/INFO]: CladdyDaddy joined the game
+[11:54:21] [Server thread/INFO]: CladdyDaddy[/127.84.203.153:52553] logged in with entity id 205 at ([limbo]0.0, 70.0, 0.0)
+[11:54:39] [Server thread/INFO]: CladdyDaddy lost connection: Disconnected
+[11:54:39] [Server thread/INFO]: CladdyDaddy left the game
