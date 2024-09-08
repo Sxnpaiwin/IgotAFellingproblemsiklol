@@ -315,3 +315,6 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ArrayIndex
 [10:55:27] [User Authenticator #0/INFO]: UUID of player CladdyDaddy is 41a7d88c-27d7-3fde-ab2b-6fcfd7d3c029
 [10:55:29] [Server thread/INFO]: CladdyDaddy joined the game
 [10:55:30] [Server thread/INFO]: CladdyDaddy[/127.84.203.153:56735] logged in with entity id 217 at ([limbo]0.0, 70.0, 0.0)
+[10:57:39] [User Authenticator #1/INFO]: UUID of player shqdoow is 552001d7-6d70-38f5-8fb4-a75f98f22291
+[10:57:47] [Server thread/INFO]: shqdoow joined the game
+[10:57:47] [Server thread/INFO]: shqdoow[/127.49.184.190:56651] logged in with entity id 1125 at ([limbo]0.0, 70.0, 0.0)
