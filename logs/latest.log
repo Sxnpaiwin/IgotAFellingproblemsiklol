@@ -362,3 +362,4 @@ java.lang.IllegalArgumentException: Data cannot be null
 [10:18:08] [User Authenticator #0/INFO]: UUID of player CladdyDaddy is 41a7d88c-27d7-3fde-ab2b-6fcfd7d3c029
 [10:18:11] [Server thread/INFO]: CladdyDaddy joined the game
 [10:18:11] [Server thread/INFO]: CladdyDaddy[/127.84.203.153:56985] logged in with entity id 231 at ([limbo]0.0, 70.0, 0.0)
+[10:18:56] [Server thread/INFO]: [Skript] Can't find the script 'chatpop' in the scripts folder!
