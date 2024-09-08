@@ -26,7 +26,7 @@ regions:
         min: {x: 11, y: 62, z: -314}
         max: {x: 25, y: 64, z: -289}
         members: {}
-        flags: {}
+        flags: {use: allow, block-break: deny, chest-access: allow}
         owners: {}
         type: cuboid
         priority: 0
