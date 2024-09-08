@@ -388,3 +388,6 @@ java.lang.IllegalArgumentException: Data cannot be null
 [10:19:44] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
 [10:19:44] [Server thread/INFO]: [Skript] Encountered 4 errors while reloading chat pop.sk! (395ms)
 [10:20:15] [Craft Scheduler Thread - 20 - InteractiveChat/INFO]: [Not Secure] <CladdyDaddy> c
+[10:20:50] [Server thread/INFO]: ChatPop » Plugin unloaded successfully :)
+[10:20:51] [Server thread/INFO]: ChatPop » Plugin loaded successfully :)
+[10:20:51] [Server thread/INFO]: ChatPop » ChatPop is enabled by default
