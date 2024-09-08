@@ -7,3 +7,70 @@
 [20:16:54] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (24):
  - BetterTeams (4.10.0), FastAsyncWorldEdit (2.11.1), GSit (1.10.0), ImageFrame (1.7.10.0), InteractiveChat (4.2.11.0), InteractiveChatDiscordSrvAddon (4.2.11.0), LuckPerms (5.4.141), MinecraftDashboard (1.1.7), Origins-Fantasy (1.0.15), Origins-Mobs (1.0.18), Origins-Monsters (1.1.10), Origins-Reborn (2.3.18), PlaceholderAPI (2.11.6), ProtocolLib (5.3.0-SNAPSHOT-726), PvPManager (3.18.26), SkinsRestorer (15.4.2), Skript (2.9.2), Vault (1.7.3-b131), Veinminer (2.1.3), ViaBackwards (5.0.4-SNAPSHOT), ViaVersion (5.0.4-SNAPSHOT), WorldGuard (7.0.11-beta1+a801a9d), ZeroInventoryProblems (1.0.14), packetevents (2.4.0)
 [20:16:57] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:17:20] [ServerMain/INFO]: Loaded 1290 recipes
+[20:17:25] [ServerMain/ERROR]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[20:17:25] [ServerMain/INFO]: Loaded 2529 advancements
+[20:17:25] [ServerMain/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
+[20:17:27] [Server thread/INFO]: Starting minecraft server version 1.21
+[20:17:27] [Server thread/INFO]: Loading properties
+[20:17:27] [Server thread/INFO]: This server is running Purpur version 1.21-2284-ver/1.21@4e55e26 (2024-08-10T17:35:56Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[20:17:28] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:17:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:17:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:17:30] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[20:17:30] [Server thread/INFO]: Default game type: SURVIVAL
+[20:17:30] [Server thread/INFO]: Generating keypair
+[20:17:30] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:24129
+[20:17:30] [Server thread/INFO]: Using default channel type
+[20:17:30] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:17:30] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[20:17:30] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/InteractiveChatDiscordSrvAddon-4.2.11.0.jar' in 'plugins/.paper-remapped'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [DiscordSRV]. Please download and install these plugins to run 'InteractiveChatDiscordSrvAddon'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:560) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:326) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:17:33] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loading 4 libraries... please wait
+[20:17:33] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.0.0/kotlin-stdlib-2.0.0.jar
+[20:17:33] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[20:17:33] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json/1.7.1/kotlinx-serialization-json-1.7.1.jar
+[20:17:33] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.7.1/kotlinx-serialization-json-jvm-1.7.1.jar
+[20:17:33] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlin/kotlin-stdlib-common/2.0.0/kotlin-stdlib-common-2.0.0.jar
+[20:17:33] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.7.1/kotlinx-serialization-core-jvm-1.7.1.jar
+[20:17:33] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.9.0-RC/kotlinx-coroutines-core-1.9.0-RC.jar
+[20:17:33] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.9.0-RC/kotlinx-coroutines-core-jvm-1.9.0-RC.jar
+[20:17:33] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
+[20:17:33] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
+[20:17:33] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
+[20:17:33] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
+[20:17:33] [Server thread/INFO]: [SpigotLibraryLoader] [PvPManager] Loading 2 libraries... please wait
+[20:17:33] [Server thread/INFO]: [SpigotLibraryLoader] [PvPManager] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
+[20:17:33] [Server thread/INFO]: [SpigotLibraryLoader] [PvPManager] Loaded library /home/runner/work/IgotAFellingproblemsiklol/IgotAFellingproblemsiklol/libraries/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar
+[20:17:33] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.4-SNAPSHOT
+[20:17:33] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.4-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[20:17:34] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:17:35] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:17:36] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:17:36] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:17:37] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.141
+[20:17:37] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[20:17:37] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.11.1
+[20:17:39] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@76dab207]
+[20:17:39] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.11-beta1+a801a9d
+[20:17:39] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[20:17:39] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.9.2
+[20:17:39] [Server thread/INFO]: [Origins-Reborn] Loading server plugin Origins-Reborn v2.3.18
+[20:17:39] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0-SNAPSHOT-726
+[20:17:39] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.0) has not yet been tested! Proceed with caution.
+[20:17:39] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.4-SNAPSHOT
+[20:17:39] [Server thread/INFO]: [Origins-Fantasy] Loading server plugin Origins-Fantasy v1.0.15
+[20:17:39] [Server thread/INFO]: [MinecraftDashboard] Loading server plugin MinecraftDashboard v1.1.7
+[20:17:39] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.7.10.0
+[20:17:39] [Server thread/INFO]: [Origins-Mobs] Loading server plugin Origins-Mobs v1.0.18
+[20:17:39] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.1.3
+[20:17:40] [Server thread/INFO]: [InteractiveChat] Loading server plugin InteractiveChat v4.2.11.0
+[20:17:40] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.4.0
