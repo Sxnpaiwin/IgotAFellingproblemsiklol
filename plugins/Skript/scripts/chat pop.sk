@@ -57,7 +57,7 @@ command /chatpopdebug:
             if {_particle} is not set:
                 set {_particle} to "happy_villager"
             # Play the sound effect
-            play {_sound} to player at volume 5 and pitch 1
+            play sound {_sound} with volume 5 and pitch 1 at player
             # Display particle effects around the player
             spawn {_particle} particle at location of player offset by 0.5, 1, 0.5 with speed 0.1 and amount 10
             send "&3ChatPop &7» &aDebug effects triggered."
@@ -84,7 +84,7 @@ on chat:
             if {_particle} is not set:
                 set {_particle} to "happy_villager"
             # Play the sound effect
-            play {_sound} to loop-player at volume 5 and pitch 1
+            play sound {_sound} with volume 5 and pitch 1 at loop-player
             # Display particle effects around the player
             spawn {_particle} particle at location of loop-player offset by 0.5, 1, 0.5 with speed 0.1 and amount 10
 
