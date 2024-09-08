@@ -14485,3 +14485,40 @@ java.lang.IllegalArgumentException: Data cannot be null
 [07:35:25] [Server thread/INFO]: Changed the block at 16, 67, -289
 [07:35:25] [Server thread/INFO]: Changed the block at 16, 67, -290
 [07:35:25] [Server thread/INFO]: Changed the block at 16, 67, -291
+[07:35:31] [Server thread/INFO]: [CladdyDaddy: Removed 1051 item(s) from player CladdyDaddy]
+[07:35:43] [Server thread/INFO]: Changed the block at 30, 61, -305
+[07:35:43] [Server thread/INFO]: Changed the block at 31, 61, -305
+[07:35:43] [Server thread/INFO]: Changed the block at 32, 61, -305
+[07:35:43] [Server thread/INFO]: Changed the block at 30, 62, -305
+[07:35:43] [Server thread/INFO]: Changed the block at 31, 62, -305
+[07:35:43] [Server thread/INFO]: Changed the block at 32, 62, -305
+[07:35:43] [Server thread/INFO]: Could not set the block
+[07:35:43] [Server thread/INFO]: Changed the block at 31, 63, -305
+[07:35:43] [Server thread/INFO]: Could not set the block
+[07:35:43] [Server thread/INFO]: Changed the block at 30, 64, -305
+[07:35:43] [Server thread/INFO]: Changed the block at 31, 64, -305
+[07:35:43] [Server thread/INFO]: Changed the block at 32, 64, -305
+[07:35:43] [Server thread/INFO]: Changed the block at 30, 65, -305
+[07:35:43] [Server thread/INFO]: Changed the block at 31, 65, -305
+[07:35:43] [Server thread/INFO]: Changed the block at 32, 65, -305
+[07:35:43] [Server thread/INFO]: Changed the block at 30, 66, -305
+[07:35:43] [Server thread/INFO]: Changed the block at 31, 66, -305
+[07:35:43] [Server thread/INFO]: Changed the block at 32, 66, -305
+[07:35:53] [Server thread/INFO]: Could not set the block
+[07:35:53] [Server thread/INFO]: Could not set the block
+[07:35:53] [Server thread/INFO]: Could not set the block
+[07:35:53] [Server thread/INFO]: Changed the block at 30, 63, -298
+[07:35:53] [Server thread/INFO]: Changed the block at 31, 63, -298
+[07:35:53] [Server thread/INFO]: Could not set the block
+[07:35:53] [Server thread/INFO]: Could not set the block
+[07:35:53] [Server thread/INFO]: Changed the block at 31, 64, -298
+[07:35:53] [Server thread/INFO]: Could not set the block
+[07:35:53] [Server thread/INFO]: Changed the block at 30, 65, -298
+[07:35:53] [Server thread/INFO]: Changed the block at 31, 65, -298
+[07:35:53] [Server thread/INFO]: Changed the block at 32, 65, -298
+[07:35:53] [Server thread/INFO]: Changed the block at 30, 66, -298
+[07:35:53] [Server thread/INFO]: Changed the block at 31, 66, -298
+[07:35:53] [Server thread/INFO]: Changed the block at 32, 66, -298
+[07:35:53] [Server thread/INFO]: Changed the block at 30, 67, -298
+[07:35:53] [Server thread/INFO]: Changed the block at 31, 67, -298
+[07:35:53] [Server thread/INFO]: Changed the block at 32, 67, -298
