@@ -3,5 +3,7 @@
 #
 # version: 2.9.2
 
+chatpop.lastmessage::41a7d88c-27d7-3fde-ab2b-6fcfd7d3c029, date, 810974696D657374616D700400000191D12F7845
 chatpop.toggle, string, 8007656E61626C6564
+chatpop.toggle::41a7d88c-27d7-3fde-ab2b-6fcfd7d3c029, string, 8007656E61626C6564
 
