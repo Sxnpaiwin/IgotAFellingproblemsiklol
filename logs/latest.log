@@ -103,3 +103,107 @@ java.lang.IllegalArgumentException: 'default' key contained unknown value
 [05:18:18] [Server thread/INFO]: 
 [05:18:18] [Server thread/INFO]: [LuckPerms] Loading configuration...
 [05:18:19] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[05:18:19] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[05:18:19] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[05:18:19] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1888ms)
+[05:18:19] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[05:18:20] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[05:18:20] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[05:18:20] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[05:18:20] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.11.1
+[05:18:20] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[05:18:20] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[05:18:20] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[05:18:20] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[05:18:21] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightFaweAdapter as the Bukkit adapter
+[05:18:21] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0-SNAPSHOT-726
+[05:18:21] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.1.3
+[05:18:21] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.2
+[05:18:22] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[05:18:23] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[05:18:24] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[05:18:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.4.2]
+[05:18:24] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[05:18:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:18:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:18:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:18:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:18:24] [Server thread/INFO]: Preparing level "world"
+[05:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[05:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[05:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[05:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[05:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[05:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.2
+[05:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 210a436
+[05:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[05:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:18:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:18:27] [Server thread/INFO]: Time elapsed: 2705 ms
+[05:18:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:18:27] [Server thread/INFO]: Time elapsed: 247 ms
+[05:18:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:18:28] [Server thread/INFO]: Time elapsed: 141 ms
+[05:18:28] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.4-SNAPSHOT
+[05:18:28] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[05:18:28] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.11-beta1+a801a9d
+[05:18:28] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[05:18:28] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[05:18:28] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[05:18:28] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[05:18:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[05:18:28] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[05:18:28] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[05:18:28] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[05:18:28] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[05:18:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[05:18:28] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[05:18:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[05:18:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[05:18:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[05:18:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[05:18:28] [Server thread/INFO]: [WorldGuard] Loading region data...
+[05:18:29] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[05:18:29] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[05:18:29] [Server thread/INFO]: [Skript] Enabling Skript v2.9.2
+[05:18:30] [ForkJoinPool.commonPool-worker-3/INFO]: [Skript] You're currently running the latest stable version of Skript.
+[05:18:41] [Server thread/INFO]: [Skript] Loaded 233074 aliases in 11084ms
+[05:18:42] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[05:18:42] [Server thread/INFO]: [Origins-Reborn] Enabling Origins-Reborn v2.3.18
+[05:18:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: origin [2.3.18]
+[05:18:43] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.4-SNAPSHOT
+[05:18:43] [Server thread/INFO]: [Origins-Fantasy] Enabling Origins-Fantasy v1.0.15
+[05:18:43] [Server thread/INFO]: [MinecraftDashboard] Enabling MinecraftDashboard v1.1.7
+[05:18:46] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 228 ms to scan 1 urls, producing 2 keys and 34 values
+[05:18:46] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.7.10.0
+[05:18:47] [Server thread/INFO]: [ImageFrame] ImageFrame has hooked into ViaVersion!
+[05:18:47] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[05:18:47] [Server thread/INFO]: [Origins-Mobs] Enabling Origins-Mobs v1.0.18
+[05:18:47] [Server thread/INFO]: [InteractiveChat] Enabling InteractiveChat v4.2.11.0
+[05:18:48] [Server thread/INFO]: [InteractiveChat] Opened Sqlite database successfully
+[05:18:48] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into ViaVersion!
+[05:18:48] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into LuckPerms!
+[05:18:49] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: interactivechat [4.2.11.0]
+[05:18:49] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Enabled!
+[05:18:49] [Server thread/INFO]: [packetevents] Enabling packetevents v2.4.0
+[05:18:49] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[05:18:49] [Server thread/INFO]: [GSit] Enabling GSit v1.10.0
+[05:18:49] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release of PacketEvents. Your build: (2.4.0)
+[05:18:49] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[05:18:49] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
+[05:18:49] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [1.10.0]
+[05:18:49] [Server thread/INFO]: [GSit] Link with WorldGuard successful!
+[05:18:49] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.10.0
+[05:18:49] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
+[05:18:49] [Server thread/INFO]: [BetterTeams] File is up to date
+[05:18:49] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterTeams [4.10.0]
+[05:18:49] [Server thread/INFO]: Display team name config value: prefix
+[05:18:49] [Server thread/INFO]: Loading below name. Type: PREFIX
+[05:18:49] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@b2f4b71
+[05:18:49] [Server thread/INFO]: [LibreLogin] Enabling LibreLogin v0.23.0
+[05:18:49] [Server thread/INFO]: [LibreLogin] Bootstrapping LibreLogin...
+[05:18:49] [Server thread/INFO]: [LibreLogin] Loading messages...
+[05:18:50] [Server thread/INFO]: [LibreLogin] Loading configuration...
+[05:18:50] [Server thread/INFO]: [LibreLogin] Loading forbidden passwords...
