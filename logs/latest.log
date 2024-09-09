@@ -1,2 +1,9 @@
-[01:18:20] [PvPManager Worker Thread - 3/INFO]: [PvPManager] Checking for updates...
-[01:18:20] [PvPManager Worker Thread - 3/INFO]: [PvPManager] No update found
+[05:17:28] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Eclipse Adoptium Temurin-21.0.4+7) on Linux 6.5.0-1025-azure (amd64)
+[05:17:28] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21-2284-ver/1.21@4e55e26 (2024-08-10T17:35:56Z) for Minecraft 1.21
+[05:17:29] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[05:17:29] [ServerMain/INFO]: [PluginInitializerManager] Initialized 25 plugins
+[05:17:29] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - LibreLogin (0.23.0)
+[05:17:29] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (24):
+ - BetterTeams (4.10.0), FastAsyncWorldEdit (2.11.1), GSit (1.10.0), ImageFrame (1.7.10.0), InteractiveChat (4.2.11.0), InteractiveChatDiscordSrvAddon (4.2.11.0), LuckPerms (5.4.141), MinecraftDashboard (1.1.7), Origins-Fantasy (1.0.15), Origins-Mobs (1.0.18), Origins-Monsters (1.1.10), Origins-Reborn (2.3.18), PlaceholderAPI (2.11.6), ProtocolLib (5.3.0-SNAPSHOT-726), PvPManager (3.18.26), SkinsRestorer (15.4.2), Skript (2.9.2), Vault (1.7.3-b131), Veinminer (2.1.3), ViaBackwards (5.0.4-SNAPSHOT), ViaVersion (5.0.4-SNAPSHOT), WorldGuard (7.0.11-beta1+a801a9d), ZeroInventoryProblems (1.0.14), packetevents (2.4.0)
+[05:17:33] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
