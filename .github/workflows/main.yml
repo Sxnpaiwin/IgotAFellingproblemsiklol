@@ -17,41 +17,24 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Debug - List directory contents
         run: ls -la
-      - name: Install and Run PufferPanel
+      - name: Run Spigot and playit with 30-second commits and workflow deletion
         if: "!contains(github.event.head_commit.message, 'Auto commit every 30 seconds')"
         env:
           FINE_GRAINED_PAT: ${{ secrets.FINE_GRAINED_PAT }}
           REPO: ${{ github.repository }}
           PLAYIT_SECRET: ${{ secrets.PLAYIT_SECRET }}
         run: |
-          # Update and upgrade the system
-          sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y
-
-          # Install necessary packages
-          sudo apt install wget curl sudo nano screen cron -y
-
-          # Install PufferPanel
-          curl -s https://packagecloud.io/install/repositories/pufferpanel/pufferpanel/script.deb.sh | sudo bash
-          sudo apt-get install pufferpanel -y
-
-          # Set up cron jobs for permissions
-          { crontab -l 2>/dev/null; echo "* * * * * chown -R pufferpanel:pufferpanel /var/lib/pufferpanel/" ; } | crontab -
-          { crontab -l 2>/dev/null; echo "* * * * * chown -R pufferpanel:pufferpanel /etc/pufferpanel/" ; } | crontab -
-
-          # Enable and start PufferPanel service
-          sudo systemctl enable pufferpanel
-          sudo systemctl start pufferpanel
-
-          # Add a PufferPanel user
-          sudo pufferpanel user add
-
-          # Start PlayIt
           cd $GITHUB_WORKSPACE
           chmod +x playit-linux-amd64
           echo "$PLAYIT_SECRET" > playit.toml
+          echo "Starting Spigot..."
+          java -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -Xms16G -Xmx16G -jar spigot.jar nogui 2>&1 | sed '/login:/s/.*/<REDACTED>/' &
+          SPIGOT_PID=$!
+          echo "Spigot started with PID $SPIGOT_PID"
+          echo "Starting playit..."
           ./playit-linux-amd64 2>&1 | sed '/login:/s/.*/<REDACTED>/' &
           PLAYIT_PID=$!
-
+          echo "playit started with PID $PLAYIT_PID"
           # Function to commit and push changes
           commit_and_push() {
             git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -81,7 +64,7 @@ jobs:
             echo "Failed to push after 3 attempts"
             return 1
           }
-
+          
           delete_auto_commit_workflows() {
             workflow_ids=$(curl -s -H "Authorization: token $FINE_GRAINED_PAT" \
               "https://api.github.com/repos/${REPO}/actions/runs" | \
@@ -113,6 +96,7 @@ jobs:
             done
           }
 
+          
           START_TIME=$(date +%s)
           
           # Schedule the cancellation of old workflow runs after 30 seconds
@@ -127,6 +111,11 @@ jobs:
             CURRENT_TIME=$(date +%s)
             ELAPSED_TIME=$((CURRENT_TIME - START_TIME))
             
+            if ! kill -0 $SPIGOT_PID 2>/dev/null; then
+              echo "Spigot process has stopped. Restarting Spigot..."
+              start_spigot
+            fi
+
             if ! kill -0 $PLAYIT_PID 2>/dev/null || [ $ELAPSED_TIME -ge 18000 ]; then
               if ! kill -0 $PLAYIT_PID 2>/dev/null; then
                 echo "PlayIt Tunnel process has stopped."
