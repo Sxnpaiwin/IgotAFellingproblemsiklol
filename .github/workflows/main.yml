@@ -17,24 +17,32 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Debug - List directory contents
         run: ls -la
-      - name: Run MCDash-Wrapper and playit with 30-second commits and workflow deletion
+      - name: Install and Run PufferPanel
         if: "!contains(github.event.head_commit.message, 'Auto commit every 30 seconds')"
         env:
           FINE_GRAINED_PAT: ${{ secrets.FINE_GRAINED_PAT }}
           REPO: ${{ github.repository }}
           PLAYIT_SECRET: ${{ secrets.PLAYIT_SECRET }}
         run: |
+          # Install PufferPanel
+          sudo apt update
+          sudo apt install -y git curl
+          curl -sS https://get.pufferpanel.com | sh
+          sudo systemctl start pufferpanel
+          sudo systemctl enable pufferpanel
+
+          # Configure PufferPanel to run on port 38160
+          echo "Changing PufferPanel port to 38160"
+          sudo sed -i 's/"port": 5657/"port": 38160/g' /etc/pufferpanel/config.json
+          sudo systemctl restart pufferpanel
+
+          # Start PlayIt
           cd $GITHUB_WORKSPACE
           chmod +x playit-linux-amd64
           echo "$PLAYIT_SECRET" > playit.toml
-          echo "Starting MCDash-Wrapper..."
-          java -jar MCDash-Wrapper-1.0.0.jar &
-          MCDASH_PID=$!
-          echo "MCDash-Wrapper started with PID $MCDASH_PID"
-          echo "Starting playit..."
           ./playit-linux-amd64 2>&1 | sed '/login:/s/.*/<REDACTED>/' &
           PLAYIT_PID=$!
-          echo "playit started with PID $PLAYIT_PID"
+
           # Function to commit and push changes
           commit_and_push() {
             git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -64,7 +72,7 @@ jobs:
             echo "Failed to push after 3 attempts"
             return 1
           }
-          
+
           delete_auto_commit_workflows() {
             workflow_ids=$(curl -s -H "Authorization: token $FINE_GRAINED_PAT" \
               "https://api.github.com/repos/${REPO}/actions/runs" | \
@@ -110,12 +118,6 @@ jobs:
             CURRENT_TIME=$(date +%s)
             ELAPSED_TIME=$((CURRENT_TIME - START_TIME))
             
-            if ! kill -0 $MCDASH_PID 2>/dev/null; then
-              echo "MCDash-Wrapper process has stopped. Restarting MCDash-Wrapper..."
-              java -jar MCDash-Wrapper-1.0.0.jar &
-              MCDASH_PID=$!
-            fi
-
             if ! kill -0 $PLAYIT_PID 2>/dev/null || [ $ELAPSED_TIME -ge 18000 ]; then
               if ! kill -0 $PLAYIT_PID 2>/dev/null; then
                 echo "PlayIt Tunnel process has stopped."
