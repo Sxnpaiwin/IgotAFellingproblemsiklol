@@ -1,0 +1,4 @@
+13:50:22 [main] INFO  org.reflections.Reflections - Reflections took 32 ms to scan 1 urls, producing 1 keys and 8 values
+13:50:22 [main] INFO  de.gnmyt.mcdash.api.ServerManager - Starting all servers...
+13:50:22 [main] INFO  de.gnmyt.mcdash.api.ServerManager - All servers have been started
+13:50:22 [main] INFO  de.gnmyt.mcdash.MCDashWrapper - MCDash Wrapper v1.0.0 is now running on port 7865
