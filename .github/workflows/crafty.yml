@@ -14,4 +14,4 @@ jobs:
       - name: Install Crafty
         run: |
           cd crafty-installer-4.0
-          sudo ./install_crafty.sh
+          yes | sudo ./install_crafty.sh
