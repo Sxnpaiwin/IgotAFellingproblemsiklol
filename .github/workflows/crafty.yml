@@ -1,10 +1,3 @@
-
-
-It looks like there's an error in the YAML file. The error message is pointing to line 26, column 13, but since the file I provided earlier doesn't have that many lines, I'm assuming the issue is with the indentation or a missing value.
-
-Here's an updated version of the workflow file with some minor adjustments:
-
-```yaml
 name: Clone and Install Crafty
 
 on:
@@ -22,6 +15,3 @@ jobs:
         run: |
           cd crafty-installer-4.0
           sudo ./install_crafty.sh
-```
-
-I removed the unnecessary `checkout` step and the `env` section, as they weren't being used. I also split
