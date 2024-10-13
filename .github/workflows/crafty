@@ -1,0 +1,31 @@
+name: Clone and Install Crafty
+
+on:
+  workflow_dispatch: # You can trigger this workflow manually
+  # or you can use other triggers like push, pull_request, etc.
+
+jobs:
+  install-crafty:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (not necessary here, but included for completeness)
+        uses: actions/checkout@v3
+        with:
+          repository: 'crafty-controller/crafty-installer-4.0'
+          token: ${{ secrets.PAT }} # Personal Access Token with necessary permissions
+          path: 'crafty-installer-4.0'
+
+      - name: Clone GitLab Repository
+        run: |
+          git clone https://gitlab.com/crafty-controller/crafty-installer-4.0.git
+          cd crafty-installer-4.0
+
+      - name: Install Crafty
+        run: |
+          sudo ./install_crafty.sh
+        env:
+          # If your script requires any environment variables, define them here
+          # For example:
+          # VARIABLE_NAME: ${{ secrets.VARIABLE_NAME }}
+
+      # Optionally, you can add error handling or additional steps as needed
