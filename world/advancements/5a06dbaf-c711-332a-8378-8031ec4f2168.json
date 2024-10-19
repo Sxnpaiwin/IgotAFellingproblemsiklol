@@ -38,6 +38,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2024-10-19 03:42:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-10-19 03:42:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2024-10-19 03:36:53 +0000"
@@ -83,6 +95,12 @@
   "minecraft:recipes/combat/mace": {
     "criteria": {
       "has_breeze_rod": "2024-10-19 03:39:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2024-10-19 03:42:42 +0000"
     },
     "done": true
   },
