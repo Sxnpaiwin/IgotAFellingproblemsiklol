@@ -53,6 +53,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/wind_charge": {
+    "criteria": {
+      "has_breeze_rod": "2024-10-19 03:48:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
       "has_mutton": "2024-10-19 03:32:47 +0000"
@@ -134,6 +140,12 @@
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2024-10-19 03:41:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-10-19 03:48:10 +0000"
     },
     "done": true
   },
@@ -233,6 +245,12 @@
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2024-10-19 03:35:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/mace": {
+    "criteria": {
+      "has_breeze_rod": "2024-10-19 03:48:11 +0000"
     },
     "done": true
   },
