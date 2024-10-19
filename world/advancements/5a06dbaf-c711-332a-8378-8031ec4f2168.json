@@ -112,7 +112,8 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:skeleton": "2024-10-19 03:27:38 +0000"
+      "minecraft:skeleton": "2024-10-19 03:27:38 +0000",
+      "minecraft:endermite": "2024-10-19 03:55:57 +0000"
     },
     "done": false
   },
@@ -209,6 +210,12 @@
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2024-10-19 03:49:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/who_needs_rockets": {
+    "criteria": {
+      "who_needs_rockets": "2024-10-19 03:53:29 +0000"
     },
     "done": true
   },
