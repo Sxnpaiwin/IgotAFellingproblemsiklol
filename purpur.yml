@@ -11,6 +11,9 @@
 verbose: false
 settings:
   messages:
+    afk-title-away: <gold><bold>AFK:<red>You are now AFK...:10:70:20
+    afk-command-cooldown: 0
+    afk-command-cooldown-msg: <gray>You need to wait %time%s to use /afk.
     cannot-ride-mob: <red>You cannot mount that mob
     afk-broadcast-away: <yellow><italic>%s is now AFK
     afk-broadcast-back: <yellow><italic>%s is no longer AFK
@@ -96,6 +99,8 @@ settings:
       second: '%02d second'
       seconds: '%02d seconds'
   blocks:
+    chest_boat:
+      rows: 3
     barrel:
       rows: 3
     ender_chest:
@@ -641,6 +646,8 @@ world-settings:
       use-dismounts-underwater-tag: true
     mobs:
       allay:
+        take-damage-from-water: false
+        always-drop-exp: false
         ridable: false
         ridable-in-water: true
         controllable: true
@@ -713,6 +720,8 @@ world-settings:
           max_health: 16.0
           scale: 1.0
       camel:
+        takes-damage-from-water: false
+        always-drop-exp: false
         ridable-in-water: false
         attributes:
           max_health:
@@ -828,6 +837,7 @@ world-settings:
         takes-damage-from-water: false
         always-drop-exp: false
       drowned:
+        movement-speed: 0.23000000417232513
         ridable: false
         ridable-in-water: true
         controllable: true
@@ -910,6 +920,10 @@ world-settings:
         takes-damage-from-water: false
         always-drop-exp: false
       frog:
+        attributes:
+          max_health: 10.0
+        takes-damage-from-water: false
+        always-drop-exp: false
         ridable: false
         ridable-in-water: true
         controllable: true
@@ -993,6 +1007,7 @@ world-settings:
         takes-damage-from-water: false
         always-drop-exp: false
       husk:
+        movement-speed: 0.23000000417232513
         ridable: false
         ridable-in-water: true
         controllable: true
@@ -1343,6 +1358,8 @@ world-settings:
         takes-damage-from-water: true
         always-drop-exp: false
       sniffer:
+        takes-damage-from-water: false
+        always-drop-exp: false
         ridable: false
         ridable-in-water: true
         controllable: true
@@ -1391,6 +1408,10 @@ world-settings:
         takes-damage-from-water: true
         always-drop-exp: false
       tadpole:
+        attributes:
+          max_health: 6.0
+        takes-damage-from-water: false
+        always-drop-exp: false
         ridable: false
         ridable-in-water: true
         controllable: true
@@ -1492,6 +1513,10 @@ world-settings:
         allow-trading: true
         always-drop-exp: false
       warden:
+        attributes:
+          max_health: 500.0
+        takes-damage-from-water: false
+        always-drop-exp: false
         ridable: false
         ridable-in-water: true
         controllable: true
@@ -1552,6 +1577,7 @@ world-settings:
         takes-damage-from-water: false
         always-drop-exp: false
       zombie:
+        movement-speed: 0.23000000417232513
         ridable: false
         ridable-in-water: true
         controllable: true
@@ -1586,6 +1612,7 @@ world-settings:
         takes-damage-from-water: false
         always-drop-exp: false
       zombie_villager:
+        movement-speed: 0.23000000417232513
         ridable: false
         ridable-in-water: true
         controllable: true
@@ -1605,6 +1632,7 @@ world-settings:
           enabled: true
         always-drop-exp: false
       zombified_piglin:
+        movement-speed: 0.23000000417232513
         ridable: false
         ridable-in-water: true
         controllable: true
