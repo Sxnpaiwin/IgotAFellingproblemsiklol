@@ -1646,5 +1646,11 @@
     },
     "done": true
   },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-10-25 20:52:26 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
