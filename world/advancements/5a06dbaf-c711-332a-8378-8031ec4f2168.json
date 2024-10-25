@@ -52,7 +52,8 @@
       "minecraft:skeleton": "2024-10-19 03:27:38 +0000",
       "minecraft:endermite": "2024-10-19 03:55:57 +0000",
       "minecraft:spider": "2024-10-25 18:23:31 +0000",
-      "minecraft:zombie": "2024-10-25 18:12:29 +0000"
+      "minecraft:zombie": "2024-10-25 18:12:29 +0000",
+      "minecraft:creeper": "2024-10-25 18:25:02 +0000"
     },
     "done": false
   },
@@ -1077,6 +1078,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2024-10-25 18:25:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_tuff": {
     "criteria": {
       "has_tuff": "2024-10-25 18:19:51 +0000"
@@ -1110,6 +1117,12 @@
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
       "has_leather": "2024-10-25 18:06:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2024-10-25 18:25:03 +0000"
     },
     "done": true
   },
