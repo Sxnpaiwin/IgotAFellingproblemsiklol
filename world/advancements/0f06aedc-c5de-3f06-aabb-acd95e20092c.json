@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:beach": "2024-10-19 03:35:55 +0000",
       "minecraft:forest": "2024-10-19 03:28:59 +0000",
+      "minecraft:sunflower_plains": "2024-10-25 19:16:08 +0000",
       "minecraft:river": "2024-10-25 18:28:42 +0000",
       "minecraft:dripstone_caves": "2024-10-25 18:35:57 +0000",
       "minecraft:savanna": "2024-10-19 03:29:53 +0000",
@@ -436,6 +437,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-10-25 18:16:30 +0000",
+      "minecraft:piglin": "2024-10-25 19:19:37 +0000",
       "minecraft:breeze": "2024-10-25 19:08:29 +0000",
       "minecraft:spider": "2024-10-25 18:42:28 +0000",
       "minecraft:zombie": "2024-10-25 17:55:22 +0000",
@@ -887,6 +889,13 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2024-10-25 19:19:41 +0000",
+      "minecraft:nether_wastes": "2024-10-25 19:19:15 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/polished_diorite": {
     "criteria": {
       "has_diorite": "2024-10-25 18:20:54 +0000"
@@ -914,6 +923,12 @@
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-10-25 18:30:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-10-25 19:19:14 +0000"
     },
     "done": true
   },
@@ -1052,6 +1067,12 @@
   "minecraft:recipes/tools/iron_shovel": {
     "criteria": {
       "has_iron_ingot": "2024-10-25 18:11:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-10-25 19:19:14 +0000"
     },
     "done": true
   },
