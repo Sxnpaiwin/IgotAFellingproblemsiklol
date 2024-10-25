@@ -8,8 +8,10 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:old_growth_birch_forest": "2024-10-25 19:55:09 +0000",
+      "minecraft:stony_peaks": "2024-10-25 20:34:55 +0000",
       "minecraft:forest": "2024-10-25 19:54:23 +0000",
       "minecraft:deep_dark": "2024-10-25 20:07:37 +0000",
+      "minecraft:sparse_jungle": "2024-10-25 20:33:48 +0000",
       "minecraft:jungle": "2024-10-25 19:56:26 +0000",
       "minecraft:sunflower_plains": "2024-10-25 19:06:55 +0000",
       "minecraft:river": "2024-10-25 19:39:40 +0000",
