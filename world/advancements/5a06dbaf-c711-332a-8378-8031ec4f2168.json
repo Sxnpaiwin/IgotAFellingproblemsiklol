@@ -7,6 +7,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:beach": "2024-10-25 17:41:59 +0000",
       "minecraft:forest": "2024-10-14 03:24:04 +0000",
       "minecraft:ocean": "2024-10-25 17:40:40 +0000",
       "minecraft:river": "2024-10-19 03:29:02 +0000",
