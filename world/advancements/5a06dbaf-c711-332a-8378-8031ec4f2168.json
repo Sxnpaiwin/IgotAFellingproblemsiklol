@@ -44,6 +44,8 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2024-10-25 19:10:03 +0000",
+      "minecraft:skeleton": "2024-10-25 19:12:49 +0000",
+      "minecraft:magma_cube": "2024-10-25 19:12:27 +0000",
       "minecraft:wither_skeleton": "2024-10-25 19:10:13 +0000",
       "minecraft:ghast": "2024-10-25 19:10:34 +0000"
     },
@@ -740,6 +742,12 @@
     },
     "done": true
   },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-10-25 19:12:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
       "has_gunpowder": "2024-10-25 19:07:09 +0000"
@@ -808,6 +816,12 @@
     },
     "done": true
   },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2024-10-25 19:12:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/golden_apple": {
     "criteria": {
       "has_gold_ingot": "2024-10-25 19:11:17 +0000"
@@ -847,6 +861,12 @@
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2024-10-25 19:11:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-10-25 19:14:14 +0000"
     },
     "done": true
   },
@@ -943,6 +963,12 @@
   "minecraft:recipes/redstone/light_weighted_pressure_plate": {
     "criteria": {
       "has_gold_ingot": "2024-10-25 19:11:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2024-10-25 19:12:35 +0000"
     },
     "done": true
   },
