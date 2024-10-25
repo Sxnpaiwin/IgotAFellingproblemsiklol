@@ -9,8 +9,11 @@
     "criteria": {
       "minecraft:old_growth_birch_forest": "2024-10-25 19:55:09 +0000",
       "minecraft:forest": "2024-10-25 19:54:23 +0000",
+      "minecraft:jungle": "2024-10-25 19:56:26 +0000",
       "minecraft:sunflower_plains": "2024-10-25 19:06:55 +0000",
       "minecraft:river": "2024-10-25 19:39:40 +0000",
+      "minecraft:birch_forest": "2024-10-25 19:55:31 +0000",
+      "minecraft:stony_shore": "2024-10-25 19:56:34 +0000",
       "minecraft:plains": "2024-10-25 19:37:17 +0000"
     },
     "done": false
