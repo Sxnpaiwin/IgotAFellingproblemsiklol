@@ -353,7 +353,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "golden_apple": "2024-10-19 03:49:52 +0000",
-      "cooked_mutton": "2024-10-25 18:11:42 +0000"
+      "cooked_mutton": "2024-10-25 18:11:42 +0000",
+      "cooked_beef": "2024-10-25 18:19:15 +0000"
     },
     "done": false
   },
@@ -431,6 +432,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2024-10-25 18:16:30 +0000",
       "minecraft:zombie": "2024-10-25 17:55:22 +0000"
     },
     "done": false
@@ -651,6 +653,12 @@
     },
     "done": true
   },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-10-25 18:16:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_boots": {
     "criteria": {
       "has_iron_ingot": "2024-10-25 18:11:55 +0000"
@@ -804,6 +812,12 @@
   "minecraft:recipes/tools/iron_axe": {
     "criteria": {
       "has_iron_ingot": "2024-10-25 18:11:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2024-10-25 18:16:31 +0000"
     },
     "done": true
   },
