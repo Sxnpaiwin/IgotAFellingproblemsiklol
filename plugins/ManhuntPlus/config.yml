@@ -1,0 +1,85 @@
+#
+# |  \/  |           | |               | |      _
+# | \  / | __ _ _ __ | |__  _   _ _ __ | |_   _| |_
+# | |\/| |/ _` | '_ \| '_ \| | | | '_ \| __| |_   _|
+# | |  | | (_| | | | | | | | |_| | | | | |_    |_|
+# |_|  |_|\__,_|_| |_|_| |_|\__,_|_| |_|\__|
+#
+# AUTHOR: Umbral Phoenix
+# Link: https://www.spigotmc.org/resources/manhunt-1-16x-1-18x.86708
+# © Copyright Phoenix 2020-2021
+#
+# TEAM-CHAT MESSAGE PLACEHOLDERS:
+# %player%: Player's name
+# %message%: Chat message by player
+# %default%: Default team-chat message
+#
+# COLOR CODES:
+# You can find a list of minecraft color codes at the link below:
+# https://minecraft.gamepedia.com/Formatting_codes
+#
+#  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#  +     Start Settings     +
+#  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# If true, it will heal all players on start of a hunt
+healStart: true
+
+# If true, it will feed all players on start of a hunt
+feedStart: true
+
+# If true, it will make the time day on start of a hunt
+dayStart: true
+
+# If true, it will clear all participant's inventories on start of a hunt
+clearStart: true
+
+#  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#  +     Game Settings     +
+#  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# If set to true, compass will have a counter of blocks displayed
+# between you and your target
+distanceTracker: false
+
+# If set to true, all players will reset achievements on start
+achievementReset: false
+
+# Change these settings to see how team-chat looks in game. Placeholders listed above
+# Set to "%default%" taleo get the default team-chat message
+hunterTeamchat: "&c&l[Hunter Chat] &c%player% »&6&l%message%"
+
+# Set to "%default%" to get the default team-chat message
+runnerTeamchat: "&a&l[Runner Chat] &a%player% »&b&l%message%"
+
+# Default prefix before every message to turn it into a teamchat message
+teamchatPrefix: "#"
+
+# If true, runner will get a compass pointing to the closest nether fortress
+fortressTracker: false
+
+# Boosts percentage chance of piglins trading ender pearls
+piglinPearlBoost: false
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# +     Discord Settings     +
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# If true, discord integration will be enabled
+discordIntegration: false
+
+# Paste your bots token here for it to work
+botToken: "0000000000"
+
+# Set this to your bots status (Ex: "Watching <bot-activity-message>")
+botActivityMessage: "A manhunt"
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# +     Advanced Settings     +
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Plays when a manhunt begins with a head-start. Set to a valid minecraft sound
+startSound: "ENTITY_WITHER_DEATH"
+
+# Particle effect for when a runner dies. Only activates in a two or more runner game. Set to "NONE" for no particles
+particleEffect: "EXPLOSION_NORMAL"
