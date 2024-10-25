@@ -8,7 +8,9 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:beach": "2024-10-19 03:35:55 +0000",
+      "minecraft:stony_peaks": "2024-10-25 20:01:17 +0000",
       "minecraft:forest": "2024-10-19 03:28:59 +0000",
+      "minecraft:sparse_jungle": "2024-10-25 20:02:30 +0000",
       "minecraft:sunflower_plains": "2024-10-25 19:16:08 +0000",
       "minecraft:river": "2024-10-25 18:28:42 +0000",
       "minecraft:lukewarm_ocean": "2024-10-25 19:57:09 +0000",
@@ -1567,6 +1569,12 @@
   "minecraft:recipes/transportation/spruce_chest_boat": {
     "criteria": {
       "has_boat": "2024-10-25 19:52:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2024-10-25 20:02:03 +0000"
     },
     "done": true
   },
