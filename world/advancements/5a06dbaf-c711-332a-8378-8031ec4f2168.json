@@ -767,9 +767,11 @@
     "criteria": {
       "cooked_porkchop": "2024-10-25 19:22:54 +0000",
       "bread": "2024-10-25 19:54:14 +0000",
+      "golden_apple": "2024-10-25 21:11:53 +0000",
       "cooked_chicken": "2024-10-25 19:08:58 +0000",
       "cooked_mutton": "2024-10-25 19:08:00 +0000",
-      "cooked_beef": "2024-10-25 19:20:34 +0000"
+      "cooked_beef": "2024-10-25 19:20:34 +0000",
+      "porkchop": "2024-10-25 21:14:01 +0000"
     },
     "done": false
   },
@@ -1781,6 +1783,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2024-10-25 21:13:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_stairs": {
     "criteria": {
       "has_granite": "2024-10-25 20:29:19 +0000"
@@ -1955,9 +1963,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2024-10-25 21:13:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:end/root": {
     "criteria": {
       "entered_end": "2024-10-25 21:04:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2024-10-25 21:13:58 +0000"
     },
     "done": true
   },
