@@ -435,6 +435,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-10-25 18:16:30 +0000",
+      "minecraft:spider": "2024-10-25 18:42:28 +0000",
       "minecraft:zombie": "2024-10-25 17:55:22 +0000"
     },
     "done": false
@@ -1000,6 +1001,12 @@
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_iron_ingot": "2024-10-25 18:11:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2024-10-25 18:41:05 +0000"
     },
     "done": true
   },
