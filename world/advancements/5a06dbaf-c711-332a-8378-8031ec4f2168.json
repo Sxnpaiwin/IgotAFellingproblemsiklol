@@ -7,17 +7,18 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:old_growth_birch_forest": "2024-10-25 19:55:09 +0000",
       "minecraft:stony_peaks": "2024-10-25 20:34:55 +0000",
       "minecraft:forest": "2024-10-25 19:54:23 +0000",
-      "minecraft:deep_dark": "2024-10-25 20:07:37 +0000",
       "minecraft:sparse_jungle": "2024-10-25 20:33:48 +0000",
-      "minecraft:jungle": "2024-10-25 19:56:26 +0000",
-      "minecraft:sunflower_plains": "2024-10-25 19:06:55 +0000",
       "minecraft:river": "2024-10-25 19:39:40 +0000",
       "minecraft:lukewarm_ocean": "2024-10-25 20:20:59 +0000",
-      "minecraft:birch_forest": "2024-10-25 19:55:31 +0000",
       "minecraft:stony_shore": "2024-10-25 19:56:34 +0000",
+      "minecraft:old_growth_birch_forest": "2024-10-25 19:55:09 +0000",
+      "minecraft:deep_dark": "2024-10-25 20:07:37 +0000",
+      "minecraft:jungle": "2024-10-25 19:56:26 +0000",
+      "minecraft:sunflower_plains": "2024-10-25 19:06:55 +0000",
+      "minecraft:birch_forest": "2024-10-25 19:55:31 +0000",
+      "minecraft:savanna": "2024-10-25 20:50:09 +0000",
       "minecraft:plains": "2024-10-25 19:37:17 +0000"
     },
     "done": false
@@ -800,16 +801,17 @@
     "criteria": {
       "minecraft:blaze": "2024-10-25 19:10:03 +0000",
       "minecraft:skeleton": "2024-10-25 19:12:49 +0000",
+      "minecraft:wither_skeleton": "2024-10-25 19:10:13 +0000",
+      "minecraft:ghast": "2024-10-25 19:10:34 +0000",
+      "minecraft:hoglin": "2024-10-25 19:20:52 +0000",
       "minecraft:piglin": "2024-10-25 19:21:57 +0000",
       "minecraft:enderman": "2024-10-25 20:43:25 +0000",
+      "minecraft:silverfish": "2024-10-25 20:50:14 +0000",
       "minecraft:magma_cube": "2024-10-25 19:12:27 +0000",
       "minecraft:piglin_brute": "2024-10-25 19:21:43 +0000",
       "minecraft:spider": "2024-10-25 20:43:17 +0000",
-      "minecraft:wither_skeleton": "2024-10-25 19:10:13 +0000",
       "minecraft:zombie": "2024-10-25 19:39:06 +0000",
-      "minecraft:creeper": "2024-10-25 20:42:19 +0000",
-      "minecraft:ghast": "2024-10-25 19:10:34 +0000",
-      "minecraft:hoglin": "2024-10-25 19:20:52 +0000"
+      "minecraft:creeper": "2024-10-25 20:42:19 +0000"
     },
     "done": false
   },
@@ -1761,9 +1763,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2024-10-25 20:46:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_fence_gate": {
     "criteria": {
       "has_planks": "2024-10-25 20:23:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-10-25 20:48:29 +0000"
     },
     "done": true
   },
@@ -1791,6 +1805,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-10-25 20:48:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite": {
     "criteria": {
       "has_diorite": "2024-10-25 20:27:56 +0000"
@@ -1815,9 +1835,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/andesite_stairs": {
+    "criteria": {
+      "has_andesite": "2024-10-25 20:46:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2024-10-25 20:29:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2024-10-25 20:46:04 +0000"
     },
     "done": true
   },
@@ -1839,6 +1871,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_andesite": "2024-10-25 20:46:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2024-10-25 20:46:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_granite": "2024-10-25 20:29:19 +0000"
@@ -1851,9 +1895,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2024-10-25 20:46:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2024-10-25 20:29:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-10-25 20:48:37 +0000"
     },
     "done": true
   },
@@ -1866,6 +1922,24 @@
   "minecraft:recipes/decorations/diorite_wall": {
     "criteria": {
       "has_diorite": "2024-10-25 20:27:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall": {
+    "criteria": {
+      "has_andesite": "2024-10-25 20:46:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab": {
+    "criteria": {
+      "has_andesite": "2024-10-25 20:46:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2024-10-25 20:46:04 +0000"
     },
     "done": true
   },
@@ -1914,6 +1988,12 @@
   "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2024-10-25 20:27:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2024-10-25 20:46:04 +0000"
     },
     "done": true
   },
