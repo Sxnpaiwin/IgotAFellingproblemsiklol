@@ -354,6 +354,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2024-10-25 18:52:34 +0000",
       "golden_apple": "2024-10-19 03:49:52 +0000",
       "cooked_mutton": "2024-10-25 18:11:42 +0000",
       "cooked_beef": "2024-10-25 18:19:15 +0000"
@@ -734,6 +735,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-10-25 18:53:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/orange_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-10-25 18:30:56 +0000"
@@ -821,6 +828,12 @@
   "minecraft:recipes/building_blocks/deepslate_brick_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-10-25 18:44:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-10-25 18:53:46 +0000"
     },
     "done": true
   },
