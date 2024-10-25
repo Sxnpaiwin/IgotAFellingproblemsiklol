@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:beach": "2024-10-19 03:35:55 +0000",
       "minecraft:forest": "2024-10-19 03:28:59 +0000",
+      "minecraft:river": "2024-10-25 18:28:42 +0000",
       "minecraft:savanna": "2024-10-19 03:29:53 +0000",
       "minecraft:plains": "2024-10-19 03:29:08 +0000"
     },
@@ -644,6 +645,12 @@
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2024-10-25 18:11:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2024-10-25 18:27:45 +0000"
     },
     "done": true
   },
